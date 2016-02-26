@@ -7,6 +7,7 @@ import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
@@ -52,6 +53,14 @@ public class MainActivity extends AppCompatActivity {
          * In our case this method gets called, when the user attaches a Tag to the device.
          */
         Toast.makeText(this,"NFC intent received!", Toast.LENGTH_LONG).show();
+
+        Parcelable[] parcelables = intent.getParcelableArrayExtra(NfcAdapter.EXTRA_NDEF_MESSAGES);
+        if (parcelables != null && parcelables.length > 0) {
+            readTextFromMessage((NdefMessage)parcelables[0]);
+
+        }else{
+            Toast.makeText(this, "NO NDEF message found!", Toast.LENGTH_SHORT).show();
+        }
 
         super.onNewIntent(intent);
     }
