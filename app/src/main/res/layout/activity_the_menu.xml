@@ -73,7 +73,7 @@
                     android:id="@+id/layout1">
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="235dp"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/food1"
@@ -82,29 +82,28 @@
                         android:layout_column="0"
                         android:textColor="#ffffff"
                         android:fontFamily="fantasy"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:layout_marginBottom="8dp" />
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="65dp"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
                         android:id="@+id/img1"
                         android:layout_row="0"
                         android:layout_column="1"
                         android:layout_columnSpan="1"
                         android:layout_rowSpan="3"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/food1"
-                        android:layout_marginLeft="5dp" />
+                        android:src="@drawable/food1" />
 
                     <TextView
-                        android:layout_width="280dp"
+                        android:layout_width="230dp"
                         android:layout_height="wrap_content"
                         android:text="New Text"
                         android:id="@+id/des1"
                         android:layout_row="2"
                         android:layout_column="0"
-                        android:textSize="17dp"
+                        android:textSize="15dp"
                         android:textColor="#ffffff"
                         android:textStyle="italic"
                         android:layout_marginBottom="15dp" />
@@ -130,9 +129,9 @@
                         android:id="@+id/price1"
                         android:layout_row="0"
                         android:layout_column="2"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:textColor="#ffffff"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginBottom="5dp" />
 
                     <Spinner
@@ -140,8 +139,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/Q1"
                         android:layout_row="1"
-                        android:layout_column="2"
-                        android:layout_marginLeft="5dp" />
+                        android:layout_column="2" />
 
                 </GridLayout>
 
@@ -158,7 +156,7 @@
                     android:layout_alignParentStart="true">
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="235dp"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/food2"
@@ -167,29 +165,28 @@
                         android:layout_column="0"
                         android:textColor="#ffffff"
                         android:fontFamily="fantasy"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:layout_marginBottom="8dp" />
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="65dp"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
                         android:id="@+id/img2"
                         android:layout_row="0"
                         android:layout_column="1"
                         android:layout_columnSpan="1"
                         android:layout_rowSpan="3"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/food2"
-                        android:layout_marginLeft="5dp" />
+                        android:src="@drawable/food2" />
 
                     <TextView
-                        android:layout_width="280dp"
+                        android:layout_width="230dp"
                         android:layout_height="wrap_content"
                         android:text="New Text"
                         android:id="@+id/des2"
                         android:layout_row="2"
                         android:layout_column="0"
-                        android:textSize="17dp"
+                        android:textSize="15dp"
                         android:textColor="#ffffff"
                         android:textStyle="italic"
                         android:layout_marginBottom="15dp" />
@@ -215,9 +212,9 @@
                         android:id="@+id/price2"
                         android:layout_row="0"
                         android:layout_column="2"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:textColor="#ffffff"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginBottom="5dp" />
 
                     <Spinner
@@ -225,8 +222,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/Q2"
                         android:layout_row="1"
-                        android:layout_column="2"
-                        android:layout_marginLeft="5dp" />
+                        android:layout_column="2" />
 
                 </GridLayout>
 
@@ -243,7 +239,7 @@
                     android:layout_alignParentStart="true">
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="235dp"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/food3"
@@ -252,29 +248,28 @@
                         android:layout_column="0"
                         android:textColor="#ffffff"
                         android:fontFamily="fantasy"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:layout_marginBottom="8dp" />
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="65dp"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
                         android:id="@+id/img3"
                         android:layout_row="0"
                         android:layout_column="1"
                         android:layout_columnSpan="1"
                         android:layout_rowSpan="3"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/food3"
-                        android:layout_marginLeft="5dp" />
+                        android:src="@drawable/food3" />
 
                     <TextView
-                        android:layout_width="280dp"
+                        android:layout_width="230dp"
                         android:layout_height="wrap_content"
                         android:text="New Text"
                         android:id="@+id/des3"
                         android:layout_row="2"
                         android:layout_column="0"
-                        android:textSize="17dp"
+                        android:textSize="15dp"
                         android:textColor="#ffffff"
                         android:textStyle="italic"
                         android:layout_marginBottom="15dp" />
@@ -300,9 +295,9 @@
                         android:id="@+id/price3"
                         android:layout_row="0"
                         android:layout_column="2"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:textColor="#ffffff"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginBottom="5dp"
                         android:singleLine="false" />
 
@@ -311,8 +306,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/Q3"
                         android:layout_row="1"
-                        android:layout_column="2"
-                        android:layout_marginLeft="5dp" />
+                        android:layout_column="2" />
 
                 </GridLayout>
 
@@ -328,16 +322,15 @@
                     android:layout_alignEnd="@+id/layout3">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="65dp"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
                         android:id="@+id/img4"
                         android:layout_row="0"
                         android:layout_column="1"
                         android:layout_columnSpan="1"
                         android:layout_rowSpan="3"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/food4"
-                        android:layout_marginLeft="5dp" />
+                        android:src="@drawable/food4" />
 
                     <RatingBar
                         style="?android:attr/ratingBarStyleSmall"
@@ -353,7 +346,7 @@
                         android:progressTint="#ffff00" />
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="235dp"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/food4"
@@ -362,17 +355,17 @@
                         android:layout_column="0"
                         android:textColor="#ffffff"
                         android:fontFamily="fantasy"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:layout_marginBottom="8dp" />
 
                     <TextView
-                        android:layout_width="280dp"
+                        android:layout_width="230dp"
                         android:layout_height="wrap_content"
                         android:text="New Text"
                         android:id="@+id/des4"
                         android:layout_row="2"
                         android:layout_column="0"
-                        android:textSize="17dp"
+                        android:textSize="15dp"
                         android:textColor="#ffffff"
                         android:textStyle="italic"
                         android:layout_marginBottom="15dp" />
@@ -385,9 +378,9 @@
                         android:id="@+id/price4"
                         android:layout_row="0"
                         android:layout_column="2"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:textColor="#ffffff"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginBottom="5dp" />
 
                     <Spinner
@@ -395,8 +388,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/Q4"
                         android:layout_row="1"
-                        android:layout_column="2"
-                        android:layout_marginLeft="5dp" />
+                        android:layout_column="2" />
                 </GridLayout>
 
                 <GridLayout
@@ -412,7 +404,7 @@
                     android:layout_alignParentEnd="true">
 
                     <TextView
-                        android:layout_width="300dp"
+                        android:layout_width="235dp"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="@string/food5"
@@ -421,29 +413,28 @@
                         android:layout_column="0"
                         android:textColor="#ffffff"
                         android:fontFamily="fantasy"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:layout_marginBottom="8dp" />
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="65dp"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
                         android:id="@+id/img5"
                         android:layout_row="0"
                         android:layout_column="1"
                         android:layout_columnSpan="1"
                         android:layout_rowSpan="3"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/food5"
-                        android:layout_marginLeft="5dp" />
+                        android:src="@drawable/food5" />
 
                     <TextView
-                        android:layout_width="280dp"
+                        android:layout_width="230dp"
                         android:layout_height="wrap_content"
                         android:text="New Text"
                         android:id="@+id/des5"
                         android:layout_row="2"
                         android:layout_column="0"
-                        android:textSize="17dp"
+                        android:textSize="15dp"
                         android:textColor="#ffffff"
                         android:textStyle="italic"
                         android:layout_marginBottom="15dp" />
@@ -469,9 +460,9 @@
                         android:id="@+id/price5"
                         android:layout_row="0"
                         android:layout_column="2"
-                        android:textSize="20dp"
+                        android:textSize="17dp"
                         android:textColor="#ffffff"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginBottom="5dp" />
 
                     <Spinner
@@ -479,8 +470,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/Q5"
                         android:layout_row="1"
-                        android:layout_column="2"
-                        android:layout_marginLeft="5dp" />
+                        android:layout_column="2" />
 
                 </GridLayout>
 
