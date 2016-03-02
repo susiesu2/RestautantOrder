@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,6 +19,7 @@ import android.widget.Toast;
 import java.io.UnsupportedEncodingException;
 
 public class MainActivity extends AppCompatActivity {
+
 
     private TextView mTextView;
     private NfcAdapter mNfcAdapter;
@@ -46,6 +49,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.login, menu);
+        return true;
+    }
+
+
+
     public void onClick(View view) {
         Intent i =new Intent(this,TheMenu.class);
         startActivity(i);
@@ -65,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         Parcelable[] parcelables = intent.getParcelableArrayExtra(NfcAdapter.EXTRA_NDEF_MESSAGES);
         if (parcelables != null && parcelables.length > 0) {
-            readTextFromMessage((NdefMessage)parcelables[0]);
+            readTextFromMessage((NdefMessage) parcelables[0]);
 
         }else{
             Toast.makeText(this, "NO NDEF message found!", Toast.LENGTH_SHORT).show();
@@ -81,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_RECEIVER_REPLACE_PENDING);
 
-        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 ,intent, 0);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0,intent, 0);
         IntentFilter[] intentFilter = new IntentFilter[]{};
 
         mNfcAdapter.enableForegroundDispatch(this, pendingIntent, intentFilter, null);

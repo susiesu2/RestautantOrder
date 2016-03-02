@@ -65,5 +65,6 @@
     </string-array>
 
     <string name="title_activity_iii">iii</string>
+    <string name="login">LOGIN</string>
 
 </resources>
