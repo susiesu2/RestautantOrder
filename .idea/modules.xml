@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/RestautantOrder-test2.iml" filepath="$PROJECT_DIR$/RestautantOrder-test2.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/RestautantOrder-test1.iml" filepath="$PROJECT_DIR$/RestautantOrder-test1.iml" />
+>>>>>>> 6d62aaa7a2f6bef98eec6459028061fa25a0c532
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
