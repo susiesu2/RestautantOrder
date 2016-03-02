@@ -1,0 +1,60 @@
+{
+  "project_info": {
+    "project_id": "restaurant-ae11",
+    "project_number": "598565923884",
+    "name": "restaurant"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598565923884:android:80f403c395c13824",
+        "client_id": "android:com.example.haoweiw.restaurant",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.haoweiw.restaurant",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598565923884-5knu53al9drjcuqbnod12798l7npdagh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.haoweiw.restaurant",
+            "certificate_hash": "B52FA814852E2C1C451CDD1FC53E4D0323E25388"
+          }
+        },
+        {
+          "client_id": "598565923884-hg1cfq2n44pvueam2chhmp9c36k70jh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVR4UVtu7mHKo0nh497IYwExq1Uy8rOo8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
