@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_visa_checkout_rlAnswerChooser"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/com_visa_checkout_pl_hundred_forty_px">
+
+    <View
+        android:id="@+id/com_visa_checkout_v_divider_start"
+        style="@style/com_visa_checkout_ChallengeQuestionDivider" />
+
+    <TextView
+        android:id="@+id/com_visa_checkout_tvAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:text="@string/com_visa_checkout_tv_label_answer_list_item"
+        android:textSize="@dimen/com_visa_checkout_thirty_seven_px"
+        android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+        android:textColor="@color/com_visa_checkout_tv_title_color"
+        android:layout_marginTop="@dimen/com_visa_checkout_pl_forty_seven_px"
+        android:layout_marginBottom="@dimen/com_visa_checkout_pl_forty_seven_px"
+        android:layout_below="@id/com_visa_checkout_v_divider_start"/>
+
+    <ImageView
+        android:id="@+id/com_visa_checkout_ivCheckMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+        android:minHeight="20dp"
+        android:minWidth="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/com_visa_checkout_toggle_on"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_answer_list_item.xml --><!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_answer_list_item.xml -->

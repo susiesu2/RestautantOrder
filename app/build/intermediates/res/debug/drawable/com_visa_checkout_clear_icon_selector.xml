@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false" android:state_enabled="false" android:drawable="@drawable/com_visa_checkout_ic_clear"/>
+    <item android:state_pressed="false" android:state_enabled="true" android:drawable="@drawable/com_visa_checkout_ic_clear"/>
+    <item android:state_pressed="true" android:state_enabled="true" android:drawable="@drawable/com_visa_checkout_ic_clear"/>
+
+</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_clear_icon_selector.xml --><!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_clear_icon_selector.xml -->

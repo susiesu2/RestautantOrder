@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="Q1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Q2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Q3">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Q4">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Q5">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values/values.xml -->
+    <eat-comment/>
+    <integer-array name="com_visa_checkout_progressbar_colors">
+        <item>@color/com_visa_checkout_progressbar_color</item>
+        <item>@color/com_visa_checkout_progressbar_color</item>
+    </integer-array>
+    <bool name="com_visa_checkout_spb_default_mirror_mode">false</bool>
+    <bool name="com_visa_checkout_spb_default_reversed">false</bool>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values/values.xml -->
+    <eat-comment/>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_likeboxcountview_border_color">#6a7180</color>
+    <color name="com_facebook_likeboxcountview_text_color">#6a7180</color>
+    <color name="com_facebook_likebutton_text_color">#FFFFFF</color>
+    <color name="com_facebook_likeview_text_color">#6a7180</color>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <color name="com_facebook_picker_search_bar_background">#f5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#bcbdc2</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values/values.xml -->
+    <eat-comment/>
+    <color name="com_visa_checkout_add_text_carousel">#529CD3</color>
+    <color name="com_visa_checkout_address_carousel_dark_background">#CCCCCC</color>
+    <color name="com_visa_checkout_address_carousel_text_color_selected">#333333</color>
+    <color name="com_visa_checkout_address_suggestion_changed">#F99F00</color>
+    <color name="com_visa_checkout_autocomplete_item_dg_default">#efefef</color>
+    <color name="com_visa_checkout_autocomplete_item_dg_pressed">#dddddd</color>
+    <color name="com_visa_checkout_autocomplete_item_divider_line">#cccccc</color>
+    <color name="com_visa_checkout_autocomplete_item_text">#003EA9</color>
+    <color name="com_visa_checkout_bt_text_color">#191F71</color>
+    <color name="com_visa_checkout_button_disabled">#B9D5ED</color>
+    <color name="com_visa_checkout_carousel_error_red">#D1131F</color>
+    <color name="com_visa_checkout_et_hint_color">#999999</color>
+    <color name="com_visa_checkout_exo_blue_link">#3232A0</color>
+    <color name="com_visa_checkout_exo_dark_grey_semitransparent">#B3333333</color>
+    <color name="com_visa_checkout_exo_go_text">#1a1f71</color>
+    <color name="com_visa_checkout_exo_white_link">#ffffff</color>
+    <color name="com_visa_checkout_exo_white_semitransparent">#B3FFFFFF</color>
+    <color name="com_visa_checkout_footer_divider_color">#EEEEEE</color>
+    <color name="com_visa_checkout_footer_link_color">#003EA9</color>
+    <color name="com_visa_checkout_forgot_password_bg_color">#F0EEEF</color>
+    <color name="com_visa_checkout_global_font_button">#191F71</color>
+    <color name="com_visa_checkout_global_font_dark_grey">#333333</color>
+    <color name="com_visa_checkout_global_font_error_red">#D11321</color>
+    <color name="com_visa_checkout_global_font_hyperlink">#003EA9</color>
+    <color name="com_visa_checkout_global_font_light_grey">#CCCCCC</color>
+    <color name="com_visa_checkout_global_font_medium_grey">#777777</color>
+    <color name="com_visa_checkout_gold_streamer">#FFC704</color>
+    <color name="com_visa_checkout_gold_streamer_alpha">#78FFC704</color>
+    <color name="com_visa_checkout_hint_color">#42000000</color>
+    <color name="com_visa_checkout_label_hint_color">#FF666666</color>
+    <color name="com_visa_checkout_layout_background">#FFFFFFFF</color>
+    <color name="com_visa_checkout_progressbar_color">#777777</color>
+    <color name="com_visa_checkout_progressbar_color_alpha">#77777777</color>
+    <color name="com_visa_checkout_progressbar_color_blue_dark">#0077A2</color>
+    <color name="com_visa_checkout_progressbar_color_blue_light">#0098CD</color>
+    <color name="com_visa_checkout_sandbox_layout_color">#FC9900</color>
+    <color name="com_visa_checkout_semi_transparent_white">#AAFFFFFF</color>
+    <color name="com_visa_checkout_server_side_error_color">#D30C16</color>
+    <color name="com_visa_checkout_signin_remember_username_banner_bg">#EEEEEE</color>
+    <color name="com_visa_checkout_spb_default_color">#33b5e5</color>
+    <color name="com_visa_checkout_success_color">#009688</color>
+    <color name="com_visa_checkout_tab_divider_color">#DDDDDD</color>
+    <color name="com_visa_checkout_toggle_background">#E1E1E1</color>
+    <color name="com_visa_checkout_toggle_thumb">#999999</color>
+    <color name="com_visa_checkout_tv_info_label_color">#777777</color>
+    <color name="com_visa_checkout_tv_title_color">#333333</color>
+    <color name="com_visa_checkout_vme_background">#F5F5F5</color>
+    <color name="com_visa_checkout_vme_blue">#0077A2</color>
+    <color name="com_visa_checkout_vme_button_disabled">#999999</color>
+    <color name="com_visa_checkout_vme_grey_bg">#eeeef1</color>
+    <color name="com_visa_checkout_vme_light_background">#EEEEF1</color>
+    <color name="com_visa_checkout_vme_light_grey">#999999</color>
+    <color name="com_visa_checkout_vme_mid_blue">#0098CD</color>
+    <color name="com_visa_checkout_warning_color">#f4511e</color>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-basement-8.1.0/res/values/common_colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="SmoothProgressBar"><attr format="reference" name="com_visa_checkout_spbStyle"/><attr format="color" name="com_visa_checkout_spb_color"/><attr format="dimension" name="com_visa_checkout_spb_stroke_width"/><attr format="dimension" name="com_visa_checkout_spb_stroke_separator_length"/><attr format="integer" name="com_visa_checkout_spb_sections_count"/><attr format="float" name="com_visa_checkout_spb_speed"/><attr format="enum" name="com_visa_checkout_spb_interpolator"><enum name="com_visa_checkout_spb_interpolator_accelerate" value="0"/><enum name="com_visa_checkout_spb_interpolator_linear" value="1"/><enum name="com_visa_checkout_spb_interpolator_acceleratedecelerate" value="2"/><enum name="com_visa_checkout_spb_interpolator_decelerate" value="3"/></attr><attr format="boolean" name="com_visa_checkout_spb_reversed"/><attr format="boolean" name="com_visa_checkout_spb_mirror_mode"/><attr format="reference" name="com_visa_checkout_spb_colors"/></declare-styleable>
+    <declare-styleable name="VisaPaymentButton"><attr format="string" name="visaEnvironment"/><attr format="string" name="visaMerchantApiKey"/><attr format="string" name="visaMerchantProfileName"/><attr format="integer" name="visaPaymentButtonHeight"/><attr format="string" name="visaPaymentButtonWidth"/><attr format="string" name="visaColor"/></declare-styleable>
+    <declare-styleable name="com_facebook_friend_picker_fragment"><attr format="boolean" name="multi_select"/></declare-styleable>
+    <declare-styleable name="com_facebook_like_view"><attr format="color" name="foreground_color"/><attr format="string" name="object_id"/><attr name="style"><enum name="standard" value="0"/><enum name="button" value="1"/><enum name="box_count" value="2"/></attr><attr name="auxiliary_view_position"><enum name="bottom" value="0"/><enum name="inline" value="1"/><enum name="top" value="2"/></attr><attr name="horizontal_alignment"><enum name="center" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="confirm_logout"/><attr format="boolean" name="fetch_user_info"/><attr format="string" name="login_text"/><attr format="string" name="logout_text"/></declare-styleable>
+    <declare-styleable name="com_facebook_picker_fragment"><attr format="boolean" name="show_pictures"/><attr format="string" name="extra_fields"/><attr format="boolean" name="show_title_bar"/><attr format="string" name="title_text"/><attr format="string" name="done_button_text"/><attr format="reference" name="title_bar_background"/><attr format="reference" name="done_button_background"/></declare-styleable>
+    <declare-styleable name="com_facebook_place_picker_fragment"><attr format="integer" name="radius_in_meters"/><attr format="integer" name="results_limit"/><attr format="string" name="search_text"/><attr format="boolean" name="show_search_box"/></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="is_cropped"/></declare-styleable>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_height">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_width">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_padding">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_likebutton_compound_drawable_padding">8dp</dimen>
+    <dimen name="com_facebook_likebutton_padding_bottom">0dp</dimen>
+    <dimen name="com_facebook_likebutton_padding_left">8dp</dimen>
+    <dimen name="com_facebook_likebutton_padding_right">8dp</dimen>
+    <dimen name="com_facebook_likebutton_padding_top">0dp</dimen>
+    <dimen name="com_facebook_likebutton_text_size">13.0sp</dimen>
+    <dimen name="com_facebook_likeview_edge_padding">2dp</dimen>
+    <dimen name="com_facebook_likeview_internal_padding">6dp</dimen>
+    <dimen name="com_facebook_likeview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_left">12dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12dp</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_picker_place_image_size">64dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="com_visa_checkout_address_carousel_layout_height">140dp</dimen>
+    <dimen name="com_visa_checkout_adjusted_horizontal_margin">18.4dp</dimen>
+    <dimen name="com_visa_checkout_autocomplete_item_height">50dp</dimen>
+    <dimen name="com_visa_checkout_autocomplete_padding_left">5.805dp</dimen>
+    <dimen name="com_visa_checkout_autocomplete_padding_right">10.884dp</dimen>
+    <dimen name="com_visa_checkout_autocomplete_text_size">14sp</dimen>
+    <dimen name="com_visa_checkout_back_nav_padding">22.132dp</dimen>
+    <dimen name="com_visa_checkout_bt_height">44.626dp</dimen>
+    <dimen name="com_visa_checkout_bt_radius">2.902dp</dimen>
+    <dimen name="com_visa_checkout_bt_text_size">20sp</dimen>
+    <dimen name="com_visa_checkout_card_carouse_top_margin">15.238dp</dimen>
+    <dimen name="com_visa_checkout_carousel_error_message_size">10.159sp</dimen>
+    <dimen name="com_visa_checkout_carousel_item_background_radius_px">3dp</dimen>
+    <dimen name="com_visa_checkout_carousel_item_height_px">96dp</dimen>
+    <dimen name="com_visa_checkout_carousel_item_width_px">152dp</dimen>
+    <dimen name="com_visa_checkout_carousel_visa_ending_hint">11.610sp</dimen>
+    <dimen name="com_visa_checkout_contact_icon_width_height">22.494dp</dimen>
+    <dimen name="com_visa_checkout_create_account_screen_padding">4dp</dimen>
+    <dimen name="com_visa_checkout_credit_card_logo_height">@dimen/com_visa_checkout_seventy_px</dimen>
+    <dimen name="com_visa_checkout_credit_card_logo_width">42.812dp</dimen>
+    <dimen name="com_visa_checkout_divider_height_px">2px</dimen>
+    <dimen name="com_visa_checkout_eighty_px">29.025dp</dimen>
+    <dimen name="com_visa_checkout_eighty_seven_px">31.565dp</dimen>
+    <dimen name="com_visa_checkout_et_form_spacing">@dimen/com_visa_checkout_thirty_seven_px</dimen>
+    <dimen name="com_visa_checkout_et_text_padding">13.424dp</dimen>
+    <dimen name="com_visa_checkout_et_textsize">14sp</dimen>
+    <dimen name="com_visa_checkout_exo_button_height">90dp</dimen>
+    <dimen name="com_visa_checkout_exo_links_font">18sp</dimen>
+    <dimen name="com_visa_checkout_fifty_px">18.141dp</dimen>
+    <dimen name="com_visa_checkout_five_px">1.814dp</dimen>
+    <dimen name="com_visa_checkout_footer_divider_width">1.451dp</dimen>
+    <dimen name="com_visa_checkout_forty_px">14.512dp</dimen>
+    <dimen name="com_visa_checkout_forty_two_px">15.238dp</dimen>
+    <dimen name="com_visa_checkout_forty_two_px_sp">15.238sp</dimen>
+    <dimen name="com_visa_checkout_fourty_five_px">16.327dp</dimen>
+    <dimen name="com_visa_checkout_global_drop_down_height">55.147dp</dimen>
+    <dimen name="com_visa_checkout_global_font_large">16sp</dimen>
+    <dimen name="com_visa_checkout_global_font_medium">15sp</dimen>
+    <dimen name="com_visa_checkout_global_font_small">14sp</dimen>
+    <dimen name="com_visa_checkout_global_font_xlarge">20sp</dimen>
+    <dimen name="com_visa_checkout_global_font_xsmall">13sp</dimen>
+    <dimen name="com_visa_checkout_global_font_xxsmall">11sp</dimen>
+    <dimen name="com_visa_checkout_header_gold_streamer_height">5.056dp</dimen>
+    <dimen name="com_visa_checkout_header_height">50.564dp</dimen>
+    <dimen name="com_visa_checkout_header_visalogo_height">18.141dp</dimen>
+    <dimen name="com_visa_checkout_header_visalogo_width">122.630dp</dimen>
+    <dimen name="com_visa_checkout_hundred_forty_px">50.794dp</dimen>
+    <dimen name="com_visa_checkout_hundred_px">36.28dp</dimen>
+    <dimen name="com_visa_checkout_hundred_twenty_px">43.537dp</dimen>
+    <dimen name="com_visa_checkout_layout_margin_left_right">21.768dp</dimen>
+    <dimen name="com_visa_checkout_layout_margin_title_top">21.768dp</dimen>
+    <dimen name="com_visa_checkout_location_icon_width_height">29.025dp</dimen>
+    <dimen name="com_visa_checkout_ninty_px">32.653dp</dimen>
+    <dimen name="com_visa_checkout_otp_suggition_list_bullet_size">4dp</dimen>
+    <dimen name="com_visa_checkout_payment_carousel_item_height_px">165dp</dimen>
+    <dimen name="com_visa_checkout_pi_cvv_card_image_height">25.397dp</dimen>
+    <dimen name="com_visa_checkout_pi_cvv_card_image_width">42.812dp</dimen>
+    <dimen name="com_visa_checkout_pl_eighty_px">29.025dp</dimen>
+    <dimen name="com_visa_checkout_pl_fifteen_px">5.442dp</dimen>
+    <dimen name="com_visa_checkout_pl_forty_eight_px_sp">17.145sp</dimen>
+    <dimen name="com_visa_checkout_pl_forty_five_px">16.327dp</dimen>
+    <dimen name="com_visa_checkout_pl_forty_px">14.512dp</dimen>
+    <dimen name="com_visa_checkout_pl_forty_seven_px">17dp</dimen>
+    <dimen name="com_visa_checkout_pl_hundred_forty_px">50.794dp</dimen>
+    <dimen name="com_visa_checkout_pl_hundred_px">36.28dp</dimen>
+    <dimen name="com_visa_checkout_pl_seventy_px">25.397dp</dimen>
+    <dimen name="com_visa_checkout_pl_sixty_px">21.768dp</dimen>
+    <dimen name="com_visa_checkout_pl_thirty_five_px">12.698dp</dimen>
+    <dimen name="com_visa_checkout_pl_thirty_px">10.884dp</dimen>
+    <dimen name="com_visa_checkout_pl_thirty_two_px_sp">11.610sp</dimen>
+    <dimen name="com_visa_checkout_pl_three_px">1dp</dimen>
+    <dimen name="com_visa_checkout_pl_twelve_px_sp">12sp</dimen>
+    <dimen name="com_visa_checkout_pl_twenty_five">9dp</dimen>
+    <dimen name="com_visa_checkout_pl_twenty_px">8dp</dimen>
+    <dimen name="com_visa_checkout_scroll_view_margin_bottom">80dp</dimen>
+    <dimen name="com_visa_checkout_seventy_five_px">27.211dp</dimen>
+    <dimen name="com_visa_checkout_seventy_px">25.397dp</dimen>
+    <dimen name="com_visa_checkout_seventy_two_px_watermark">27dp</dimen>
+    <dimen name="com_visa_checkout_sixteen_px">5.805dp</dimen>
+    <dimen name="com_visa_checkout_sixty_five_px">23.583dp</dimen>
+    <dimen name="com_visa_checkout_sixty_px">21.768dp</dimen>
+    <dimen name="com_visa_checkout_sixty_seven_px">24.308dp</dimen>
+    <dimen name="com_visa_checkout_spb_default_stroke_separator_length">4dp</dimen>
+    <dimen name="com_visa_checkout_spb_default_stroke_width">4dp</dimen>
+    <dimen name="com_visa_checkout_spb_height">3.628dp</dimen>
+    <dimen name="com_visa_checkout_tab_container_height">49dp</dimen>
+    <dimen name="com_visa_checkout_tab_divider_height">19.592dp</dimen>
+    <dimen name="com_visa_checkout_tab_divider_width">2dp</dimen>
+    <dimen name="com_visa_checkout_tab_indicator_height">10.159dp</dimen>
+    <dimen name="com_visa_checkout_tab_indicator_width">26.122dp</dimen>
+    <dimen name="com_visa_checkout_tab_text_size">16sp</dimen>
+    <dimen name="com_visa_checkout_ten_px">3.628dp</dimen>
+    <dimen name="com_visa_checkout_thirteen_px">4.717dp</dimen>
+    <dimen name="com_visa_checkout_thirty_five_px">12.698dp</dimen>
+    <dimen name="com_visa_checkout_thirty_one_px">11.247dp</dimen>
+    <dimen name="com_visa_checkout_thirty_px">10.884dp</dimen>
+    <dimen name="com_visa_checkout_thirty_seven_px">13.424dp</dimen>
+    <dimen name="com_visa_checkout_thirty_seven_px_sp">13.424sp</dimen>
+    <dimen name="com_visa_checkout_thirty_two_px">11.610sp</dimen>
+    <dimen name="com_visa_checkout_three_ds_wv_height">333.33dp</dimen>
+    <dimen name="com_visa_checkout_toggle_height_px">30.565dp</dimen>
+    <dimen name="com_visa_checkout_toggle_width_px">73.739dp</dimen>
+    <dimen name="com_visa_checkout_tv_info_label_size">14sp</dimen>
+    <dimen name="com_visa_checkout_twenty_eight_px">10.159sp</dimen>
+    <dimen name="com_visa_checkout_twenty_five_px">9.070dp</dimen>
+    <dimen name="com_visa_checkout_twenty_four_px">8.707dp</dimen>
+    <dimen name="com_visa_checkout_twenty_px">7.256dp</dimen>
+    <dimen name="com_visa_checkout_twenty_seven_px">9.796dp</dimen>
+    <dimen name="com_visa_checkout_twenty_six_px_watermark">10dp</dimen>
+    <dimen name="com_visa_checkout_two_hundred_px">72.562dp</dimen>
+    <dimen name="com_visa_checkout_update_t_c_advise_height">180.317dp</dimen>
+    <dimen name="com_visa_checkout_update_t_c_wv_height">411.066dp</dimen>
+    <dimen name="com_visa_checkout_watermark_text">9sp</dimen>
+    <dimen name="com_visa_checkout_webview_layout_margin_left_right">10dp</dimen>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values/values.xml -->
+    <eat-comment/>
+    <drawable name="com_facebook_picker_default_separator_color">#33464c59</drawable>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values/values.xml -->
+    <eat-comment/>
+    <integer name="com_visa_checkout_address_line3_max_length">100</integer>
+    <integer name="com_visa_checkout_address_max_length">140</integer>
+    <integer name="com_visa_checkout_brazil_cpf_max_length">14</integer>
+    <integer name="com_visa_checkout_card_cvv_max_symbol_count">4</integer>
+    <integer name="com_visa_checkout_card_expiration_date_max_symbol_count">5</integer>
+    <integer name="com_visa_checkout_card_nickname_max_symbol_count">140</integer>
+    <integer name="com_visa_checkout_card_number_max_symbol_count">19</integer>
+    <integer name="com_visa_checkout_card_number_min_symbol_count">13</integer>
+    <integer name="com_visa_checkout_city_max_length">100</integer>
+    <integer name="com_visa_checkout_create_account_edittext_maxlength">256</integer>
+    <integer name="com_visa_checkout_ime_action_done">6</integer>
+    <integer name="com_visa_checkout_min_android_sdk_version_supported">14</integer>
+    <integer name="com_visa_checkout_name_max_length">24</integer>
+    <integer name="com_visa_checkout_name_on_address_max_length">120</integer>
+    <integer name="com_visa_checkout_phone_max_length">16</integer>
+    <integer name="com_visa_checkout_phone_min_length">1</integer>
+    <integer name="com_visa_checkout_spb_default_interpolator">0</integer>
+    <integer name="com_visa_checkout_spb_default_sections_count">4</integer>
+    <integer name="com_visa_checkout_state_max_length">100</integer>
+    <integer name="com_visa_checkout_state_min_length">1</integer>
+    <integer name="com_visa_checkout_zip_max_length">16</integer>
+    <integer name="com_visa_checkout_zip_min_length">1</integer>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-basement-8.1.0/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">8115000</integer>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-ads-8.1.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="accept">Accept</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Visa XO Sample App</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-basement-8.1.0/res/values/auth_strings.xml -->
+    <eat-comment/>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="back">Back</string>
+    <string name="bt_edit_visa_payment_text">Edit Payment</string>
+    <string name="bt_relaunch_visa_payment_text">Relaunch Payment</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values/values.xml -->
+    <eat-comment/>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values/values.xml -->
+    <eat-comment/>
+    <string name="com_visa_checkout_acc_add_a_card">Add a new card</string>
+    <string name="com_visa_checkout_acc_add_address">Add a new address</string>
+    <string name="com_visa_checkout_acc_card_brand">Card brand %1$s </string>
+    <string name="com_visa_checkout_acc_card_brand_detected">Card brand %1$s was recognised </string>
+    <string name="com_visa_checkout_acc_card_ending_in">%1$s card ending in %2$s</string>
+    <string name="com_visa_checkout_acc_cvv_card_type_amex">a four-digit code printed on the front side of the card above the number</string>
+    <string name="com_visa_checkout_acc_cvv_card_type_non_amex">a three-digit code printed on the back side of the card to the right of the signature strip</string>
+    <string name="com_visa_checkout_acc_forgotPassword_title_code_sent">Forgot Password. Reset code was sent to your email</string>
+    <string name="com_visa_checkout_acc_forgotPassword_title_collect_username">Forgot Your Password? Enter your email address to get the instructions</string>
+    <string name="com_visa_checkout_acc_forgotPassword_title_link_sent">Forgot Password. Instructions were sent to your email</string>
+    <string name="com_visa_checkout_acc_spn_country_picker_content_description">Select country</string>
+    <string name="com_visa_checkout_acc_spn_locale_picker_content_description">Select locale</string>
+    <string name="com_visa_checkout_acc_visa_checkout_button">Visa Checkout</string>
+    <string name="com_visa_checkout_acc_vp_address_carousel">Address Carousel, swipe left or right to select different address. Go to extreme right to add a new address</string>
+    <string name="com_visa_checkout_acc_vp_card_carousel">Card Carousel, swipe left or right to select different card. Go to extreme right to add a new card</string>
+    <string name="com_visa_checkout_accessibility_3ds_logo">You are on a 3DS secure page</string>
+    <string name="com_visa_checkout_accessibility_logo_amex">American Express logo</string>
+    <string name="com_visa_checkout_accessibility_logo_disc">Discover logo</string>
+    <string name="com_visa_checkout_accessibility_logo_mc">Master Card logo</string>
+    <string name="com_visa_checkout_accessibility_logo_visa">Visa logo</string>
+    <string name="com_visa_checkout_accessibility_secure_lock">You are on a secure page</string>
+    <string name="com_visa_checkout_add_address_preferred_content_description">This is my preferred shipping address</string>
+    <string name="com_visa_checkout_address_delete_success">Successfully deleted the address</string>
+    <string name="com_visa_checkout_address_suggestion_accessiibility_title">Suggested Address</string>
+    <string name="com_visa_checkout_address_tray_delete_card">Delete this address</string>
+    <string name="com_visa_checkout_address_tray_edit_card">Edit this address</string>
+    <string name="com_visa_checkout_alert_exit_add_address_title">Exit Address</string>
+    <string name="com_visa_checkout_alert_exit_add_address_title_text">Are you sure you want to stop editing this address?</string>
+    <string name="com_visa_checkout_alert_exit_confirm_delete_address_title">Delete</string>
+    <string name="com_visa_checkout_alert_exit_confirm_delete_address_title_text">Are you sure you want to delete this shipping address?</string>
+    <string name="com_visa_checkout_alert_exit_enrollment_title">Exit Enrollment</string>
+    <string name="com_visa_checkout_alert_exit_enrollment_title_text">Are you sure you want to stop creating your account?</string>
+    <string name="com_visa_checkout_alert_locked_title">Locked Account</string>
+    <string name="com_visa_checkout_alert_locked_title_text">To prevent unauthorized access, we have locked your account for one hour. Please try again later</string>
+    <string name="com_visa_checkout_alert_max_attempts_title">Locked Account</string>
+    <string name="com_visa_checkout_alert_max_attempts_title_text">We apologize for any inconvenience, but you have exceeded the maximum amount of attempts allowed. You can try again after one hour</string>
+    <string name="com_visa_checkout_alert_retry_title">Retry</string>
+    <string name="com_visa_checkout_alert_retry_title_text">There seems to be a problem with deleting this address. Do you want to retry?</string>
+    <string name="com_visa_checkout_alert_signin_failure_description">Your Visa Checkout password was incorrect. Please try again.</string>
+    <string name="com_visa_checkout_alert_signin_failure_title">Couldn\'t log in</string>
+    <string name="com_visa_checkout_android_touchid_enable_alert_msg">Android Fingerprint authentication will enable you to login faster to Visa Checkout. Would you like to enable it within this app?</string>
+    <string name="com_visa_checkout_android_touchid_enable_alert_title">Fingerprint</string>
+    <string name="com_visa_checkout_argentina">Argentina</string>
+    <string name="com_visa_checkout_australia">Australia</string>
+    <string name="com_visa_checkout_brazil">Brazil</string>
+    <string name="com_visa_checkout_bt_address_suggestion_use_this">Use this Address</string>
+    <string name="com_visa_checkout_bt_cancel">Cancel</string>
+    <string name="com_visa_checkout_bt_continue">Continue</string>
+    <string name="com_visa_checkout_bt_create_password">Create Password</string>
+    <string name="com_visa_checkout_bt_delete">Delete</string>
+    <string name="com_visa_checkout_bt_device_locked_return_merchant">Return to Merchant</string>
+    <string name="com_visa_checkout_bt_edit_address">Edit this Address</string>
+    <string name="com_visa_checkout_bt_forgotPassword_sendInstructions">Send Code</string>
+    <string name="com_visa_checkout_bt_forgotPassword_submit">Submit</string>
+    <string name="com_visa_checkout_bt_label_add_address_continue">Continue</string>
+    <string name="com_visa_checkout_bt_no">No</string>
+    <string name="com_visa_checkout_bt_okay">OK</string>
+    <string name="com_visa_checkout_bt_otp_get_new_reset_code">Get New Reset Code</string>
+    <string name="com_visa_checkout_bt_pay">Pay</string>
+    <string name="com_visa_checkout_bt_retry">Retry</string>
+    <string name="com_visa_checkout_bt_save_address">Save this Address</string>
+    <string name="com_visa_checkout_bt_update_tc_agree">Agree and Continue</string>
+    <string name="com_visa_checkout_bt_yes">Yes</string>
+    <string name="com_visa_checkout_cac_btCreateAccount">Create Account &amp; Continue</string>
+    <string name="com_visa_checkout_cac_etCreateAccountConfirmationEmail_hint">Email Address (Order Confirmation)</string>
+    <string name="com_visa_checkout_cac_etCreateAccountPassword_hint">Add Password</string>
+    <string name="com_visa_checkout_cac_etCreateAccountPassword_secondaryHint">Minimum 6 Characters</string>
+    <string name="com_visa_checkout_cac_etCreateAccountUsernameEmail_hint">Email Address (Username)</string>
+    <string name="com_visa_checkout_cac_etCreateAccountUsernamePhoneNumber_hint">Mobile Number (Username)</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountNext"><b>Next:</b> Review &amp; confirm your payment details</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountTitle">Create Your Visa Checkout Account</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountUseMobileNumberLabel"> as username instead</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountUseMobileNumberLink">Use mobile number</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountUseMobileNumberLink_content_description">Use mobile number as username instead. Link</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountWarningText">By tapping \"Create Account &amp; Continue\" you agree to Visa Checkout\'s Terms of Service and Privacy Policy, and agree to receive account notices from Visa Checkout via email or electronically instead of by mail</string>
+    <string name="com_visa_checkout_canada">Canada</string>
+    <string name="com_visa_checkout_cb_show_password">Show Password</string>
+    <string name="com_visa_checkout_challenge_multianswer_list_header_text">Please select the credit card you registered with</string>
+    <string name="com_visa_checkout_challenge_please_confirm_your_identify">Please Confirm Your Identity</string>
+    <string name="com_visa_checkout_chile">Chile</string>
+    <string name="com_visa_checkout_china">China</string>
+    <string name="com_visa_checkout_colombia">Colombia</string>
+    <string name="com_visa_checkout_dialog_cancel">Cancel</string>
+    <string name="com_visa_checkout_dialog_discard_changes_title">Discard Changes</string>
+    <string name="com_visa_checkout_dialog_discard_changes_title_text">Are you sure you want to discard your changes and go back?</string>
+    <string name="com_visa_checkout_dialog_exit">Exit</string>
+    <string name="com_visa_checkout_dialog_exit_title">Exit Payment</string>
+    <string name="com_visa_checkout_dialog_exit_title_text">Are you sure you want to close Visa Checkout?</string>
+    <string name="com_visa_checkout_dialog_retry">Retry</string>
+    <string name="com_visa_checkout_dialog_server_problem">Sorry, but we are unable to process your request at this time. Please try again later</string>
+    <string name="com_visa_checkout_dialog_username_button_text">Visa Checkout will display your credit or debit card design providing you with a more personalized shopping experience</string>
+    <string name="com_visa_checkout_dialog_username_remember_text">Your username will be remembered on this device. Enter only your password when signing in</string>
+    <string name="com_visa_checkout_dialog_username_title">Personalize your experience with Visa Checkout!</string>
+    <string name="com_visa_checkout_electronicCommunicationsPolicy">Electronic Communications Policy</string>
+    <string name="com_visa_checkout_error_add_pi_failed">Your payment information is incorrect. Please try again</string>
+    <string name="com_visa_checkout_error_enroll_generic">Sorry, we are unable to process your request at this time. Try again later, or create a new account</string>
+    <string name="com_visa_checkout_error_identity_not_confirmed">Identity not confirmed</string>
+    <string name="com_visa_checkout_error_internal_error_caused_sdk_exit">An internal error caused the payment to be aborted</string>
+    <string name="com_visa_checkout_error_invalid_password">Please choose another password that meets the minimum requirements</string>
+    <string name="com_visa_checkout_error_network_problem">There seems to be a problem with the network. Please try again</string>
+    <string name="com_visa_checkout_error_no_cards_on_file">Oops, looks like you have no cards on file. Please add a credit or debit card to continue with this purchase.</string>
+    <string name="com_visa_checkout_error_ofac_deny">Your Visa Checkout account is unavailable at this time. Please contact Customer Support</string>
+    <string name="com_visa_checkout_error_password_conflict">According to our records, this email address or mobile number is already enrolled in a Visa Checkout account</string>
+    <string name="com_visa_checkout_error_password_consecutive_identical_chars">Password cannot contain more than 3 consecutive identical characters</string>
+    <string name="com_visa_checkout_error_password_contains_portion_of_account_name_or_space">Password cannot contain spaces or a portion of your username</string>
+    <string name="com_visa_checkout_error_password_insufficient">Password must contain at least 6 characters</string>
+    <string name="com_visa_checkout_error_password_invalid_chars">Supported special characters include: ! @ # $ % &amp; * ?</string>
+    <string name="com_visa_checkout_error_password_must_change"> Invalid Password. New password must be different from the old password</string>
+    <string name="com_visa_checkout_error_password_required">Enter password</string>
+    <string name="com_visa_checkout_error_password_too_long">Password must not contain more than 32 characters</string>
+    <string name="com_visa_checkout_error_payment_problem">Your payment cannot be processed. Please correct your card information and try again</string>
+    <string name="com_visa_checkout_error_session_expired_title">Session Expired</string>
+    <string name="com_visa_checkout_error_session_timed_out">For security reasons, your session has timed out due to inactivity</string>
+    <string name="com_visa_checkout_error_sign_in_challenge_lock">Sorry, the answer you provided does not match the one in our records. For your protection and to prevent unauthorized access, we\'ve temporarily locked your account. Try again later, or create a new account</string>
+    <string name="com_visa_checkout_error_sign_in_genric">Sorry, we are unable to process your request at this time. Try again later, or create a new account</string>
+    <string name="com_visa_checkout_error_sign_in_lock">Sorry, for your protection, we\'ve locked your account. Click on "Forgot Password" if you have forgotten your password, or create a new account if you have forgotten your username</string>
+    <string name="com_visa_checkout_error_sign_in_login_failed">Sorry, we are unable to locate your account. Please check your username or password</string>
+    <string name="com_visa_checkout_error_something_went_wrong">We apologize for any inconvenience, but we’re experiencing some technical difficulties. Please try again later</string>
+    <string name="com_visa_checkout_error_something_went_wrong_title">Something went wrong</string>
+    <string name="com_visa_checkout_error_step_up_generic">Sorry, we are unable to process your request at this time. Try again later, or create a new account</string>
+    <string name="com_visa_checkout_error_step_up_session_end">Sorry, due to inactivity, your current session will end now</string>
+    <string name="com_visa_checkout_error_stepup_lockout">Sorry, you\'ve exceeded the number of allowed attempts. For your protection and to prevent unauthorized access, we\'ve temporarily locked your account. Try again later, or create a new account</string>
+    <string name="com_visa_checkout_error_unable_to_process_request">Sorry, but we are unable to process your request at this time. Please try again later</string>
+    <string name="com_visa_checkout_error_username_already_present">There is already a username associated with this email address. If you\'ve forgotten your password, please use "Forgot Password" to reset it.</string>
+    <string name="com_visa_checkout_et_add_address_post_code_title">Postcode</string>
+    <string name="com_visa_checkout_et_add_address_postal_code_title">Postal Code</string>
+    <string name="com_visa_checkout_et_add_address_state_ca_title">Province</string>
+    <string name="com_visa_checkout_et_add_address_state_title">State</string>
+    <string name="com_visa_checkout_et_add_address_zip_code_title">Zip Code</string>
+    <string name="com_visa_checkout_et_hint_add_Address_zip_postcode">ZIP/Postal Code</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline">Address</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline1">Address Line 1</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline2">Address Line 2</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline3">Address Line 3</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline3_nz">Suburb</string>
+    <string name="com_visa_checkout_et_hint_add_address_city">City</string>
+    <string name="com_visa_checkout_et_hint_add_address_city_town">City/Town</string>
+    <string name="com_visa_checkout_et_hint_add_address_name">Name (First and Last)</string>
+    <string name="com_visa_checkout_et_hint_add_address_phone_number">Phone Number</string>
+    <string name="com_visa_checkout_et_hint_add_address_state">State</string>
+    <string name="com_visa_checkout_et_hint_add_address_state_province">State/Province</string>
+    <string name="com_visa_checkout_et_hint_add_address_zip">Zip</string>
+    <string name="com_visa_checkout_et_hint_country">Country</string>
+    <string name="com_visa_checkout_exo_button_go">Go</string>
+    <string name="com_visa_checkout_exo_button_signin_link">Not %1$s? Sign in</string>
+    <string name="com_visa_checkout_exo_forgot_password_link">Forgot?</string>
+    <string name="com_visa_checkout_exo_password_hint">Enter Password</string>
+    <string name="com_visa_checkout_fingerprint_confirm_text">Confirm your fingerprint?</string>
+    <string name="com_visa_checkout_fingerprint_enrollment_text">Add your fingerprint to login without password next time?</string>
+    <string name="com_visa_checkout_fingerprint_hint">Touch your sensor</string>
+    <string name="com_visa_checkout_forgot_password_code_required_error">Enter Reset Code</string>
+    <string name="com_visa_checkout_hongkong">Hong Kong</string>
+    <string name="com_visa_checkout_iv_show_address_line_2">Show Address Line 2</string>
+    <string name="com_visa_checkout_malaysia">Malaysia</string>
+    <string name="com_visa_checkout_mexico">Mexico</string>
+    <string name="com_visa_checkout_new_customer">new customer</string>
+    <string name="com_visa_checkout_new_zealand">New Zealand</string>
+    <string name="com_visa_checkout_password_hint">Password</string>
+    <string name="com_visa_checkout_payment_tray_delete_card">Delete this card</string>
+    <string name="com_visa_checkout_payment_tray_edit_card">Edit this card</string>
+    <string name="com_visa_checkout_peru">Peru</string>
+    <string name="com_visa_checkout_pi_bt_edit_done">Update &amp; Continue</string>
+    <string name="com_visa_checkout_pi_bt_payment_done">Continue</string>
+    <string name="com_visa_checkout_pi_confirm_delete">Are you sure you want to delete the card ending in %1$s?</string>
+    <string name="com_visa_checkout_pi_confirm_delete_nocard">Are you sure you want to delete this card?</string>
+    <string name="com_visa_checkout_pi_delete_success">Successfully deleted the card ending in %1$s</string>
+    <string name="com_visa_checkout_pi_error_account_locked">Sorry, for your protection and to prevent unauthorized access, we\'ve temporarily locked your account. Try again later, or create a new account</string>
+    <string name="com_visa_checkout_pi_error_brazil_cpf_invalid">Invalid CPF</string>
+    <string name="com_visa_checkout_pi_error_brazil_cpf_missing">Enter CPF</string>
+    <string name="com_visa_checkout_pi_error_cannot_accept_different_card">Sorry, your card number cannot be accepted at this time. Please try entering a different card.</string>
+    <string name="com_visa_checkout_pi_error_cannot_add_payment">Cannot add an address without all card details are valid</string>
+    <string name="com_visa_checkout_pi_error_card_already_added">Sorry, the card number you entered already exists in your Visa Checkout account. Please try a different card</string>
+    <string name="com_visa_checkout_pi_error_card_date_expired">Your card has expired. Please select a different card</string>
+    <string name="com_visa_checkout_pi_error_card_expiration_date_invalid">Invalid date</string>
+    <string name="com_visa_checkout_pi_error_card_expiration_date_missing">Enter date</string>
+    <string name="com_visa_checkout_pi_error_card_invalid">Invalid card number</string>
+    <string name="com_visa_checkout_pi_error_card_nickname_empty_invalid">Invalid nick name</string>
+    <string name="com_visa_checkout_pi_error_card_number_missing">Enter card number</string>
+    <string name="com_visa_checkout_pi_error_card_sec_code_invalid">Invalid security code</string>
+    <string name="com_visa_checkout_pi_error_card_sec_code_missing">Enter security code</string>
+    <string name="com_visa_checkout_pi_error_card_unsupported">Only the above card brands are supported by this Merchant</string>
+    <string name="com_visa_checkout_pi_error_different_address">Sorry, one or more of your entries seems to be invalid at this time. Please try entering a different address.</string>
+    <string name="com_visa_checkout_pi_error_different_card">Sorry, your card number seems to be invalid at this time. Please correct or try entering a different card.</string>
+    <string name="com_visa_checkout_pi_error_different_card_and_different_address">Sorry, one or more of your entries seems to be invalid at this time. Please correct or try entering a different card and address.</string>
+    <string name="com_visa_checkout_pi_error_forbidden">Sorry, you have exceeded the maximum allowed attempts to add or edit a payment method. Please try again after 24 hours</string>
+    <string name="com_visa_checkout_pi_error_generic">Sorry, we are unable to process your request at this time. Try using another card</string>
+    <string name="com_visa_checkout_pi_error_incorrect_details">Sorry, your payment information is incorrect. Please try again</string>
+    <string name="com_visa_checkout_pi_error_one_or_more_different_card">Sorry, one or more of your entries seems to be invalid at this time. Please correct or try entering a different card.</string>
+    <string name="com_visa_checkout_pi_error_unable_to_add">Sorry, you  will not be allowed to add a card at this time. Try using an existing card</string>
+    <string name="com_visa_checkout_pi_et_card_cvv_hint">Security Code</string>
+    <string name="com_visa_checkout_pi_et_card_cvv_secondary_hint">xxx</string>
+    <string name="com_visa_checkout_pi_et_card_cvv_secondary_hint_amex">xxxx</string>
+    <string name="com_visa_checkout_pi_et_card_expiration_hint">Expires</string>
+    <string name="com_visa_checkout_pi_et_card_expiration_hint_content_description">Enter expiration date</string>
+    <string name="com_visa_checkout_pi_et_card_expiration_secondary_hint">MM/YY</string>
+    <string name="com_visa_checkout_pi_et_card_nickname_hint">Card Nickname (Optional)</string>
+    <string name="com_visa_checkout_pi_et_card_nickname_secondary_hint">E.g., My Points Card, Joint Card</string>
+    <string name="com_visa_checkout_pi_et_card_number_hint">Card Number</string>
+    <string name="com_visa_checkout_pi_retry_delete">There seems to be a problem deleting this card. Do you want to retry?</string>
+    <string name="com_visa_checkout_pi_tv_addpayment_title">Add Your Card</string>
+    <string name="com_visa_checkout_pi_tv_ba_label">Billing Address</string>
+    <string name="com_visa_checkout_pi_tv_card_preferred">This is your preferred card to pay with</string>
+    <string name="com_visa_checkout_pi_tv_editpayment_title">Edit Your Card</string>
+    <string name="com_visa_checkout_pi_tv_footer_terms">Visa Checkout may share information about how you use this card in Visa Checkout with the financial institution that issued the card for customer service, usage analysis, fraud prevention and marketing related to Visa Checkout</string>
+    <string name="com_visa_checkout_pi_tv_is_card_preferred">Preferred card to pay with</string>
+    <string name="com_visa_checkout_pi_tv_next">Next: You\'ll create your Visa Checkout account</string>
+    <string name="com_visa_checkout_pi_tv_next_billing_address">Next: Add your billing address</string>
+    <string name="com_visa_checkout_privacyPolicy">Privacy Policy</string>
+    <string name="com_visa_checkout_rc_accessibility_title">Review payment and shipping information to complete purchase</string>
+    <string name="com_visa_checkout_rc_accessibility_title_digital_flow">Review payment information to complete purchase</string>
+    <string name="com_visa_checkout_rc_card_logo_acc">You pressed on the card</string>
+    <string name="com_visa_checkout_rc_card_number">(x-%1$s)</string>
+    <string name="com_visa_checkout_rc_card_number_no_nickname">%1$s x-%2$s</string>
+    <string name="com_visa_checkout_rc_expired_card">Expired: %1$s/%2$s</string>
+    <string name="com_visa_checkout_rc_expires_card">Expires %1$s/%2$s</string>
+    <string name="com_visa_checkout_rc_merchant_logo_acc">You pressed the merchant logo</string>
+    <string name="com_visa_checkout_rc_password_change_success">Your password has been successfully reset</string>
+    <string name="com_visa_checkout_rc_tv_billing_address">Billing Address</string>
+    <string name="com_visa_checkout_rc_tv_card_details">Card Details</string>
+    <string name="com_visa_checkout_rc_tv_hint_merchant_name">Continue to %1$s to complete your purchase</string>
+    <string name="com_visa_checkout_rc_tv_hint_merchant_name_digital_checkout">You\'ll return to %1$s</string>
+    <string name="com_visa_checkout_rc_tv_merchant_not_support_billing_msg">Billing address not supported by merchant</string>
+    <string name="com_visa_checkout_rc_tv_merchant_not_support_card_brand_msg">%1$s not accepted by merchant</string>
+    <string name="com_visa_checkout_rc_tv_merchant_ship_msg">Merchant doesn\'t ship to this address</string>
+    <string name="com_visa_checkout_rc_tv_pay_with">Pay with</string>
+    <string name="com_visa_checkout_rc_tv_ship_to">Ship to</string>
+    <string name="com_visa_checkout_rc_tv_total">Total: </string>
+    <string name="com_visa_checkout_rc_unaccepted_by_merchant">Currently not accepted by Merchant</string>
+    <string name="com_visa_checkout_rc_unverified_missing_info">Additional card information required</string>
+    <string name="com_visa_checkout_samsung_touchid_enable_alert_msg">Samsung Pass will enable you to login faster to Visa Checkout. Would you like to enable it within this app?</string>
+    <string name="com_visa_checkout_samsung_touchid_enable_alert_title">Samsung Pass</string>
+    <string name="com_visa_checkout_sandbox_watermark">FOR TESTING PURPOSES ONLY</string>
+    <string name="com_visa_checkout_scan_your_card_using_camera">Scan your card using device camera</string>
+    <string name="com_visa_checkout_sign_up_notifications_email_invalid_error">Invalid email address</string>
+    <string name="com_visa_checkout_sign_up_notifications_email_required_error">Enter email address</string>
+    <string name="com_visa_checkout_signin">sign in</string>
+    <string name="com_visa_checkout_signing_in">signing in</string>
+    <string name="com_visa_checkout_sin_btSignIn">Sign In</string>
+    <string name="com_visa_checkout_sin_sup_username_invalid_error">Invalid username</string>
+    <string name="com_visa_checkout_sin_tvSignInContinue">Continue</string>
+    <string name="com_visa_checkout_sin_tvSignInContinue_content_description">Continue to Sign Up. Link</string>
+    <string name="com_visa_checkout_sin_tvSignInForgotPassword">Forgot Password?</string>
+    <string name="com_visa_checkout_sin_tvSignInForgotPassword_content_description">Forgot Password? link</string>
+    <string name="com_visa_checkout_sin_tvSignInNoVisaCheckoutAccount">Don\'t have a Visa Checkout account?</string>
+    <string name="com_visa_checkout_sin_tvSignInTitleSignIn">Sign In To Visa Checkout</string>
+    <string name="com_visa_checkout_sin_tvSignInTitleWelcome">Welcome Back!</string>
+    <string name="com_visa_checkout_singapore">Singapore</string>
+    <string name="com_visa_checkout_smd_tvSignInModalDesc">For your security, please sign in to your Visa Checkout account to continue.</string>
+    <string name="com_visa_checkout_smd_tvSignInToContinue">Please sign in to continue.</string>
+    <string name="com_visa_checkout_south_africa">South Africa</string>
+    <item format="float" name="com_visa_checkout_spb_default_speed" type="string">1.0</item>
+    <string name="com_visa_checkout_step_up_answer_hint">Answer</string>
+    <string name="com_visa_checkout_step_up_required_field">This field is required</string>
+    <string name="com_visa_checkout_sup_btSignUpContinue">Continue as New Customer</string>
+    <string name="com_visa_checkout_sup_bt_import">Import From Contacts</string>
+    <string name="com_visa_checkout_sup_etSignUpConfirmationEmail_hint">Email Address (For Order Confirmation)</string>
+    <string name="com_visa_checkout_sup_etSignUpFirstName_hint">First Name</string>
+    <string name="com_visa_checkout_sup_etSignUpLastName_hint">Last Name</string>
+    <string name="com_visa_checkout_sup_tvSignUpAlreadyHaveAccount">Already have a Visa Checkout Account?</string>
+    <string name="com_visa_checkout_sup_tvSignUpInfo">That\'s okay, you can still checkout. You\'ll be asked to create an account during checkout</string>
+    <string name="com_visa_checkout_sup_tvSignUpSignIn">Sign In </string>
+    <string name="com_visa_checkout_sup_tvSignUpSignIn_content_description">Continue to Sign In. Link</string>
+    <string name="com_visa_checkout_sup_tvSignUpTitle">New to Visa Checkout?</string>
+    <string name="com_visa_checkout_tc_accessibility_title">Terms and Conditions</string>
+    <string name="com_visa_checkout_termsOfService">Terms of Service</string>
+    <string name="com_visa_checkout_threeDS_fail_card_message">Not available for use</string>
+    <string name="com_visa_checkout_threeDS_fail_page_message">Sorry, your financial institution was unable to authenticate your card. For your security, please use another card.</string>
+    <string name="com_visa_checkout_toast_use_roman">Please use Roman characters only</string>
+    <string name="com_visa_checkout_tvSignIn_Preferences">Remember Username &amp; Preferences on this device</string>
+    <string name="com_visa_checkout_tvSignIn_Preferences_content_description">Remember Username &amp; Preferences on this device. Link</string>
+    <string name="com_visa_checkout_tvSignIn_Preferences_linkify_anchor">Username</string>
+    <string name="com_visa_checkout_tvSignUp_fname_error">Enter your first name</string>
+    <string name="com_visa_checkout_tvSignUp_fname_error_invalid_chars">You\'ve entered an invalid character. Please re-enter your first name</string>
+    <string name="com_visa_checkout_tvSignUp_lname_error">Enter your last name</string>
+    <string name="com_visa_checkout_tvSignUp_lname_error_invalid_chars">You\'ve entered an invalid character. Please re-enter your last name</string>
+    <string name="com_visa_checkout_tv_3ds_secure_message_mc">This card is enrolled in MasterCard® SecureCode™. For your protection, your financial institution is requesting that you authenticate the transaction before you can continue.</string>
+    <string name="com_visa_checkout_tv_3ds_secure_message_visa">This card is enrolled in Verified by Visa. For your protection, your financial institution is requesting your Consumer Authentication password before you can continue.</string>
+    <string name="com_visa_checkout_tv_add_address_billing_title">Add Your Billing Address</string>
+    <string name="com_visa_checkout_tv_add_address_city_invalid_error">Invalid city</string>
+    <string name="com_visa_checkout_tv_add_address_city_invalid_error_au">Invalid city/suburb</string>
+    <string name="com_visa_checkout_tv_add_address_city_invalid_error_ca">Invalid city/town</string>
+    <string name="com_visa_checkout_tv_add_address_city_required_error">Enter city</string>
+    <string name="com_visa_checkout_tv_add_address_city_required_error_au">Enter city/suburb</string>
+    <string name="com_visa_checkout_tv_add_address_city_required_error_ca">Enter city/town</string>
+    <string name="com_visa_checkout_tv_add_address_invalid_address">Please enter valid address information</string>
+    <string name="com_visa_checkout_tv_add_address_is_preferred">This is your preferred shipping address</string>
+    <string name="com_visa_checkout_tv_add_address_line3_invalid_error_nz">Invalid suburb</string>
+    <string name="com_visa_checkout_tv_add_address_line3_required_error_nz">Enter suburb</string>
+    <string name="com_visa_checkout_tv_add_address_line_invalid_error">Invalid address</string>
+    <string name="com_visa_checkout_tv_add_address_next_billing">Next: You\'ll create your Visa Checkout account</string>
+    <string name="com_visa_checkout_tv_add_address_next_shipping">Next: You\'ll add your card</string>
+    <string name="com_visa_checkout_tv_add_address_phone_invalid_error">Invalid phone number</string>
+    <string name="com_visa_checkout_tv_add_address_phone_invalid_error_au">Invalid phone number</string>
+    <string name="com_visa_checkout_tv_add_address_phone_required_error">Enter phone number</string>
+    <string name="com_visa_checkout_tv_add_address_preferred">Preferred shipping address</string>
+    <string name="com_visa_checkout_tv_add_address_required_error">Enter address</string>
+    <string name="com_visa_checkout_tv_add_address_state_invalid_error">Invalid state</string>
+    <string name="com_visa_checkout_tv_add_address_state_invalid_error_ca">Invalid province</string>
+    <string name="com_visa_checkout_tv_add_address_state_required_error">Enter state</string>
+    <string name="com_visa_checkout_tv_add_address_state_required_error_ca">Enter province</string>
+    <string name="com_visa_checkout_tv_add_address_zip_invalid_error">Invalid zip code</string>
+    <string name="com_visa_checkout_tv_add_address_zip_invalid_error_au">Invalid postcode</string>
+    <string name="com_visa_checkout_tv_add_address_zip_invalid_error_ca">Invalid postal code</string>
+    <string name="com_visa_checkout_tv_add_address_zip_required_error">Enter zip code</string>
+    <string name="com_visa_checkout_tv_add_address_zip_required_error_au">Enter postcode</string>
+    <string name="com_visa_checkout_tv_add_address_zip_required_error_ca">Enter postal code</string>
+    <string name="com_visa_checkout_tv_add_first_name_on_card_invalid_error">Invalid first name</string>
+    <string name="com_visa_checkout_tv_add_first_name_on_card_required_error">Enter first name</string>
+    <string name="com_visa_checkout_tv_add_last_name_on_card_invalid_error">Invalid last name</string>
+    <string name="com_visa_checkout_tv_add_last_name_on_card_required_error">Enter last name</string>
+    <string name="com_visa_checkout_tv_another_email_sent">Another email has been sent</string>
+    <string name="com_visa_checkout_tv_check_your_spam">Check your SPAM folder</string>
+    <string name="com_visa_checkout_tv_couldnt_verify">We couldn\'t verify the address you entered with the postal service. Would you like to save it anyway?</string>
+    <string name="com_visa_checkout_tv_create_password_hint">New Password</string>
+    <string name="com_visa_checkout_tv_create_password_title">Create Your New Password</string>
+    <string name="com_visa_checkout_tv_device_locked_advice_text">Sorry, we\'re unable to confirm your code at this time. For your protection, we\'ve temporarily locked your account</string>
+    <string name="com_visa_checkout_tv_device_locked_title">Could Not Confirm Reset Code</string>
+    <string name="com_visa_checkout_tv_dont_see_email_adviceText">If you still have not received it, check your email address. The one you entered may not be associated with this Visa Checkout account.
+        Try signing in again, or continue as a new customer</string>
+    <string name="com_visa_checkout_tv_enter_password">Simply create a new password, then continue to review your purchase</string>
+    <string name="com_visa_checkout_tv_error_add_address_contacts_launch">This app does not have permissions to access your address book</string>
+    <string name="com_visa_checkout_tv_error_add_address_gps_launch">This app does not have permissions to access your device location</string>
+    <string name="com_visa_checkout_tv_error_fetch_address_failed">Canceled fetching address from Address book</string>
+    <string name="com_visa_checkout_tv_error_generic">Sorry, we are unable to process your request at this time. We apologize for the inconvenience</string>
+    <string name="com_visa_checkout_tv_forgotPassword_adviceText">Enter the email address associated with your Visa Checkout account and we\'ll send you a  code to reset your password</string>
+    <string name="com_visa_checkout_tv_forgotPassword_adviceText1">We\'ve sent an email to %1$s, it might take a few moments to arrive. To reset your password, simply follow the instructions in the email.</string>
+    <string name="com_visa_checkout_tv_forgotPassword_adviceText2">Didn\'t receive the email?  %1$s</string>
+    <string name="com_visa_checkout_tv_forgotPassword_check_spam">Check your SPAM folder</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_advicetext">A code was sent to %1$s. If you haven\'t received it yet, give it a few more minutes. Please follow the email instructions</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_advicetext2">Another code was sent to %1$s. If you haven\'t received it yet, give it a few more minutes. Please follow the email instructions</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_email_notreceived">Don\'t see the email yet?</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_hint">Enter Code</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_title">Enter Password Reset Code</string>
+    <string name="com_visa_checkout_tv_forgotPassword_create_account">create an account.</string>
+    <string name="com_visa_checkout_tv_forgotPassword_email_hint">Email Address</string>
+    <string name="com_visa_checkout_tv_forgotPassword_error">Sorry, for your protection, we\'ve locked your account. Please contact Customer Support</string>
+    <string name="com_visa_checkout_tv_forgotPassword_error_not_found">We could not find that email address in our system. Please try entering another email address, or you can create a new Visa Checkout account.</string>
+    <string name="com_visa_checkout_tv_forgotPassword_get_new_code_advice_text">We\'ll send another password reset code to %1$s</string>
+    <string name="com_visa_checkout_tv_forgotPassword_get_new_code_title">Get A New Reset Code</string>
+    <string name="com_visa_checkout_tv_forgotPassword_link_sent_title">You Should Receive An Email Shortly</string>
+    <string name="com_visa_checkout_tv_forgotPassword_no_email">Don\'t see the email?</string>
+    <string name="com_visa_checkout_tv_forgotPassword_returnToSignIn">Return to Sign In</string>
+    <string name="com_visa_checkout_tv_forgotPassword_sendAgain">Re-send email instructions</string>
+    <string name="com_visa_checkout_tv_forgotPassword_sendAgain_content_description">Didn\'t receive the email? Send again. Link</string>
+    <string name="com_visa_checkout_tv_forgotPassword_still_not_receive">If you still don\'t receive it you can always create an account.</string>
+    <string name="com_visa_checkout_tv_forgotPassword_title">Forgot Your Password?</string>
+    <string name="com_visa_checkout_tv_forgotPassword_wait_for">Wait a few more minutes - your internet connection speed or email provider may need more time</string>
+    <string name="com_visa_checkout_tv_forgotPassword_you_can">You Can:</string>
+    <string name="com_visa_checkout_tv_forgotpassword_dont_see_email_title">If you don\'t see the email yet, here are a few tips:</string>
+    <string name="com_visa_checkout_tv_header_back">Back</string>
+    <string name="com_visa_checkout_tv_header_logo">Visa Checkout</string>
+    <string name="com_visa_checkout_tv_hint_card_description">Visa…1234</string>
+    <string name="com_visa_checkout_tv_hint_card_expiry_date">Currently not accepted by merchant</string>
+    <string name="com_visa_checkout_tv_hint_city_state_zip">City, State Zipcode</string>
+    <string name="com_visa_checkout_tv_hint_edit_address_name">Full Name</string>
+    <string name="com_visa_checkout_tv_label_add_address_title">Add Your Shipping Address</string>
+    <string name="com_visa_checkout_tv_label_address_suggestion_recommended">Recommended Address:</string>
+    <string name="com_visa_checkout_tv_label_address_suggestion_verify">Please verify your address</string>
+    <string name="com_visa_checkout_tv_label_address_suggestion_you_entered">Address You Entered:</string>
+    <string name="com_visa_checkout_tv_label_answer_list_item">Answer</string>
+    <string name="com_visa_checkout_tv_label_country_selection_title">Please choose your country</string>
+    <string name="com_visa_checkout_tv_label_edit_address_title">Edit Address</string>
+    <string name="com_visa_checkout_tv_otp_expired_message">Sorry, you\'ve exceeded the max allowed attempts with your reset code. To continue, please request a new code and try again</string>
+    <string name="com_visa_checkout_tv_otp_resetcode_notmatch">Sorry, the code you entered doesn\'t match what we sent. Please try again</string>
+    <string name="com_visa_checkout_tv_otp_signin_with_another_account">Or you may sign in using another Visa Checkout account</string>
+    <string name="com_visa_checkout_tv_privacy">Privacy Policy</string>
+    <string name="com_visa_checkout_tv_privacy_content_description">Privacy Policy. Link</string>
+    <string name="com_visa_checkout_tv_resend_code">Resend code</string>
+    <string name="com_visa_checkout_tv_sign_up_confirmation">Your Visa Checkout account was created!</string>
+    <string name="com_visa_checkout_tv_terms">Terms of Service</string>
+    <string name="com_visa_checkout_tv_terms_content_description">Terms of Service. Link</string>
+    <string name="com_visa_checkout_tv_update_tc_agree_prefix">We have updated our Terms and Conditions. </string>
+    <string name="com_visa_checkout_tv_update_tc_agree_suffix">Please tap on “Agree and Continue“ to agree to Visa Checkout\’s Terms of Service and Privacy Policy before continuing</string>
+    <string name="com_visa_checkout_tv_wait_few_more_minutes">Wait for a few more minutes--your internet connection speed or email provider may need more time</string>
+    <string name="com_visa_checkout_uae">United Arab Emirates</string>
+    <string name="com_visa_checkout_united_states">United States</string>
+    <string name="com_visa_checkout_username_hint">Username (Email or Mobile Number)</string>
+    <string name="com_visa_checkout_username_required_error">Enter username</string>
+    <string name="com_visa_checkout_wv_complete_action_using">Send Email Using:</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-basement-8.1.0/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-ads-8.1.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Decline</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="facebook_app_id">Your Facebook App Id</string>
+    <string name="food1"><![CDATA[Spicy Thai Bangers & Mash]]></string>
+    <string name="food2"><![CDATA[Fried Chicken & Waffle]]></string>
+    <string name="food3"><![CDATA[Seafood Salad]]></string>
+    <string name="food4"><![CDATA[Hawaiian Teriyaki Burger]]></string>
+    <string name="food5"><![CDATA[Spicy Thai Bangers & Mash]]></string>
+    <string name="match_parent">match_parent</string>
+    <string name="menu">Menu</string>
+    <string name="next">Next</string>
+    <string name="price1">15.00</string>
+    <string name="price2">14.00</string>
+    <string name="price3">16.00</string>
+    <string name="price4">10.00</string>
+    <string name="price5">9.00</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-ads-8.1.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="store_picture_title">Save image</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_welcom">welcom</string>
+    <string name="wrap_content">wrap_content</string>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values/values.xml -->
+    <eat-comment/>
+    <style name="ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal"/>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-ads-8.1.0/res/values/admob_iap_style.xml -->
+    <eat-comment/>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:dropDownListViewStyle">@style/com_visa_checkout_AutocompleteListViewStyle</item>
+    </style>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values/values.xml -->
+    <eat-comment/>
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values/values.xml -->
+    <eat-comment/>
+    <style name="com_visa_checkout_AddressCarouselContent">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/com_visa_checkout_address_carousel_text_color_selected</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_pl_twelve_px_sp</item>
+    </style>
+    <style name="com_visa_checkout_AddressSuggestionTvLines">
+        <item name="android:textSize">@dimen/com_visa_checkout_forty_two_px_sp</item>
+        <item name="android:textColor">@color/com_visa_checkout_tv_info_label_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/com_visa_checkout_twenty_px</item>
+    </style>
+    <style name="com_visa_checkout_AutocompleteListViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@color/com_visa_checkout_autocomplete_item_divider_line</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+    <style name="com_visa_checkout_ChallengeQuestionDivider">
+        <item name="android:background">@color/com_visa_checkout_tab_divider_color</item>
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/com_visa_checkout_pl_three_px</item>
+    </style>
+    <style name="com_visa_checkout_ChallengeQuestionText">
+        <item name="android:textColor">@color/com_visa_checkout_tv_info_label_color</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_thirty_seven_px</item>
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_marginTop">@dimen/com_visa_checkout_pl_seventy_px</item>
+    </style>
+    <style name="com_visa_checkout_ForgotPasswordTextViewSubTitle">
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:textColor">@color/com_visa_checkout_tv_title_color</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_global_font_medium</item>
+        <item name="android:layout_marginTop">@dimen/com_visa_checkout_forty_px</item>
+    </style>
+    <style name="com_visa_checkout_GrayBackground">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/com_visa_checkout_footer_divider_color</item>
+    </style>
+    <style name="com_visa_checkout_PaymentScreenCreditCardLogos">
+        <item name="android:maxHeight">@dimen/com_visa_checkout_credit_card_logo_height</item>
+        <item name="android:minHeight">@dimen/com_visa_checkout_credit_card_logo_height</item>
+        <item name="android:maxWidth">@dimen/com_visa_checkout_credit_card_logo_width</item>
+        <item name="android:minWidth">@dimen/com_visa_checkout_credit_card_logo_width</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_pl_fifteen_px</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutActiveTab">
+        <item name="android:textColor">@color/com_visa_checkout_tv_title_color</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_tab_text_size</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutDividerLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/com_visa_checkout_divider_height_px</item>
+        <item name="android:layout_marginLeft">22dp</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:background">@color/com_visa_checkout_global_font_light_grey</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutEditTextDefault">
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:background">@drawable/com_visa_checkout_edittext_drawable</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_global_font_large</item>
+        <item name="android:paddingTop">@dimen/com_visa_checkout_et_text_padding</item>
+        <item name="android:paddingBottom">@dimen/com_visa_checkout_et_text_padding</item>
+        <item name="android:paddingLeft">@dimen/com_visa_checkout_et_text_padding</item>
+        <item name="android:paddingRight">@dimen/com_visa_checkout_et_text_padding</item>
+        <item name="android:textColor">@color/com_visa_checkout_edittext_default_text_color</item>
+        <item name="android:textColorHint">@color/com_visa_checkout_global_font_light_grey</item>
+        <item name="android:longClickable">false</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutEditTextWithHint" parent="com_visa_checkout_VisaCheckoutEditTextDefault">
+        <item name="android:paddingTop">@dimen/com_visa_checkout_twenty_px</item>
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_adjusted_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_adjusted_horizontal_margin</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutEditTextWithPasteOption" parent="com_visa_checkout_VisaCheckoutEditTextWithHint">
+        <item name="android:longClickable">true</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutGlobalCheckbox">
+        <item name="android:layout_width">@dimen/com_visa_checkout_fifty_px</item>
+        <item name="android:layout_height">@dimen/com_visa_checkout_fifty_px</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/com_visa_checkout_checkbox_selector</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutGlobalCheckboxTextLabel">
+        <item name="android:textColor">@color/com_visa_checkout_global_font_dark_grey</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_global_font_small</item>
+        <item name="android:textColorLink">@color/com_visa_checkout_global_font_hyperlink</item>
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_twenty_px</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutGlobalDropDown">
+        <item name="android:textColor">@color/com_visa_checkout_global_font_dark_grey</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_global_font_large</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutGoldButton">
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:background">@drawable/com_visa_checkout_button_selector</item>
+        <item name="android:textColor">@color/com_visa_checkout_bt_text_color</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_bt_text_size</item>
+        <item name="android:minHeight">@dimen/com_visa_checkout_bt_height</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutHintLabel">
+        <item name="android:textColor">@color/com_visa_checkout_global_font_medium_grey</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_global_font_xsmall</item>
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_adjusted_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_adjusted_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/com_visa_checkout_et_text_padding</item>
+        <item name="android:paddingLeft">@dimen/com_visa_checkout_et_text_padding</item>
+        <item name="android:paddingTop">@dimen/com_visa_checkout_thirty_px</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutHintLabelFocused" parent="com_visa_checkout_VisaCheckoutHintLabel">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutInactiveTab">
+        <item name="android:textColor">@color/com_visa_checkout_tv_info_label_color</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_tab_text_size</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutTextViewInfoLabel">
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:textColor">@color/com_visa_checkout_tv_info_label_color</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_tv_info_label_size</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutTextViewInfoLabelSmall" parent="com_visa_checkout_VisaCheckoutTextViewInfoLabel">
+        <item name="android:textSize">@dimen/com_visa_checkout_pl_twelve_px_sp</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutTextViewSubTitle">
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:textColor">@color/com_visa_checkout_global_font_medium_grey</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_global_font_medium</item>
+    </style>
+    <style name="com_visa_checkout_VisaCheckoutTextViewTitle">
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:textColor">@color/com_visa_checkout_tv_title_color</item>
+        <item name="android:layout_marginTop">@dimen/com_visa_checkout_layout_margin_title_top</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_global_font_xlarge</item>
+    </style>
+    <style name="com_visa_checkout_VisaEXOEditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_global_font_large</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="com_visa_checkout_VisaEXOEditTextDefault" parent="com_visa_checkout_VisaEXOEditText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/com_visa_checkout_exo_white_semitransparent</item>
+    </style>
+    <style name="com_visa_checkout_VisaEXOEditTextNeutral" parent="com_visa_checkout_VisaEXOEditText">
+        <item name="android:textColor">@color/com_visa_checkout_global_font_dark_grey</item>
+        <item name="android:textColorHint">@color/com_visa_checkout_exo_dark_grey_semitransparent</item>
+    </style>
+    <style name="com_visa_checkout_VisaEXOTextViewLink">
+        <item name="android:layout_marginTop">@dimen/com_visa_checkout_sixteen_px</item>
+        <item name="android:drawablePadding">@dimen/com_visa_checkout_ten_px</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_exo_links_font</item>
+    </style>
+    <style name="com_visa_checkout_VisaEXOTextViewLinkDefault" parent="com_visa_checkout_VisaEXOTextViewLink">
+        <item name="android:textColor">@color/com_visa_checkout_exo_blue_link</item>
+    </style>
+    <style name="com_visa_checkout_VisaEXOTextViewLinkNeutral" parent="com_visa_checkout_VisaEXOTextViewLink">
+        <item name="android:textColor">@color/com_visa_checkout_exo_white_link</item>
+    </style>
+    <style name="com_visa_checkout_VisaFooterLinkTextView">
+        <item name="android:layout_marginLeft">@dimen/com_visa_checkout_layout_margin_left_right</item>
+        <item name="android:textColor">@color/com_visa_checkout_footer_link_color</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_tv_info_label_size</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="com_visa_checkout_VisaImportBlackButton">
+        <item name="android:background">@android:color/background_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/com_visa_checkout_bt_text_size</item>
+        <item name="android:minHeight">@dimen/com_visa_checkout_bt_height</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="com_visa_checkout_VisaProgressBar" parent="ProgressBar.Horizontal">
+        <item name="com_visa_checkout_spb_stroke_separator_length">3dp</item>
+        <item name="com_visa_checkout_spb_stroke_width">5dp</item>
+        <item name="com_visa_checkout_spb_sections_count">4</item>
+        <item name="com_visa_checkout_spb_speed">0.7</item>
+        <item name="com_visa_checkout_spb_interpolator">com_visa_checkout_spb_interpolator_accelerate</item>
+        <item name="com_visa_checkout_spb_mirror_mode">false</item>
+        <item name="com_visa_checkout_spb_reversed">false</item>
+        <item name="com_visa_checkout_spb_colors">@array/com_visa_checkout_progressbar_colors</item>
+        <item name="android:layout_marginBottom">-1dp</item>
+        <item name="android:layout_marginTop">-1dp</item>
+    </style>
+    <!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values/values.xml -->
+    <eat-comment/>
+    <style name="tooltip_bubble_text">
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:gravity">left</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:shadowDy">-1</item>
+	    <item name="android:shadowRadius">0.25</item>
+	    <item name="android:shadowColor">#40000000</item>
+    </style>
+</resources>

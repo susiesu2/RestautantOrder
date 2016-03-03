@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <size
+        android:width="@dimen/com_visa_checkout_otp_suggition_list_bullet_size"
+        android:height="@dimen/com_visa_checkout_otp_suggition_list_bullet_size"/>
+    <solid
+        android:color="@android:color/black"/>
+</shape><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_bullet.xml --><!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_bullet.xml -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item style="@style/com_visa_checkout_VisaCheckoutHintLabelFocused" android:state_focused="true" android:state_pressed="false" />
+    <item style="@style/com_visa_checkout_VisaCheckoutHintLabel" />
+</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_textview_floating_hint.xml --><!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_textview_floating_hint.xml -->

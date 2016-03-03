@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_visa_checkout_tvGlobalDropDownItem"
+    style="@style/com_visa_checkout_VisaCheckoutGlobalDropDown"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:paddingBottom="@dimen/com_visa_checkout_ten_px"
+    android:paddingTop="@dimen/com_visa_checkout_ten_px"
+    android:paddingLeft="@dimen/com_visa_checkout_twenty_seven_px"
+    android:paddingRight="@dimen/com_visa_checkout_twenty_seven_px"/><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_global_drop_down.xml --><!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_global_drop_down.xml -->

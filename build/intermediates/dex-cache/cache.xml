@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/libs/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/okio-1.6.0-a3ba7f691b5624d41af2f3c963a8e554b0062b38.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-basement-8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/classes-7f8621d4b243abd7aa9f86cc8a60a334115cdae2.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-ads-8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/classes-4350978ddf70b5172c091a30cb1c0d3611e3aba1.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/play-services-analytics-8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/classes-e9bf62c8ec3fdea8d4bbb77c01a826294d439549.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c8414f03ff9e5b045f185921c9bc42914c906458">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/classes-206101d2180d19982c244f1c23c16df88469267c.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/card.io-5.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="54222c652294ab0367aca73578304dc7b69acd22">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/classes-c8f53a41a1c7f516de61f6d9604679e87e1449bd.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="56c7e2655423c34879573f0c254c2625ead1b069">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/classes-5b47c310f4ee3587a4b613568c112b36203b0815.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/libs/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-7dee6cb01dbbfb1983bc1f95d7ba1a43b9e947f1.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-60703f73b84fe5d9092de79f0173cfa2cb4c4bdc.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/classes-5f741cfa281c287b8ae121f6e578efa3298a16e5.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/libs/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/gson-2.3.1-d8d018a17dac9930dac35fedcd216c1a69b30531.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/libs/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-742b11d21a40aa2d21d8a8eab96a306ce6aa8b67.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-646c1b7bd3ca8f3448062867a76518073c5dabf7.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-1823ba78757f241135a9cb29c62642bf114f52f9.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/libs/Samsung-pass-v1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ea8679e8961b2a9088bbfd9986fa5752f8d802b">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/Samsung-pass-v1.1.4-c17dbe861bf813f383d3e20b92ae141a6ec0b0b4.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/libs/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-a3e870c0686d23826d83d95e2871874ffde41684.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-ced05dd4e92df50789da63859664c8d28d834082.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/libs/Samsung-sdk-v1.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e2ce3786b6e9519934c4a54aaaaf39525bf4486c">
+        <dex dex="/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/pre-dexed/debug/Samsung-sdk-v1.0.0-f23146e870d1a3053c46b65d41c48b6043175a4a.jar" />
+    </item>
+
+</items>

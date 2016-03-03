@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_switch_bg_disabled_holo_light" />
+    <item android:state_focused="true"  android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_switch_bg_focused_holo_light" />
+    <item                               android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_switch_bg_holo_light" />
+</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_switch_bg.xml --><!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_switch_bg.xml -->

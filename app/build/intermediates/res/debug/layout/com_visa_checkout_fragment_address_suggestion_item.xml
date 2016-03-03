@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/com_visa_checkout_forty_px"
+    android:background="@color/com_visa_checkout_layout_background">
+
+    <TextView
+        android:id="@+id/com_visa_checkout_tv_address_suggestion_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/com_visa_checkout_thirty_px"
+        android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"
+        android:hint="Alfred Pennyworth"
+        android:textColor="@color/com_visa_checkout_tv_info_label_color"/>
+
+    <TextView
+        android:id="@+id/com_visa_checkout_tv_address_suggestion_line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/com_visa_checkout_twenty_px"
+        android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"
+        android:hint="1234 Wayne Manor"
+        android:textColor="@color/com_visa_checkout_tv_info_label_color"/>
+
+    <TextView
+        android:id="@+id/com_visa_checkout_tv_address_suggestion_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/com_visa_checkout_twenty_px"
+        android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"
+        android:hint="Apt 123"
+        android:visibility="gone"
+        android:textColor="@color/com_visa_checkout_tv_info_label_color"/>
+
+    <TextView
+        android:id="@+id/com_visa_checkout_tv_address_suggestion_line3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/com_visa_checkout_twenty_px"
+        android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"
+        android:hint="Suburb"
+        android:visibility="gone"
+        android:textColor="@color/com_visa_checkout_tv_info_label_color"/>
+
+    <TextView
+        android:id="@+id/com_visa_checkout_tv_address_suggestion_citystatezip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/com_visa_checkout_twenty_px"
+        android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"
+        android:hint="Gotham City, CA 12345"
+        android:textColor="@color/com_visa_checkout_tv_info_label_color"/>
+
+    <Button
+        android:id="@+id/com_visa_checkout_bt_address_suggestion_usethis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/com_visa_checkout_VisaCheckoutGoldButton"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="@dimen/com_visa_checkout_sixty_px"
+        android:layout_below="@id/com_visa_checkout_rl_billing_address_carousel"
+        android:text="@string/com_visa_checkout_bt_address_suggestion_use_this"/>
+
+</LinearLayout><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_fragment_address_suggestion_item.xml --><!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_fragment_address_suggestion_item.xml -->

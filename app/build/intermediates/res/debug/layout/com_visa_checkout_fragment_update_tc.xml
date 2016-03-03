@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_visa_checkout_rl_updated_tc_main_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/com_visa_checkout_layout_background">
+
+    <include
+        android:id="@+id/com_visa_checkout_update_tc_includedServerSideError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/com_visa_checkout_server_side_error" />
+
+    <RelativeLayout
+        android:id="@+id/com_visa_checkout_rl_notice_agree_continue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_visa_checkout_update_t_c_advise_height"
+        android:background="@color/com_visa_checkout_vme_background"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/com_visa_checkout_v_divider_update_t_c"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/com_visa_checkout_ten_px"
+            android:background="@drawable/com_visa_checkout_img_shadow" />
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tv_tc_notice_prefix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/com_visa_checkout_tv_update_tc_agree_prefix"
+            android:textColor="@color/com_visa_checkout_tv_title_color"
+            android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"
+            android:layout_marginTop="@dimen/com_visa_checkout_sixty_px"
+            android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_below="@id/com_visa_checkout_v_divider_update_t_c" />
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tv_tc_notice_suffix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/com_visa_checkout_tv_update_tc_agree_suffix"
+            android:textColor="@color/com_visa_checkout_tv_title_color"
+            android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"
+            android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_below="@id/com_visa_checkout_tv_tc_notice_prefix" />
+
+
+        <Button
+            android:id="@+id/com_visa_checkout_bt_update_tc_agree_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/com_visa_checkout_VisaCheckoutGoldButton"
+            android:layout_marginTop="@dimen/com_visa_checkout_sixty_px"
+            android:text="@string/com_visa_checkout_bt_update_tc_agree"
+            android:layout_below="@id/com_visa_checkout_tv_tc_notice_suffix" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/com_visa_checkout_rl_update_tc_webViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/com_visa_checkout_sixty_px"
+        android:layout_below="@id/com_visa_checkout_update_tc_includedServerSideError"
+        android:layout_above="@id/com_visa_checkout_rl_notice_agree_continue"
+        android:orientation="vertical"
+        android:gravity="center_horizontal" >
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
+<!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_fragment_update_tc.xml --><!-- From: file:/Users/jzhang/Downloads/VisaCheckout-Android-SDK-3_5_1/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_fragment_update_tc.xml -->
