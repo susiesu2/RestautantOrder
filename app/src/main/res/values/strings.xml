@@ -66,6 +66,15 @@
 
     <string name="title_activity_iii">iii</string>
     <string name="login">LOGIN</string>
+    <string name="login_email">Email Address</string>
+    <string name="login_password">Password</string>
+    <string name="login_restaurant">Restaurant Login</string>
+    <string name="login_restaurant_message">Not implemented. Merchant specific login flow.</string>
+    <string name="welcome_user">Welcome, %s.</string>
+    <string name="network_error">An error occurring while contacting Google. Please try again later.</string>
+    <string name="logged_out">You are now logged out</string>
+
+
 
 
 </resources>

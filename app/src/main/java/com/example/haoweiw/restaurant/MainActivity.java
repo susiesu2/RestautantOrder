@@ -10,21 +10,31 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-
 import android.view.Menu;
 import android.view.MenuInflater;
-
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+
 import java.io.UnsupportedEncodingException;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
+
+
+    private static final String TAG = "MainActivity";
 
     private TextView mTextView;
     private NfcAdapter mNfcAdapter;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,13 +59,25 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-    }
 
+
+    }
 
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.login, menu);
         return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.login:
+                Intent loginIntent = new Intent(this, LoginFragment.class);
+                startActivity(loginIntent);
+                return true;
+            default:
+                return false;
+        }
     }
 
 
@@ -160,6 +182,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (this, TheMenu.class);
         startActivity(intent);
     }
+
 
 
 }

@@ -19,5 +19,8 @@
     <item
         android:id="@+id/login"
         android:title="@string/login"
-        android:showAsAction="always" />
+        android:showAsAction="always"
+        />
+
+
 </menu>
