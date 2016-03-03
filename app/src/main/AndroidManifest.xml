@@ -36,6 +36,10 @@
             android:name=".TheMenu"
             android:label="@string/title_activity_the_menu"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".LoginFragment"
+            android:label="LoginFragment" ></activity>
+
     </application>
 
 </manifest>
