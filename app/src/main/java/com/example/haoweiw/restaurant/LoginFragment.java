@@ -48,6 +48,8 @@ public class LoginFragment extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_login);
 
+        findViewById(R.id.sign_in_button).setOnClickListener(this);
+
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
                 .build();
@@ -69,6 +71,26 @@ public class LoginFragment extends AppCompatActivity implements
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
 
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
+        if (requestCode == RC_SIGN_IN) {
+            GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
+            handleSignInResult(result);
+        }
+    }
+
+    private void handleSignInResult(GoogleSignInResult result) {
+        Log.d(TAG, "handleSignInResult:" + result.isSuccess());
+        if (result.isSuccess()) {
+            // Signed in successfully, show authenticated UI.
+            GoogleSignInAccount acct = result.getSignInAccount();
+
+        }
+    }
+
 
     @Override
     public void onClick(View v) {
@@ -78,6 +100,8 @@ public class LoginFragment extends AppCompatActivity implements
                 break;
         }
     }
+
+
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
