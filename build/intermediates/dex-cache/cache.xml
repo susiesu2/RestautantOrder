@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-c8b07e123d13f63b347c4a83ba5e4595de74fbaa.jar" />
+    </item>
+    <item
+        jar="/usr/local/google/home/haoweiw/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-8f36128cc89f16f40e2a7ba645cd2ee9a4b0655e.jar" />
+    </item>
+    <item
+        jar="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/pre-dexed/debug/classes-6395f42e6067e94b5f8cef470e1f1b6320b14243.jar" />
+    </item>
+    <item
+        jar="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/pre-dexed/debug/classes-9f07d599d994b17d3ad0b37c0653194b97d2b1b7.jar" />
+    </item>
+    <item
+        jar="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/pre-dexed/debug/classes-50bb2f9b6de82f8ef865b3343a2354eb74c91734.jar" />
+    </item>
+    <item
+        jar="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/pre-dexed/debug/classes-2806192522664fa5f94f9e60b17019ac67447b12.jar" />
+    </item>
+    <item
+        jar="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/pre-dexed/debug/classes-ba0853a2e7690b93f0034e892e0f41ae2558d9c4.jar" />
+    </item>
+    <item
+        jar="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/pre-dexed/debug/classes-250b4c02685ba392a7095308f0fe300af1fe1db7.jar" />
+    </item>
+
+</items>

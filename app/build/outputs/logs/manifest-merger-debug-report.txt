@@ -11,139 +11,190 @@ ADDED from AndroidManifest.xml:2:1
 	android:versionCode
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.NFC
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
 uses-permission#android.permission.INTERNET
-ADDED from AndroidManifest.xml:6:5
+ADDED from AndroidManifest.xml:8:5
 MERGED from :play-services-analytics-8.1.0::21:5
 MERGED from :play-services-ads-8.1.0::20:5
 	android:name
-		ADDED from AndroidManifest.xml:6:22
+		ADDED from AndroidManifest.xml:8:22
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from AndroidManifest.xml:7:5
+ADDED from AndroidManifest.xml:9:5
 MERGED from :play-services-analytics-8.1.0::22:5
 MERGED from :play-services-ads-8.1.0::21:5
 	android:name
-		ADDED from AndroidManifest.xml:7:22
+		ADDED from AndroidManifest.xml:9:22
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from AndroidManifest.xml:8:5
+ADDED from AndroidManifest.xml:10:5
 	android:name
-		ADDED from AndroidManifest.xml:8:22
+		ADDED from AndroidManifest.xml:10:22
 uses-permission#android.permission.CAMERA
-ADDED from AndroidManifest.xml:11:5
+ADDED from AndroidManifest.xml:13:5
 MERGED from :card.io-5.1.1::11:5
 	android:name
-		ADDED from AndroidManifest.xml:11:22
+		ADDED from AndroidManifest.xml:13:22
 uses-permission#android.permission.VIBRATE
-ADDED from AndroidManifest.xml:14:5
+ADDED from AndroidManifest.xml:16:5
 MERGED from :card.io-5.1.1::12:5
 	android:name
-		ADDED from AndroidManifest.xml:14:22
+		ADDED from AndroidManifest.xml:16:22
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from AndroidManifest.xml:17:5
+ADDED from AndroidManifest.xml:19:5
 	android:name
-		ADDED from AndroidManifest.xml:17:22
+		ADDED from AndroidManifest.xml:19:22
 uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
-ADDED from AndroidManifest.xml:20:5
+ADDED from AndroidManifest.xml:22:5
 	android:name
-		ADDED from AndroidManifest.xml:20:22
-uses-feature#android.hardware.camera
+		ADDED from AndroidManifest.xml:22:22
+uses-feature#android.hardware.nfc
 ADDED from AndroidManifest.xml:24:5
+	android:required
+		ADDED from AndroidManifest.xml:26:9
+	android:name
+		ADDED from AndroidManifest.xml:25:9
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:30:5
 MERGED from :card.io-5.1.1::14:5
 	android:required
-		ADDED from AndroidManifest.xml:24:58
+		ADDED from AndroidManifest.xml:30:58
 	android:name
-		ADDED from AndroidManifest.xml:24:19
+		ADDED from AndroidManifest.xml:30:19
 uses-feature#android.hardware.camera.autofocus
-ADDED from AndroidManifest.xml:25:5
+ADDED from AndroidManifest.xml:31:5
 MERGED from :card.io-5.1.1::17:5
 	android:required
-		ADDED from AndroidManifest.xml:25:68
+		ADDED from AndroidManifest.xml:31:68
 	android:name
-		ADDED from AndroidManifest.xml:25:19
+		ADDED from AndroidManifest.xml:31:19
 uses-feature#android.hardware.camera.flash
-ADDED from AndroidManifest.xml:26:5
+ADDED from AndroidManifest.xml:32:5
 	android:required
-		ADDED from AndroidManifest.xml:26:64
+		ADDED from AndroidManifest.xml:32:64
 	android:name
-		ADDED from AndroidManifest.xml:26:19
+		ADDED from AndroidManifest.xml:32:19
 application
-ADDED from AndroidManifest.xml:28:5
+ADDED from AndroidManifest.xml:34:5
 MERGED from :VisaCheckout-Android-SDK-3.5::14:5
 MERGED from :facebook-android-sdk-3.23.1::24:5
 MERGED from :card.io-5.1.1::21:5
 MERGED from :play-services-basement-8.1.0::20:5
 MERGED from :play-services-analytics-8.1.0::24:5
 MERGED from :play-services-ads-8.1.0::24:5
-MERGED from com.android.support:support-v4:23.1.1:22:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+MERGED from com.android.support:appcompat-v7:23.2.0:25:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+MERGED from com.android.support:animated-vector-drawable:23.2.0:7:5
+MERGED from com.android.support:support-vector-drawable:23.2.0:7:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+MERGED from com.android.support:support-vector-drawable:23.2.0:7:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+MERGED from com.android.support:design:23.2.0:22:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+MERGED from com.android.support:appcompat-v7:23.2.0:25:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+MERGED from com.android.support:animated-vector-drawable:23.2.0:7:5
+MERGED from com.android.support:support-vector-drawable:23.2.0:7:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+MERGED from com.android.support:support-vector-drawable:23.2.0:7:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
 	android:label
-		ADDED from AndroidManifest.xml:31:9
+		ADDED from AndroidManifest.xml:37:9
 	android:allowBackup
-		ADDED from AndroidManifest.xml:29:9
+		ADDED from AndroidManifest.xml:35:9
 	android:icon
-		ADDED from AndroidManifest.xml:30:9
+		ADDED from AndroidManifest.xml:36:9
 	android:theme
-		ADDED from AndroidManifest.xml:32:9
-activity#com.visa.checkout.VisaMcomActivity
-ADDED from AndroidManifest.xml:35:9
-	android:configChanges
-		ADDED from AndroidManifest.xml:36:13
+		ADDED from AndroidManifest.xml:38:9
+activity#com.visa.android.integration.checkoutsampleapp.app.MainActivity
+ADDED from AndroidManifest.xml:39:9
 	android:name
-		ADDED from AndroidManifest.xml:35:19
-activity#com.visa.android.integration.checkoutsampleapp.app.PaymentStartActivity
-ADDED from AndroidManifest.xml:38:9
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:40:13
-	android:label
-		ADDED from AndroidManifest.xml:41:13
-	android:name
-		ADDED from AndroidManifest.xml:39:13
-activity#com.visa.android.integration.checkoutsampleapp.app.PaymentSummaryActivity
-ADDED from AndroidManifest.xml:44:9
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:46:13
-	android:label
-		ADDED from AndroidManifest.xml:47:13
-	android:name
-		ADDED from AndroidManifest.xml:45:13
-activity#com.visa.android.integration.checkoutsampleapp.app.ConfigurePaymentActivity
-ADDED from AndroidManifest.xml:50:9
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:51:19
-	android:name
-		ADDED from AndroidManifest.xml:50:19
+		ADDED from AndroidManifest.xml:39:19
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:52:13
+ADDED from AndroidManifest.xml:40:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:53:17
+ADDED from AndroidManifest.xml:41:17
 	android:name
-		ADDED from AndroidManifest.xml:53:25
+		ADDED from AndroidManifest.xml:41:25
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:54:17
+ADDED from AndroidManifest.xml:43:17
 	android:name
-		ADDED from AndroidManifest.xml:54:27
+		ADDED from AndroidManifest.xml:43:27
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
+ADDED from AndroidManifest.xml:45:13
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from AndroidManifest.xml:46:17
+	android:name
+		ADDED from AndroidManifest.xml:46:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:48:17
+	android:name
+		ADDED from AndroidManifest.xml:48:27
+data
+ADDED from AndroidManifest.xml:50:17
+	android:mimeType
+		ADDED from AndroidManifest.xml:50:23
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from AndroidManifest.xml:53:13
+	android:resource
+		ADDED from AndroidManifest.xml:55:17
+	android:name
+		ADDED from AndroidManifest.xml:54:17
+activity#com.visa.checkout.VisaMcomActivity
+ADDED from AndroidManifest.xml:69:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:70:13
+	android:name
+		ADDED from AndroidManifest.xml:69:19
+activity#com.visa.android.integration.checkoutsampleapp.app.PaymentStartActivity
+ADDED from AndroidManifest.xml:72:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:74:13
+	android:label
+		ADDED from AndroidManifest.xml:75:13
+	android:name
+		ADDED from AndroidManifest.xml:73:13
+activity#com.visa.android.integration.checkoutsampleapp.app.PaymentSummaryActivity
+ADDED from AndroidManifest.xml:78:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:80:13
+	android:label
+		ADDED from AndroidManifest.xml:81:13
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+activity#com.visa.android.integration.checkoutsampleapp.app.ConfigurePaymentActivity
+ADDED from AndroidManifest.xml:84:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:85:19
+	android:name
+		ADDED from AndroidManifest.xml:84:19
 activity#io.card.payment.CardIOActivity
-ADDED from AndroidManifest.xml:60:9
+ADDED from AndroidManifest.xml:95:9
 MERGED from :card.io-5.1.1::22:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:62:13
+		ADDED from AndroidManifest.xml:97:13
 	android:configChanges
-		ADDED from AndroidManifest.xml:61:13
+		ADDED from AndroidManifest.xml:96:13
 	android:hardwareAccelerated
-		ADDED from AndroidManifest.xml:63:13
+		ADDED from AndroidManifest.xml:98:13
 	android:name
-		ADDED from AndroidManifest.xml:60:19
+		ADDED from AndroidManifest.xml:95:19
 activity#io.card.payment.DataEntryActivity
-ADDED from AndroidManifest.xml:67:9
+ADDED from AndroidManifest.xml:102:9
 MERGED from :card.io-5.1.1::25:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:68:13
+		ADDED from AndroidManifest.xml:103:13
 	android:name
-		ADDED from AndroidManifest.xml:67:19
+		ADDED from AndroidManifest.xml:102:19
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from AndroidManifest.xml:71:9
+ADDED from AndroidManifest.xml:106:9
 	android:name
-		ADDED from AndroidManifest.xml:71:20
+		ADDED from AndroidManifest.xml:106:20
 	android:value
-		ADDED from AndroidManifest.xml:71:66
+		ADDED from AndroidManifest.xml:106:66
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from :VisaCheckout-Android-SDK-3.5::7:5
@@ -152,13 +203,33 @@ MERGED from :card.io-5.1.1::7:5
 MERGED from :play-services-basement-8.1.0::18:5
 MERGED from :play-services-analytics-8.1.0::18:5
 MERGED from :play-services-ads-8.1.0::23:5
-MERGED from com.android.support:support-v4:23.1.1:20:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+MERGED from com.android.support:appcompat-v7:23.2.0:21:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+MERGED from com.android.support:animated-vector-drawable:23.2.0:5:5
+MERGED from com.android.support:support-vector-drawable:23.2.0:5:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+MERGED from com.android.support:support-vector-drawable:23.2.0:5:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+MERGED from com.android.support:design:23.2.0:20:5
+MERGED from com.android.support:recyclerview-v7:23.2.0:20:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+MERGED from com.android.support:appcompat-v7:23.2.0:21:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+MERGED from com.android.support:animated-vector-drawable:23.2.0:5:5
+MERGED from com.android.support:support-vector-drawable:23.2.0:5:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+MERGED from com.android.support:support-vector-drawable:23.2.0:5:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:minSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+	tools:overrideLibrary
+		ADDED from com.android.support:appcompat-v7:23.2.0:23:9
 uses-permission#android.permission.READ_CONTACTS
 ADDED from :VisaCheckout-Android-SDK-3.5::11:5
 	android:name
