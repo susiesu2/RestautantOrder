@@ -175,7 +175,7 @@ public class MainActivity extends FragmentActivity {
     }
 
     public void goToMenu (View view){
-        Intent intent = new Intent (this, ConfigurePaymentActivity.class);
+        Intent intent = new Intent (this, TheMenu.class);
         startActivity(intent);
     }
 

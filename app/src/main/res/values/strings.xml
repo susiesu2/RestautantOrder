@@ -8,4 +8,65 @@
     <string name="wrap_content">wrap_content</string>
 
     <string name="title_activity_the_menu">TheMenu</string>
+    <string name="menu">Menu</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="title_activity_page2">page2</string>
+
+    <string name="food1"><![CDATA[Spicy Thai Bangers & Mash]]></string>
+    <string name="food2"><![CDATA[Fried Chicken & Waffle]]></string>
+    <string name="food3"><![CDATA[Seafood Salad]]></string>
+    <string name="food4"><![CDATA[Hawaiian Teriyaki Burger]]></string>
+    <string name="food5"><![CDATA[Spicy Thai Bangers & Mash]]></string>
+
+    <string name="price1">15.00</string>
+    <string name="price2">14.00</string>
+    <string name="price3">16.00</string>
+    <string name="price4">10.00</string>
+    <string name="price5">9.00</string>
+
+    <string-array name="Q1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="Q2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="Q3">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="Q4">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="Q5">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
 </resources>

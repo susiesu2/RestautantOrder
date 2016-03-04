@@ -143,58 +143,66 @@ ADDED from AndroidManifest.xml:53:13
 		ADDED from AndroidManifest.xml:55:17
 	android:name
 		ADDED from AndroidManifest.xml:54:17
+activity#com.visa.android.integration.checkoutsampleapp.app.TheMenu
+ADDED from AndroidManifest.xml:60:9
+	android:label
+		ADDED from AndroidManifest.xml:62:13
+	android:theme
+		ADDED from AndroidManifest.xml:63:13
+	android:name
+		ADDED from AndroidManifest.xml:61:13
 activity#com.visa.checkout.VisaMcomActivity
-ADDED from AndroidManifest.xml:69:9
+ADDED from AndroidManifest.xml:71:9
 	android:configChanges
-		ADDED from AndroidManifest.xml:70:13
+		ADDED from AndroidManifest.xml:72:13
 	android:name
-		ADDED from AndroidManifest.xml:69:19
+		ADDED from AndroidManifest.xml:71:19
 activity#com.visa.android.integration.checkoutsampleapp.app.PaymentStartActivity
-ADDED from AndroidManifest.xml:72:9
+ADDED from AndroidManifest.xml:74:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:74:13
+		ADDED from AndroidManifest.xml:76:13
 	android:label
+		ADDED from AndroidManifest.xml:77:13
+	android:name
 		ADDED from AndroidManifest.xml:75:13
-	android:name
-		ADDED from AndroidManifest.xml:73:13
 activity#com.visa.android.integration.checkoutsampleapp.app.PaymentSummaryActivity
-ADDED from AndroidManifest.xml:78:9
+ADDED from AndroidManifest.xml:80:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:80:13
+		ADDED from AndroidManifest.xml:82:13
 	android:label
+		ADDED from AndroidManifest.xml:83:13
+	android:name
 		ADDED from AndroidManifest.xml:81:13
-	android:name
-		ADDED from AndroidManifest.xml:79:13
 activity#com.visa.android.integration.checkoutsampleapp.app.ConfigurePaymentActivity
-ADDED from AndroidManifest.xml:84:9
+ADDED from AndroidManifest.xml:86:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:85:19
+		ADDED from AndroidManifest.xml:87:19
 	android:name
-		ADDED from AndroidManifest.xml:84:19
+		ADDED from AndroidManifest.xml:86:19
 activity#io.card.payment.CardIOActivity
-ADDED from AndroidManifest.xml:95:9
+ADDED from AndroidManifest.xml:97:9
 MERGED from :card.io-5.1.1::22:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:97:13
+		ADDED from AndroidManifest.xml:99:13
 	android:configChanges
-		ADDED from AndroidManifest.xml:96:13
-	android:hardwareAccelerated
 		ADDED from AndroidManifest.xml:98:13
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:100:13
 	android:name
-		ADDED from AndroidManifest.xml:95:19
+		ADDED from AndroidManifest.xml:97:19
 activity#io.card.payment.DataEntryActivity
-ADDED from AndroidManifest.xml:102:9
+ADDED from AndroidManifest.xml:104:9
 MERGED from :card.io-5.1.1::25:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:103:13
+		ADDED from AndroidManifest.xml:105:13
 	android:name
-		ADDED from AndroidManifest.xml:102:19
+		ADDED from AndroidManifest.xml:104:19
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from AndroidManifest.xml:106:9
+ADDED from AndroidManifest.xml:108:9
 	android:name
-		ADDED from AndroidManifest.xml:106:20
+		ADDED from AndroidManifest.xml:108:20
 	android:value
-		ADDED from AndroidManifest.xml:106:66
+		ADDED from AndroidManifest.xml:108:66
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from :VisaCheckout-Android-SDK-3.5::7:5

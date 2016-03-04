@@ -68,12 +68,11 @@
                 android:name="android.nfc.action.TECH_DISCOVERED"
                 android:resource="@xml/nfc_tech_filter" />
         </activity>
-
-        <!--
         <activity
-            android:name=".TheMenu"
+            android:name="com.visa.android.integration.checkoutsampleapp.app.TheMenu"
             android:label="@string/title_activity_the_menu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
         <activity
             android:name=".LoginFragment"
             android:label="Login" ></activity>

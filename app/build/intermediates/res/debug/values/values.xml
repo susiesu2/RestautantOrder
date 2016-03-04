@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="Q1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Q2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Q3">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Q4">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Q5">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
     <!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values/values.xml -->
     <eat-comment/>
     <integer-array name="com_visa_checkout_progressbar_colors">
@@ -600,6 +642,9 @@
     <eat-comment/>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="back">Back</string>
     <!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
@@ -1062,7 +1107,19 @@
     <!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="facebook_app_id">Your Facebook App Id</string>
+    <string name="food1"><![CDATA[Spicy Thai Bangers & Mash]]></string>
+    <string name="food2"><![CDATA[Fried Chicken & Waffle]]></string>
+    <string name="food3"><![CDATA[Seafood Salad]]></string>
+    <string name="food4"><![CDATA[Hawaiian Teriyaki Burger]]></string>
+    <string name="food5"><![CDATA[Spicy Thai Bangers & Mash]]></string>
     <string name="match_parent">match_parent</string>
+    <string name="menu">Menu</string>
+    <string name="next">Next</string>
+    <string name="price1">15.00</string>
+    <string name="price2">14.00</string>
+    <string name="price3">16.00</string>
+    <string name="price4">10.00</string>
+    <string name="price5">9.00</string>
     <!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1072,6 +1129,7 @@
     <string name="store_picture_title">Save image</string>
     <!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="title_activity_page2">page2</string>
     <string name="title_activity_the_menu">TheMenu</string>
     <string name="wrap_content">wrap_content</string>
     <!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->

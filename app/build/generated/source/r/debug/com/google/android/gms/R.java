@@ -80,11 +80,11 @@ public final class R {
 		public static final int common_google_play_services_updating_text = 0x7f07002e;
 		public static final int common_google_play_services_updating_title = 0x7f07002f;
 		public static final int common_open_on_phone = 0x7f070030;
-		public static final int create_calendar_message = 0x7f0701d4;
-		public static final int create_calendar_title = 0x7f0701d5;
-		public static final int decline = 0x7f0701d6;
-		public static final int store_picture_message = 0x7f0701d9;
-		public static final int store_picture_title = 0x7f0701da;
+		public static final int create_calendar_message = 0x7f0701d5;
+		public static final int create_calendar_title = 0x7f0701d6;
+		public static final int decline = 0x7f0701d7;
+		public static final int store_picture_message = 0x7f0701e6;
+		public static final int store_picture_title = 0x7f0701e7;
 	}
 	public static final class style {
 		public static final int Theme_IAPTheme = 0x7f0a0106;
