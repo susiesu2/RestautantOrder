@@ -73,6 +73,10 @@
     <string name="welcome_user">Welcome, %s.</string>
     <string name="network_error">An error occurring while contacting Google. Please try again later.</string>
     <string name="logged_out">You are now logged out</string>
+    <string name="error_code">Error code: %d</string>
+    <string name="google_wallet_unavailable">Google Wallet is unavailable</string>
+
+
 
 
 

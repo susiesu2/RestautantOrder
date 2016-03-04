@@ -3,6 +3,9 @@
     package="com.example.haoweiw.restaurant">
 
     <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
 
     <uses-feature
         android:name="android.hardware.nfc"
@@ -39,6 +42,23 @@
         <activity
             android:name=".LoginFragment"
             android:label="Login" ></activity>
+        <activity
+            android:name=".AndroidPay"
+            android:label="AndroidPay"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enable"
+            android:value="true" />
+        <receiver
+            android:name="com.google.android.gms.wallet.EnableWalletOptimizationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION" />
+            </intent-filter>
+        </receiver>
 
     </application>
 

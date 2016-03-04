@@ -61,5 +61,10 @@ public class TheMenu extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void GotoPay(View view) {
+        Intent i = new Intent(this, AndroidPay.class);
+        startActivity(i);
+    }
+
 
 }

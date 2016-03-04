@@ -33,7 +33,8 @@
         android:text="@string/next"
         android:id="@+id/nextbutton"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="GotoPay"/>
 
     <Button
         style="?android:attr/buttonStyleSmall"
