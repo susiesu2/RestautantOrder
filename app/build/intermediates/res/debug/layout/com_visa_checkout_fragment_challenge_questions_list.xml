@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+ <TextView
+        android:id="@+id/com_visa_checkout_multichoice__title"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="30dp"
+        android:text="@string/com_visa_checkout_challenge_multianswer_list_header_text" />
+
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:background="@android:color/white"
+          android:layout_weight="1"
+          android:choiceMode="singleChoice"
+          android:drawSelectorOnTop="true"
+          android:id="@android:id/list">
+</ListView>
+</LinearLayout><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_fragment_challenge_questions_list.xml --><!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_fragment_challenge_questions_list.xml -->

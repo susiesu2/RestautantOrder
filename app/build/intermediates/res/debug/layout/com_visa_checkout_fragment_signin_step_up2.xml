@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/com_visa_checkout_layout_background">
+
+    <LinearLayout
+        android:id="@+id/com_visa_checkout_ll_step_up_questions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/com_visa_checkout_textView_please_confirm_your_identity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/com_visa_checkout_VisaCheckoutTextViewTitle"
+            android:text="@string/com_visa_checkout_challenge_please_confirm_your_identify"
+            />
+
+        <include
+            android:id="@+id/com_visa_checkout_challenge_tc_includedServerSideError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_textView_please_confirm_your_identity"
+            layout="@layout/com_visa_checkout_server_side_error" />
+
+    </LinearLayout>
+</ScrollView><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_fragment_signin_step_up2.xml --><!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_fragment_signin_step_up2.xml -->

@@ -1,0 +1,201 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:6:5
+MERGED from :play-services-analytics-8.1.0::21:5
+MERGED from :play-services-ads-8.1.0::20:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:7:5
+MERGED from :play-services-analytics-8.1.0::22:5
+MERGED from :play-services-ads-8.1.0::21:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:11:5
+MERGED from :card.io-5.1.1::11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:14:5
+MERGED from :card.io-5.1.1::12:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:24:5
+MERGED from :card.io-5.1.1::14:5
+	android:required
+		ADDED from AndroidManifest.xml:24:58
+	android:name
+		ADDED from AndroidManifest.xml:24:19
+uses-feature#android.hardware.camera.autofocus
+ADDED from AndroidManifest.xml:25:5
+MERGED from :card.io-5.1.1::17:5
+	android:required
+		ADDED from AndroidManifest.xml:25:68
+	android:name
+		ADDED from AndroidManifest.xml:25:19
+uses-feature#android.hardware.camera.flash
+ADDED from AndroidManifest.xml:26:5
+	android:required
+		ADDED from AndroidManifest.xml:26:64
+	android:name
+		ADDED from AndroidManifest.xml:26:19
+application
+ADDED from AndroidManifest.xml:28:5
+MERGED from :VisaCheckout-Android-SDK-3.5::14:5
+MERGED from :facebook-android-sdk-3.23.1::24:5
+MERGED from :card.io-5.1.1::21:5
+MERGED from :play-services-basement-8.1.0::20:5
+MERGED from :play-services-analytics-8.1.0::24:5
+MERGED from :play-services-ads-8.1.0::24:5
+MERGED from com.android.support:support-v4:23.1.1:22:5
+	android:label
+		ADDED from AndroidManifest.xml:31:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:29:9
+	android:icon
+		ADDED from AndroidManifest.xml:30:9
+	android:theme
+		ADDED from AndroidManifest.xml:32:9
+activity#com.visa.checkout.VisaMcomActivity
+ADDED from AndroidManifest.xml:35:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:36:13
+	android:name
+		ADDED from AndroidManifest.xml:35:19
+activity#com.visa.android.integration.checkoutsampleapp.app.PaymentStartActivity
+ADDED from AndroidManifest.xml:38:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:40:13
+	android:label
+		ADDED from AndroidManifest.xml:41:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+activity#com.visa.android.integration.checkoutsampleapp.app.PaymentSummaryActivity
+ADDED from AndroidManifest.xml:44:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:46:13
+	android:label
+		ADDED from AndroidManifest.xml:47:13
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+activity#com.visa.android.integration.checkoutsampleapp.app.ConfigurePaymentActivity
+ADDED from AndroidManifest.xml:50:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:51:19
+	android:name
+		ADDED from AndroidManifest.xml:50:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:52:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:53:17
+	android:name
+		ADDED from AndroidManifest.xml:53:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:54:17
+	android:name
+		ADDED from AndroidManifest.xml:54:27
+activity#io.card.payment.CardIOActivity
+ADDED from AndroidManifest.xml:60:9
+MERGED from :card.io-5.1.1::22:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:62:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:61:13
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:63:13
+	android:name
+		ADDED from AndroidManifest.xml:60:19
+activity#io.card.payment.DataEntryActivity
+ADDED from AndroidManifest.xml:67:9
+MERGED from :card.io-5.1.1::25:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:68:13
+	android:name
+		ADDED from AndroidManifest.xml:67:19
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from AndroidManifest.xml:71:9
+	android:name
+		ADDED from AndroidManifest.xml:71:20
+	android:value
+		ADDED from AndroidManifest.xml:71:66
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from :VisaCheckout-Android-SDK-3.5::7:5
+MERGED from :facebook-android-sdk-3.23.1::20:5
+MERGED from :card.io-5.1.1::7:5
+MERGED from :play-services-basement-8.1.0::18:5
+MERGED from :play-services-analytics-8.1.0::18:5
+MERGED from :play-services-ads-8.1.0::23:5
+MERGED from com.android.support:support-v4:23.1.1:20:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_CONTACTS
+ADDED from :VisaCheckout-Android-SDK-3.5::11:5
+	android:name
+		ADDED from :VisaCheckout-Android-SDK-3.5::11:22
+uses-permission#android.permission.READ_PROFILE
+ADDED from :VisaCheckout-Android-SDK-3.5::12:5
+	android:name
+		ADDED from :VisaCheckout-Android-SDK-3.5::12:22
+activity#com.visa.checkout.VisaActivity
+ADDED from :VisaCheckout-Android-SDK-3.5::15:9
+	android:label
+		ADDED from :VisaCheckout-Android-SDK-3.5::17:13
+	android:name
+		ADDED from :VisaCheckout-Android-SDK-3.5::16:13
+activity#com.visa.checkout.VisaTransparentOverlayActivity
+ADDED from :VisaCheckout-Android-SDK-3.5::19:9
+	android:theme
+		ADDED from :VisaCheckout-Android-SDK-3.5::21:13
+	android:name
+		ADDED from :VisaCheckout-Android-SDK-3.5::20:13
+meta-data#com.google.android.gms.version
+ADDED from :play-services-basement-8.1.0::21:9
+	android:name
+		ADDED from :play-services-basement-8.1.0::22:13
+	android:value
+		ADDED from :play-services-basement-8.1.0::23:13
+activity#com.google.android.gms.ads.AdActivity
+ADDED from :play-services-ads-8.1.0::26:9
+	android:configChanges
+		ADDED from :play-services-ads-8.1.0::28:13
+	android:theme
+		ADDED from :play-services-ads-8.1.0::29:13
+	android:name
+		ADDED from :play-services-ads-8.1.0::27:13
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from :play-services-ads-8.1.0::30:9
+	android:theme
+		ADDED from :play-services-ads-8.1.0::31:13
+	android:name
+		ADDED from :play-services-ads-8.1.0::30:19

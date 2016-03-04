@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/com_visa_checkout_autocomplete_item_height"
+    android:paddingLeft="@dimen/com_visa_checkout_autocomplete_padding_left"
+    android:paddingRight="@dimen/com_visa_checkout_autocomplete_padding_right"
+    android:gravity="center_vertical"
+    android:textColor="@color/com_visa_checkout_autocomplete_item_text"
+    android:textSize="@dimen/com_visa_checkout_autocomplete_text_size"/>
+<!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_address_autocomplete_list_item.xml -->

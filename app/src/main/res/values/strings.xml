@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Visa XO Sample App</string>
+    <string name="facebook_app_id">Your Facebook App Id</string>
+    <string name="bt_edit_visa_payment_text">Edit Payment</string>
+    <string name="bt_relaunch_visa_payment_text">Relaunch Payment</string>
+    <string name="match_parent">match_parent</string>
+    <string name="wrap_content">wrap_content</string>
+</resources>

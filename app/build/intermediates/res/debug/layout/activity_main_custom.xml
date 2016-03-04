@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_vertical_margin"
+    android:layout_marginRight="@dimen/activity_vertical_margin">
+
+    <!-- Custom view integration with Visa Checkout -->
+    <ImageView
+        android:id="@+id/visaCheckoutCustomView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:height="47dp"
+        android:width="213dp"
+        android:contentDescription="@string/com_visa_checkout_acc_visa_checkout_button"
+        android:src="@drawable/com_visa_checkout_button_logo"
+        android:background="@drawable/com_visa_checkout_carousel_visa_card"
+        android:padding="5dp"
+        android:onClick="checkoutWithVisa"
+        />
+
+</RelativeLayout><!-- From: file:/usr/local/google/home/haoweiw/StudioProjects/VisaCheckout-Android-SDK-3_5_1/RestaurantVIsa/app/src/main/res/layout/activity_main_custom.xml -->
