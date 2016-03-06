@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RestaurantOrder</string>
+    <string name="facebook_app_id">Your Facebook App Id</string>
+    <string name="bt_edit_visa_payment_text">Edit Payment</string>
+    <string name="bt_relaunch_visa_payment_text">Relaunch Payment</string>
+    <string name="match_parent">match_parent</string>
+    <string name="wrap_content">wrap_content</string>
+
+    <string name="title_activity_summary">Summary</string>
+    <string name="title_activity_the_menu">TheMenu</string>
+
+    <string name="menu">Menu</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="title_activity_page2">page2</string>
+    <string name="quantity">Qty</string>
+    <string name="price">Price</string>
+    <string name="subtotal">Subtotal:</string>
+    <string name="tax">Tax:</string>
+    <string name="total">Total:</string>
+    <string name="table">You are at table </string>
+    <string name="prompt">Choose a pick up time</string>
+    <string name="summary">Summary</string>
+    <string name="item">Item</string>
+
+    <integer name="length">5</integer>
+
+    <string name="food1">Spicy Thai Bangers &amp; Mash</string>
+    <string name="food2">Fried Chicken &amp; Waffle</string>
+    <string name="food3">Seafood Salad</string>
+    <string name="food4">Hawaiian Teriyaki Burger</string>
+    <string name="food5">Beef Lettuce Wraps</string>
+
+    <string-array name="food">
+        <item>@string/food1</item>
+        <item>@string/food2</item>
+        <item>@string/food3</item>
+        <item>@string/food4</item>
+        <item>@string/food5</item>
+    </string-array>
+
+    <string name="price1">15.00</string>
+    <string name="price2">14.00</string>
+    <string name="price3">16.00</string>
+    <string name="price4">10.00</string>
+    <string name="price5">9.00</string>
+
+    <string-array name="price">
+        <item>@string/price1</item>
+        <item>@string/price2</item>
+        <item>@string/price3</item>
+        <item>@string/price4</item>
+        <item>@string/price5</item>
+    </string-array>
+
+    <string name="des1">"<p>Local Thai sausages, cilantro mashed potatoes</p>"</string>
+    <string name="des2">"<p>Boneless buttermilk chicken, fried and served on a cornbread waffle with bbq syrup</p>"</string>
+    <string name="des3">"<p>Graded jumbo tiger shrimps, sourced scallops, tender squid, and New-Zealand mussels tossed in Thai spicy and sweet dressing</p>"</string>
+    <string name="des4">"<p>Teriyaki-garlic flavored burger, topped with grilled pineapple and served with lightly seasoned coleslaw</p>"</string>
+    <string name="des5">"<p>Steak lettuce wraps filled with thinly sliced steak, carrots and onion tossed with a spicy chili garlic sauce</p>"</string>
+
+    <string-array name="qty">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

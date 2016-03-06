@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values-zh-rCN/values.xml -->
+    <eat-comment/>
+    <string name="com_visa_checkout_acc_add_a_card">添加新卡</string>
+    <string name="com_visa_checkout_acc_add_address"><添加新地址/></string>
+    <string name="com_visa_checkout_acc_card_brand">信用卡品牌 %1$s</string>
+    <string name="com_visa_checkout_acc_card_brand_detected">信用卡品牌 %1$s 已被识别</string>
+    <string name="com_visa_checkout_acc_card_ending_in">尾号为 %2$s 的 %1$s 卡</string>
+    <string name="com_visa_checkout_acc_cvv_card_type_amex">印在信用卡正面卡号上方的四位数代码</string>
+    <string name="com_visa_checkout_acc_cvv_card_type_non_amex">印在信用卡背面签名条右侧的三位数代码</string>
+    <string name="com_visa_checkout_acc_forgotPassword_title_code_sent">忘记密码。重置代码已发送至您的电邮</string>
+    <string name="com_visa_checkout_acc_forgotPassword_title_collect_username">忘记了您的密码？输入您的电邮地址来获取说明</string>
+    <string name="com_visa_checkout_acc_forgotPassword_title_link_sent">忘记密码。说明已发送至您的电邮</string>
+    <string name="com_visa_checkout_acc_spn_country_picker_content_description">选择国家</string>
+    <string name="com_visa_checkout_acc_spn_locale_picker_content_description">选择地区</string>
+    <string name="com_visa_checkout_acc_visa_checkout_button">Visa Checkout</string>
+    <string name="com_visa_checkout_acc_vp_address_carousel">地址滚动显示，左右滑动以选择不同的地址。在最右边可以添加新地址</string>
+    <string name="com_visa_checkout_acc_vp_card_carousel">信用卡滚动显示，左右滑动以选择不同的卡。在最右边可以添加新卡</string>
+    <string name="com_visa_checkout_accessibility_3ds_logo">您正位于一个 3DS 安全页面</string>
+    <string name="com_visa_checkout_accessibility_logo_amex">American Express 标识</string>
+    <string name="com_visa_checkout_accessibility_logo_disc">Discover 标识</string>
+    <string name="com_visa_checkout_accessibility_logo_mc">Master 卡标识</string>
+    <string name="com_visa_checkout_accessibility_logo_visa">Visa 标识</string>
+    <string name="com_visa_checkout_accessibility_secure_lock">您正位于一个安全页面</string>
+    <string name="com_visa_checkout_add_address_preferred_content_description">这是我的首选邮寄地址</string>
+    <string name="com_visa_checkout_address_delete_success">已成功删除该地址</string>
+    <string name="com_visa_checkout_address_suggestion_accessiibility_title">建议地址</string>
+    <string name="com_visa_checkout_address_tray_delete_card">删除此地址</string>
+    <string name="com_visa_checkout_address_tray_edit_card">编辑此地址</string>
+    <string name="com_visa_checkout_alert_exit_add_address_title">退出地址</string>
+    <string name="com_visa_checkout_alert_exit_add_address_title_text">您确定要停止编辑该地址吗？</string>
+    <string name="com_visa_checkout_alert_exit_confirm_delete_address_title">删除</string>
+    <string name="com_visa_checkout_alert_exit_confirm_delete_address_title_text">您确定要删除此邮寄地址吗？</string>
+    <string name="com_visa_checkout_alert_exit_enrollment_title">退出注册</string>
+    <string name="com_visa_checkout_alert_exit_enrollment_title_text">您确定要停止创建您的帐户吗？</string>
+    <string name="com_visa_checkout_alert_locked_title">帐户已封锁</string>
+    <string name="com_visa_checkout_alert_locked_title_text">为了防止未授权访问，我们已封锁您的帐户一小时。请稍后重试</string>
+    <string name="com_visa_checkout_alert_max_attempts_title">帐户已封锁</string>
+    <string name="com_visa_checkout_alert_max_attempts_title_text">非常抱歉，您已超过允许的最大尝试次数。请等待一小时然后重试</string>
+    <string name="com_visa_checkout_alert_retry_title">重试</string>
+    <string name="com_visa_checkout_alert_retry_title_text">删除此地址时似乎发生问题，您想要重试吗？</string>
+    <string name="com_visa_checkout_alert_signin_failure_description">您的 Visa Checkout 密码不正确。请重试。</string>
+    <string name="com_visa_checkout_alert_signin_failure_title">无法登录</string>
+    <string name="com_visa_checkout_android_touchid_enable_alert_msg">Android Fingerprint authentication will enable you to login faster to Visa Checkout. Would you like to enable it within this app?</string>
+    <string name="com_visa_checkout_android_touchid_enable_alert_title">Fingerprint</string>
+    <string name="com_visa_checkout_argentina">阿根廷</string>
+    <string name="com_visa_checkout_australia">澳大利亚</string>
+    <string name="com_visa_checkout_brazil">巴西</string>
+    <string name="com_visa_checkout_bt_address_suggestion_use_this">使用这个地址</string>
+    <string name="com_visa_checkout_bt_cancel">取消</string>
+    <string name="com_visa_checkout_bt_continue">继续</string>
+    <string name="com_visa_checkout_bt_create_password">设置密码</string>
+    <string name="com_visa_checkout_bt_delete">删除</string>
+    <string name="com_visa_checkout_bt_device_locked_return_merchant">返回商家</string>
+    <string name="com_visa_checkout_bt_edit_address">编辑此地址</string>
+    <string name="com_visa_checkout_bt_forgotPassword_sendInstructions">发送代码</string>
+    <string name="com_visa_checkout_bt_forgotPassword_submit">提交</string>
+    <string name="com_visa_checkout_bt_label_add_address_continue">继续</string>
+    <string name="com_visa_checkout_bt_no">否</string>
+    <string name="com_visa_checkout_bt_okay">确认</string>
+    <string name="com_visa_checkout_bt_otp_get_new_reset_code">获取新的重置代码</string>
+    <string name="com_visa_checkout_bt_pay">付款</string>
+    <string name="com_visa_checkout_bt_retry">重试</string>
+    <string name="com_visa_checkout_bt_save_address">保存此地址</string>
+    <string name="com_visa_checkout_bt_update_tc_agree">同意并继续</string>
+    <string name="com_visa_checkout_bt_yes">是</string>
+    <string name="com_visa_checkout_cac_btCreateAccount">创建帐户并继续</string>
+    <string name="com_visa_checkout_cac_etCreateAccountConfirmationEmail_hint">电邮地址（确认订单）</string>
+    <string name="com_visa_checkout_cac_etCreateAccountPassword_hint">添加密码</string>
+    <string name="com_visa_checkout_cac_etCreateAccountPassword_secondaryHint">至少 6 个字符</string>
+    <string name="com_visa_checkout_cac_etCreateAccountUsernameEmail_hint">电邮地址（用户名）</string>
+    <string name="com_visa_checkout_cac_etCreateAccountUsernamePhoneNumber_hint">手机号码（用户名）</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountNext"><b>下一步：</b> 查看并确认您的付款详情</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountTitle">创建您的 Visa Checkout 帐户</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountUseMobileNumberLabel">作为用户名</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountUseMobileNumberLink">使用手机号码</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountUseMobileNumberLink_content_description">使用手机号码作为用户名。链接</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountWarningText">点击\"创建帐户并继续\"即表示您同意 Visa Checkout 的服务条款和隐私政策，并同意通过电邮或其他电子方式，而不是通过邮件从 Visa Checkout 收到帐户通知</string>
+    <string name="com_visa_checkout_canada">加拿大</string>
+    <string name="com_visa_checkout_cb_show_password">显示密码</string>
+    <string name="com_visa_checkout_challenge_multianswer_list_header_text">请选择您注册时使用的信用卡</string>
+    <string name="com_visa_checkout_challenge_please_confirm_your_identify">请确认您的身份</string>
+    <string name="com_visa_checkout_chile">智利</string>
+    <string name="com_visa_checkout_china">中国</string>
+    <string name="com_visa_checkout_colombia">哥伦比亚</string>
+    <string name="com_visa_checkout_dialog_cancel">取消</string>
+    <string name="com_visa_checkout_dialog_discard_changes_title">放弃更改</string>
+    <string name="com_visa_checkout_dialog_discard_changes_title_text">您确定要放弃更改并返回吗？</string>
+    <string name="com_visa_checkout_dialog_exit">退出</string>
+    <string name="com_visa_checkout_dialog_exit_title">退出付款</string>
+    <string name="com_visa_checkout_dialog_exit_title_text">您确定要关闭 Visa Checkout 吗？</string>
+    <string name="com_visa_checkout_dialog_retry">重试</string>
+    <string name="com_visa_checkout_dialog_server_problem">对不起，我们此时无法处理您的请求。请稍后重试</string>
+    <string name="com_visa_checkout_dialog_username_button_text">Visa Checkout 将显示您的信用卡或借记卡设计，为您提供更加个性化的购物体验</string>
+    <string name="com_visa_checkout_dialog_username_remember_text">此设备将记住您的用户名，在今后登录时您只需输入您的密码</string>
+    <string name="com_visa_checkout_dialog_username_title">个性化您的 Visa Checkout 体验</string>
+    <string name="com_visa_checkout_electronicCommunicationsPolicy">电子通信政策</string>
+    <string name="com_visa_checkout_error_add_pi_failed">您的付款信息有错误。请再试一次</string>
+    <string name="com_visa_checkout_error_enroll_generic">抱歉，我们此时无法处理您的请求。请稍后重试或创建一个新的帐户</string>
+    <string name="com_visa_checkout_error_identity_not_confirmed">身份未确定</string>
+    <string name="com_visa_checkout_error_internal_error_caused_sdk_exit">由于内部错误，支付已被终止</string>
+    <string name="com_visa_checkout_error_invalid_password">请选择另一个符合最低要求的密码</string>
+    <string name="com_visa_checkout_error_network_problem">网络似乎存在问题。请重试</string>
+    <string name="com_visa_checkout_error_no_cards_on_file">哎呀，看来您在我们系统里没有卡。请添加一张信用卡或借记卡来继续进行此次购买。</string>
+    <string name="com_visa_checkout_error_ofac_deny">您的 Visa Checkout 帐户现在不能使用。请联系客户支持</string>
+    <string name="com_visa_checkout_error_password_conflict">根据我们的记录，这个电邮地址或手机号码已登记在一个 Visa Checkout 帐户下</string>
+    <string name="com_visa_checkout_error_password_consecutive_identical_chars">密码内不能包含连续 3 个或以上的相同字符。</string>
+    <string name="com_visa_checkout_error_password_contains_portion_of_account_name_or_space">密码不能包含空格或您用户名的任何部分</string>
+    <string name="com_visa_checkout_error_password_insufficient">密码必须包含至少 6 个字符</string>
+    <string name="com_visa_checkout_error_password_invalid_chars">受支持的特殊字符包括：! @ # $ % &amp; * ?</string>
+    <string name="com_visa_checkout_error_password_must_change">无效的密码。新密码必须和旧密码不同</string>
+    <string name="com_visa_checkout_error_password_required">输入密码</string>
+    <string name="com_visa_checkout_error_password_too_long">密码不能包含多于 32 个字符</string>
+    <string name="com_visa_checkout_error_payment_problem">无法处理您的交易，请纠正您的信用卡并重试</string>
+    <string name="com_visa_checkout_error_session_expired_title">会话超时</string>
+    <string name="com_visa_checkout_error_session_timed_out">为了安全，您的会话已因闲置超时</string>
+    <string name="com_visa_checkout_error_sign_in_challenge_lock">抱歉，您提供的答案与我们记录中的不相符。为了您的安全以及防止未授权使用，我们已暂时封锁您的帐户。请稍候再试，或创建一个新的帐户</string>
+    <string name="com_visa_checkout_error_sign_in_genric">抱歉，我们此时无法处理您的请求。请稍后重试或创建一个新的帐户</string>
+    <string name="com_visa_checkout_error_sign_in_lock">抱歉，为了您的安全，我们已封锁您的帐户。如果您忘记了自己的密码，请点击“忘记密码”；如果您忘记了用户名，请创建新的帐户</string>
+    <string name="com_visa_checkout_error_sign_in_login_failed">抱歉，我们无法找到您的帐户。请检查您的用户名或密码</string>
+    <string name="com_visa_checkout_error_something_went_wrong">非常抱歉，我们此时正遇到技术问题。请稍后重试</string>
+    <string name="com_visa_checkout_error_something_went_wrong_title">有错误发生</string>
+    <string name="com_visa_checkout_error_step_up_generic">抱歉，我们此时无法处理您的请求。请稍后重试或创建一个新的帐户</string>
+    <string name="com_visa_checkout_error_step_up_session_end">抱歉，您的对话即将因闲置而结束</string>
+    <string name="com_visa_checkout_error_stepup_lockout">抱歉，您已超过允许的尝试次数。为了您的安全以及防止未授权使用，我们已暂时封锁您的帐户。请稍候再试，或创建一个新的帐户</string>
+    <string name="com_visa_checkout_error_unable_to_process_request">对不起，我们此时无法处理您的请求。请稍后重试</string>
+    <string name="com_visa_checkout_error_username_already_present">这个电邮地址已经有相关联的用户名。如果您忘记了您的密码，请使用“忘记密码”来重新设定。</string>
+    <string name="com_visa_checkout_et_add_address_post_code_title">邮政编码</string>
+    <string name="com_visa_checkout_et_add_address_postal_code_title">邮政编码</string>
+    <string name="com_visa_checkout_et_add_address_state_ca_title">省</string>
+    <string name="com_visa_checkout_et_add_address_state_title">州</string>
+    <string name="com_visa_checkout_et_add_address_zip_code_title">邮政编码</string>
+    <string name="com_visa_checkout_et_hint_add_Address_zip_postcode">邮政编码</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline">地址</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline1">第一行地址</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline2">第二行地址</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline3">第三行地址</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline3_nz">市郊</string>
+    <string name="com_visa_checkout_et_hint_add_address_city">城市</string>
+    <string name="com_visa_checkout_et_hint_add_address_city_town">市/镇</string>
+    <string name="com_visa_checkout_et_hint_add_address_name">姓名（名和姓）</string>
+    <string name="com_visa_checkout_et_hint_add_address_phone_number">电话号码</string>
+    <string name="com_visa_checkout_et_hint_add_address_state">州</string>
+    <string name="com_visa_checkout_et_hint_add_address_state_province">州/省</string>
+    <string name="com_visa_checkout_et_hint_add_address_zip">邮编</string>
+    <string name="com_visa_checkout_et_hint_country">国家</string>
+    <string name="com_visa_checkout_exo_button_go">前往</string>
+    <string name="com_visa_checkout_exo_button_signin_link">不是 %1$s？登录</string>
+    <string name="com_visa_checkout_exo_forgot_password_link">忘了？</string>
+    <string name="com_visa_checkout_exo_password_hint">输入密码</string>
+    <string name="com_visa_checkout_fingerprint_confirm_text">Confirm your fingerprint?</string>
+    <string name="com_visa_checkout_fingerprint_enrollment_text">Add your fingerprint to login without password next time?</string>
+    <string name="com_visa_checkout_fingerprint_hint">Touch your sensor</string>
+    <string name="com_visa_checkout_forgot_password_code_required_error">输入重置代码</string>
+    <string name="com_visa_checkout_hongkong">香港</string>
+    <string name="com_visa_checkout_iv_show_address_line_2">显示第二行地址</string>
+    <string name="com_visa_checkout_malaysia">马来西亚</string>
+    <string name="com_visa_checkout_mexico">墨西哥</string>
+    <string name="com_visa_checkout_new_customer">新客户</string>
+    <string name="com_visa_checkout_new_zealand">新西兰</string>
+    <string name="com_visa_checkout_password_hint">密码</string>
+    <string name="com_visa_checkout_payment_tray_delete_card">删除此卡</string>
+    <string name="com_visa_checkout_payment_tray_edit_card">编辑此卡</string>
+    <string name="com_visa_checkout_peru">秘鲁</string>
+    <string name="com_visa_checkout_pi_bt_edit_done">更新并继续</string>
+    <string name="com_visa_checkout_pi_bt_payment_done">继续</string>
+    <string name="com_visa_checkout_pi_confirm_delete">您确定要删除尾号为 %1$s 的信用卡吗？</string>
+    <string name="com_visa_checkout_pi_confirm_delete_nocard">您确定要删除此卡吗？</string>
+    <string name="com_visa_checkout_pi_delete_success">已成功删除尾号为 %1$s 的信用卡</string>
+    <string name="com_visa_checkout_pi_error_account_locked">抱歉，为了您的安全以及防止未授权使用，我们已暂时封锁您的帐户。请稍候再试，或创建一个新的帐户</string>
+    <string name="com_visa_checkout_pi_error_brazil_cpf_invalid">无效的 CPF 号</string>
+    <string name="com_visa_checkout_pi_error_brazil_cpf_missing">输入 CPF 号</string>
+    <string name="com_visa_checkout_pi_error_cannot_accept_different_card">很抱歉，您的信用卡号码此时不被接受。请尝试填写另一个不同信用卡。</string>
+    <string name="com_visa_checkout_pi_error_cannot_add_payment">有信用卡详情无效，无法添加地址</string>
+    <string name="com_visa_checkout_pi_error_card_already_added">抱歉，您的 Visa Checkout 帐户已经存有您输入的卡号。请尝试使用另一张卡</string>
+    <string name="com_visa_checkout_pi_error_card_date_expired">您的信用卡已失效，请选择另一张卡</string>
+    <string name="com_visa_checkout_pi_error_card_expiration_date_invalid">无效的日期</string>
+    <string name="com_visa_checkout_pi_error_card_expiration_date_missing">输入日期</string>
+    <string name="com_visa_checkout_pi_error_card_invalid">无效的卡号</string>
+    <string name="com_visa_checkout_pi_error_card_nickname_empty_invalid">无效的名称</string>
+    <string name="com_visa_checkout_pi_error_card_number_missing">输入卡号</string>
+    <string name="com_visa_checkout_pi_error_card_sec_code_invalid">无效的安全码</string>
+    <string name="com_visa_checkout_pi_error_card_sec_code_missing">输入安全码</string>
+    <string name="com_visa_checkout_pi_error_card_unsupported">此商家只支持以上信用卡品牌</string>
+    <string name="com_visa_checkout_pi_error_different_address">很抱歉，您填写的一项或多项资料此时无效。请尝试填写另一个不同的地址。</string>
+    <string name="com_visa_checkout_pi_error_different_card">很抱歉，您填写的一项或多项资料此时无效。请更正或填写另一个不同的信用卡。</string>
+    <string name="com_visa_checkout_pi_error_different_card_and_different_address">很抱歉，您填写的一项或多项资料此时无效。请尝试填写另一个不同的信用卡和地址。</string>
+    <string name="com_visa_checkout_pi_error_forbidden">抱歉，您尝试添加或修改付款方式的次数已超过最高限额。请在 24 小时后再试</string>
+    <string name="com_visa_checkout_pi_error_generic">抱歉，我们此时无法处理您的请求。请尝试使用另一张卡</string>
+    <string name="com_visa_checkout_pi_error_incorrect_details">抱歉，您的付款信息有错误。请重试</string>
+    <string name="com_visa_checkout_pi_error_one_or_more_different_card">很抱歉，您填写的一项或多项资料此时无效。请尝试填写另一个不同的信用卡。</string>
+    <string name="com_visa_checkout_pi_error_unable_to_add">抱歉，您此时无法添加信用卡。请尝试使用现有信用卡</string>
+    <string name="com_visa_checkout_pi_et_card_cvv_hint">安全码</string>
+    <string name="com_visa_checkout_pi_et_card_cvv_secondary_hint">xxx</string>
+    <string name="com_visa_checkout_pi_et_card_cvv_secondary_hint_amex">xxxx</string>
+    <string name="com_visa_checkout_pi_et_card_expiration_hint">失效</string>
+    <string name="com_visa_checkout_pi_et_card_expiration_hint_content_description">输入失效日期</string>
+    <string name="com_visa_checkout_pi_et_card_expiration_secondary_hint">月月/年年</string>
+    <string name="com_visa_checkout_pi_et_card_nickname_hint">卡名称（可选）</string>
+    <string name="com_visa_checkout_pi_et_card_nickname_secondary_hint">如“我的积分卡”、“联名卡”</string>
+    <string name="com_visa_checkout_pi_et_card_number_hint">卡号</string>
+    <string name="com_visa_checkout_pi_retry_delete">删除此卡时似乎发生问题，您想要重试吗？</string>
+    <string name="com_visa_checkout_pi_tv_addpayment_title">添加您的信用卡</string>
+    <string name="com_visa_checkout_pi_tv_ba_label">账单地址</string>
+    <string name="com_visa_checkout_pi_tv_card_preferred">这是您用于付款的首选卡</string>
+    <string name="com_visa_checkout_pi_tv_editpayment_title">编辑您的信用卡</string>
+    <string name="com_visa_checkout_pi_tv_footer_terms">使用此卡的方式，以用于客户服务、使用分析、诈骗预防和 Visa Checkout 相关市场营销</string>
+    <string name="com_visa_checkout_pi_tv_is_card_preferred">用于付款的首选卡</string>
+    <string name="com_visa_checkout_pi_tv_next">下一步：您即将创建您的 Visa Checkout 帐户</string>
+    <string name="com_visa_checkout_pi_tv_next_billing_address">下一步：添加您的账单地址</string>
+    <string name="com_visa_checkout_privacyPolicy">隐私政策</string>
+    <string name="com_visa_checkout_rc_accessibility_title">回顾付款和邮寄信息以完成购买</string>
+    <string name="com_visa_checkout_rc_accessibility_title_digital_flow">回顾付款信息以完成购买</string>
+    <string name="com_visa_checkout_rc_card_logo_acc">您已按下信用卡</string>
+    <string name="com_visa_checkout_rc_card_number">(x-%1$s)</string>
+    <string name="com_visa_checkout_rc_card_number_no_nickname">%1$s x-%2$s</string>
+    <string name="com_visa_checkout_rc_expired_card">已失效：%1$s/%2$s</string>
+    <string name="com_visa_checkout_rc_expires_card">于 %1$s/%2$s 失效</string>
+    <string name="com_visa_checkout_rc_merchant_logo_acc">您已按下商家标识</string>
+    <string name="com_visa_checkout_rc_password_change_success">您已成功重置密码</string>
+    <string name="com_visa_checkout_rc_tv_billing_address">账单地址</string>
+    <string name="com_visa_checkout_rc_tv_card_details">信用卡详情</string>
+    <string name="com_visa_checkout_rc_tv_hint_merchant_name">继续 %1$s 以完成您的购买</string>
+    <string name="com_visa_checkout_rc_tv_hint_merchant_name_digital_checkout">您将返回 %1$s</string>
+    <string name="com_visa_checkout_rc_tv_merchant_not_support_billing_msg">账单地址不受商家支持</string>
+    <string name="com_visa_checkout_rc_tv_merchant_not_support_card_brand_msg">%1$s 不被商家接受</string>
+    <string name="com_visa_checkout_rc_tv_merchant_ship_msg">商家不寄送至该地址</string>
+    <string name="com_visa_checkout_rc_tv_pay_with">付款用</string>
+    <string name="com_visa_checkout_rc_tv_ship_to">寄送至</string>
+    <string name="com_visa_checkout_rc_tv_total">总数：</string>
+    <string name="com_visa_checkout_rc_unaccepted_by_merchant">目前不被商家接受</string>
+    <string name="com_visa_checkout_rc_unverified_missing_info">需要更多信用卡信息</string>
+    <string name="com_visa_checkout_samsung_touchid_enable_alert_msg">Samsung Pass will enable you to login faster to Visa Checkout. Would you like to enable it within this app?</string>
+    <string name="com_visa_checkout_samsung_touchid_enable_alert_title">Samsung Pass</string>
+    <string name="com_visa_checkout_sandbox_watermark">仅用于测试</string>
+    <string name="com_visa_checkout_scan_your_card_using_camera">使用设备摄像头扫描您的信用卡</string>
+    <string name="com_visa_checkout_sign_up_notifications_email_invalid_error">无效的电邮地址</string>
+    <string name="com_visa_checkout_sign_up_notifications_email_required_error">输入电邮地址</string>
+    <string name="com_visa_checkout_signin">登录</string>
+    <string name="com_visa_checkout_signing_in">正在登录</string>
+    <string name="com_visa_checkout_sin_btSignIn">登录</string>
+    <string name="com_visa_checkout_sin_sup_username_invalid_error">无效的用户名</string>
+    <string name="com_visa_checkout_sin_tvSignInContinue">继续</string>
+    <string name="com_visa_checkout_sin_tvSignInContinue_content_description">继续注册。链接</string>
+    <string name="com_visa_checkout_sin_tvSignInForgotPassword">忘记密码？</string>
+    <string name="com_visa_checkout_sin_tvSignInForgotPassword_content_description">忘记密码？链接</string>
+    <string name="com_visa_checkout_sin_tvSignInNoVisaCheckoutAccount">没有 Visa Checkout 帐户？</string>
+    <string name="com_visa_checkout_sin_tvSignInTitleSignIn">登录 Visa Checkout </string>
+    <string name="com_visa_checkout_sin_tvSignInTitleWelcome">欢迎回来！</string>
+    <string name="com_visa_checkout_singapore">新加坡</string>
+    <string name="com_visa_checkout_smd_tvSignInModalDesc">为了您的安全，请登录您的 Visa Checkout 帐户以继续。</string>
+    <string name="com_visa_checkout_smd_tvSignInToContinue">请登录以继续。</string>
+    <string name="com_visa_checkout_south_africa">南非</string>
+    <string name="com_visa_checkout_step_up_answer_hint">答案</string>
+    <string name="com_visa_checkout_step_up_required_field">这是必填栏</string>
+    <string name="com_visa_checkout_sup_btSignUpContinue">以新客户身份继续</string>
+    <string name="com_visa_checkout_sup_bt_import">从通讯录导入信息</string>
+    <string name="com_visa_checkout_sup_etSignUpConfirmationEmail_hint">电邮地址（确认订单）</string>
+    <string name="com_visa_checkout_sup_etSignUpFirstName_hint">名</string>
+    <string name="com_visa_checkout_sup_etSignUpLastName_hint">姓</string>
+    <string name="com_visa_checkout_sup_tvSignUpAlreadyHaveAccount">已有 Visa Checkout 帐户？</string>
+    <string name="com_visa_checkout_sup_tvSignUpInfo">没关系，您仍然可以结账。您将在结账时被要求创建帐户</string>
+    <string name="com_visa_checkout_sup_tvSignUpSignIn">登录</string>
+    <string name="com_visa_checkout_sup_tvSignUpSignIn_content_description">继续登录。链接</string>
+    <string name="com_visa_checkout_sup_tvSignUpTitle">第一次使用 Visa Checkout？</string>
+    <string name="com_visa_checkout_tc_accessibility_title">条款和条件</string>
+    <string name="com_visa_checkout_termsOfService">服务条款</string>
+    <string name="com_visa_checkout_threeDS_fail_card_message">不可用</string>
+    <string name="com_visa_checkout_threeDS_fail_page_message">对不起，您的财务机构无法验证您的卡。为了安全起见，请用另一张卡</string>
+    <string name="com_visa_checkout_toast_use_roman">请用英文字母输入</string>
+    <string name="com_visa_checkout_tvSignIn_Preferences">在此设备上记住用户名和偏好</string>
+    <string name="com_visa_checkout_tvSignIn_Preferences_content_description">在此设备上记住用户名和偏好。链接</string>
+    <string name="com_visa_checkout_tvSignIn_Preferences_linkify_anchor">用户名</string>
+    <string name="com_visa_checkout_tvSignUp_fname_error">输入您的名</string>
+    <string name="com_visa_checkout_tvSignUp_fname_error_invalid_chars">您输入了一个无效字符。请重新输入您的名</string>
+    <string name="com_visa_checkout_tvSignUp_lname_error">输入您的姓</string>
+    <string name="com_visa_checkout_tvSignUp_lname_error_invalid_chars">您输入了一个无效字符。请重新输入您的姓</string>
+    <string name="com_visa_checkout_tv_3ds_secure_message_mc">此卡开通了 MasterCard® SecureCode™。为了您的安全，您的财务机构要求您先验证该交易，之后才能继续。</string>
+    <string name="com_visa_checkout_tv_3ds_secure_message_visa">此卡开通了 Verified by Visa。为了您的安全，您的财务机构需要您的消费者验证密码，之后才能继续。</string>
+    <string name="com_visa_checkout_tv_add_address_billing_title">添加您的账单地址</string>
+    <string name="com_visa_checkout_tv_add_address_city_invalid_error">无效的城市</string>
+    <string name="com_visa_checkout_tv_add_address_city_invalid_error_au">无效的市/市郊</string>
+    <string name="com_visa_checkout_tv_add_address_city_invalid_error_ca">无效的市/镇</string>
+    <string name="com_visa_checkout_tv_add_address_city_required_error">输入城市</string>
+    <string name="com_visa_checkout_tv_add_address_city_required_error_au">输入市/市郊</string>
+    <string name="com_visa_checkout_tv_add_address_city_required_error_ca">输入市/镇</string>
+    <string name="com_visa_checkout_tv_add_address_invalid_address">请输入有效的地址信息</string>
+    <string name="com_visa_checkout_tv_add_address_is_preferred">这是您的首选邮寄地址</string>
+    <string name="com_visa_checkout_tv_add_address_line3_invalid_error_nz">无效的市郊</string>
+    <string name="com_visa_checkout_tv_add_address_line3_required_error_nz">输入市郊</string>
+    <string name="com_visa_checkout_tv_add_address_line_invalid_error">无效的地址</string>
+    <string name="com_visa_checkout_tv_add_address_next_billing">下一步：您即将创建您的 Visa Checkout 帐户</string>
+    <string name="com_visa_checkout_tv_add_address_next_shipping">下一步：您即将添加您的信用卡</string>
+    <string name="com_visa_checkout_tv_add_address_phone_invalid_error">无效的电话号码</string>
+    <string name="com_visa_checkout_tv_add_address_phone_invalid_error_au">无效的电话号码</string>
+    <string name="com_visa_checkout_tv_add_address_phone_required_error">输入电话号码</string>
+    <string name="com_visa_checkout_tv_add_address_preferred">首选邮寄地址</string>
+    <string name="com_visa_checkout_tv_add_address_required_error">输入地址</string>
+    <string name="com_visa_checkout_tv_add_address_state_invalid_error">无效的州</string>
+    <string name="com_visa_checkout_tv_add_address_state_invalid_error_ca">无效的省</string>
+    <string name="com_visa_checkout_tv_add_address_state_required_error">输入州</string>
+    <string name="com_visa_checkout_tv_add_address_state_required_error_ca">输入省</string>
+    <string name="com_visa_checkout_tv_add_address_zip_invalid_error">无效的邮政编码</string>
+    <string name="com_visa_checkout_tv_add_address_zip_invalid_error_au">无效的邮政编码</string>
+    <string name="com_visa_checkout_tv_add_address_zip_invalid_error_ca">无效的邮政编码</string>
+    <string name="com_visa_checkout_tv_add_address_zip_required_error">输入邮政编码</string>
+    <string name="com_visa_checkout_tv_add_address_zip_required_error_au">输入邮政编码</string>
+    <string name="com_visa_checkout_tv_add_address_zip_required_error_ca">输入邮政编码</string>
+    <string name="com_visa_checkout_tv_add_first_name_on_card_invalid_error">无效的名</string>
+    <string name="com_visa_checkout_tv_add_first_name_on_card_required_error">输入名</string>
+    <string name="com_visa_checkout_tv_add_last_name_on_card_invalid_error">无效的姓</string>
+    <string name="com_visa_checkout_tv_add_last_name_on_card_required_error">输入姓</string>
+    <string name="com_visa_checkout_tv_another_email_sent">已再次发送电邮</string>
+    <string name="com_visa_checkout_tv_check_your_spam">查看您的垃圾邮件文件夹</string>
+    <string name="com_visa_checkout_tv_couldnt_verify">我们无法用邮政服务确认您输入的地址。是否直接保存？</string>
+    <string name="com_visa_checkout_tv_create_password_hint">新密码</string>
+    <string name="com_visa_checkout_tv_create_password_title">设置您的新密码</string>
+    <string name="com_visa_checkout_tv_device_locked_advice_text">对不起，我们现在无法确认您的代码。为了您的安全，我们已暂时封锁您的帐户</string>
+    <string name="com_visa_checkout_tv_device_locked_title">无法确认重置代码</string>
+    <string name="com_visa_checkout_tv_dont_see_email_adviceText">如果您还没有收到，请检查您的电邮地址。您输入的电邮地址有可能未和该 Visa Checkout 帐户相连。
+        请再尝试登录，或以新客户身份继续</string>
+    <string name="com_visa_checkout_tv_enter_password">只需创建一个新密码，然后继续回顾您的购买</string>
+    <string name="com_visa_checkout_tv_error_add_address_contacts_launch">此应用无权访问您的地址簿</string>
+    <string name="com_visa_checkout_tv_error_add_address_gps_launch">此应用无权访问您的设备位置</string>
+    <string name="com_visa_checkout_tv_error_fetch_address_failed">已取消从地址簿获取地址</string>
+    <string name="com_visa_checkout_tv_error_generic">对不起，我们此时无法处理您的请求。我们对给您造成的不便深表歉意</string>
+    <string name="com_visa_checkout_tv_forgotPassword_adviceText">输入和您的 Visa Checkout 帐户相连的电邮地址，我们将向您发送一个重置密码用的代码</string>
+    <string name="com_visa_checkout_tv_forgotPassword_adviceText1">我们已将电邮发送至 %1$s，可能过几分钟才能寄到。重置密码只需遵照电邮内的指示。</string>
+    <string name="com_visa_checkout_tv_forgotPassword_adviceText2">没有收到电邮？%1$s</string>
+    <string name="com_visa_checkout_tv_forgotPassword_check_spam">查看您的垃圾邮件文件夹</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_advicetext">代码已发送至 %1$s。如果您还没有收到，请再等几分钟。请遵照电邮内的说明</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_advicetext2">另一个代码已发送至 %1$s。如果您还没有收到，请再等几分钟。请遵照电邮内的说明</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_email_notreceived">看不到电邮？</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_hint">输入代码</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_title">输入密码重置代码</string>
+    <string name="com_visa_checkout_tv_forgotPassword_create_account">创建帐户。</string>
+    <string name="com_visa_checkout_tv_forgotPassword_email_hint">电邮地址</string>
+    <string name="com_visa_checkout_tv_forgotPassword_error">抱歉，为了您的安全，我们已封锁您的帐户。请联系客户支持</string>
+    <string name="com_visa_checkout_tv_forgotPassword_error_not_found">我们无法在系统中找到该电邮地址。请尝试输入另一个电邮地址，或者您也可以创建一个新的 Visa Checkout 帐户。</string>
+    <string name="com_visa_checkout_tv_forgotPassword_get_new_code_advice_text">我们将发送另一个密码重置代码至 %1$s</string>
+    <string name="com_visa_checkout_tv_forgotPassword_get_new_code_title">获取新的重置代码</string>
+    <string name="com_visa_checkout_tv_forgotPassword_link_sent_title">您应该很快就会收到一封电邮</string>
+    <string name="com_visa_checkout_tv_forgotPassword_no_email">看不到电邮？</string>
+    <string name="com_visa_checkout_tv_forgotPassword_returnToSignIn">返回登录</string>
+    <string name="com_visa_checkout_tv_forgotPassword_sendAgain">重新发送电邮说明</string>
+    <string name="com_visa_checkout_tv_forgotPassword_sendAgain_content_description">没有收到电邮？再次发送。链接</string>
+    <string name="com_visa_checkout_tv_forgotPassword_still_not_receive">如果您仍然收不到电邮，您也可以随时创建帐户。</string>
+    <string name="com_visa_checkout_tv_forgotPassword_title">忘记了您的密码？</string>
+    <string name="com_visa_checkout_tv_forgotPassword_wait_for">请再等几分钟——您的网络连接速度或电子邮件提供商可能还需要一些时间</string>
+    <string name="com_visa_checkout_tv_forgotPassword_you_can">您可以：</string>
+    <string name="com_visa_checkout_tv_forgotpassword_dont_see_email_title">如果您看不到电邮，可参考以下几个提示：</string>
+    <string name="com_visa_checkout_tv_header_back">返回</string>
+    <string name="com_visa_checkout_tv_header_logo">Visa Checkout</string>
+    <string name="com_visa_checkout_tv_hint_card_description">Visa…1234</string>
+    <string name="com_visa_checkout_tv_hint_card_expiry_date">目前不被商家接受</string>
+    <string name="com_visa_checkout_tv_hint_city_state_zip">市，州 邮政编码</string>
+    <string name="com_visa_checkout_tv_hint_edit_address_name">全名</string>
+    <string name="com_visa_checkout_tv_label_add_address_title">添加您的邮寄地址</string>
+    <string name="com_visa_checkout_tv_label_address_suggestion_recommended">推荐地址：</string>
+    <string name="com_visa_checkout_tv_label_address_suggestion_verify">请确认您的地址</string>
+    <string name="com_visa_checkout_tv_label_address_suggestion_you_entered">您输入的地址：</string>
+    <string name="com_visa_checkout_tv_label_answer_list_item">答案</string>
+    <string name="com_visa_checkout_tv_label_country_selection_title">请选择您的国家</string>
+    <string name="com_visa_checkout_tv_label_edit_address_title">编辑地址</string>
+    <string name="com_visa_checkout_tv_otp_expired_message">抱歉，您尝试重置代码的次数已超过最高限额。如要继续，请申请新的代码并重试</string>
+    <string name="com_visa_checkout_tv_otp_resetcode_notmatch">抱歉，您输入的重置代码和我们发送的不相配。请重试</string>
+    <string name="com_visa_checkout_tv_otp_signin_with_another_account">或者您可以登录另一个 Visa Checkout 帐户</string>
+    <string name="com_visa_checkout_tv_privacy">隐私政策</string>
+    <string name="com_visa_checkout_tv_privacy_content_description">隐私政策。链接</string>
+    <string name="com_visa_checkout_tv_resend_code">重新发送代码</string>
+    <string name="com_visa_checkout_tv_sign_up_confirmation">您已创建 Visa Checkout 帐户！</string>
+    <string name="com_visa_checkout_tv_terms">服务条款</string>
+    <string name="com_visa_checkout_tv_terms_content_description">服务条款。链接</string>
+    <string name="com_visa_checkout_tv_update_tc_agree_prefix">我们的条款和条件已经更新。</string>
+    <string name="com_visa_checkout_tv_update_tc_agree_suffix">请点击“同意并继续”以同意 Visa Checkout 的服务条款和隐私政策，然后继续</string>
+    <string name="com_visa_checkout_tv_wait_few_more_minutes">请再等几分钟——您的网络连接速度或电子邮件提供商可能还需要一些时间</string>
+    <string name="com_visa_checkout_uae">阿联酋</string>
+    <string name="com_visa_checkout_united_states">美国</string>
+    <string name="com_visa_checkout_username_hint">用户名（电邮或手机号码）</string>
+    <string name="com_visa_checkout_username_required_error">输入用户名</string>
+    <string name="com_visa_checkout_wv_complete_action_using">发送电邮时使用：</string>
+    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/play-services-basement-8.1.0/res/values-zh-rCN/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>需要更新 Android Wear 应用才能正常运行。"</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"只有更新 Android Wear 应用后，<ns1:g id="APP_NAME">%1$s</ns1:g>才能正常运行。"</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"更新Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"运行<ns1:g id="APP_NAME">%1$s</ns1:g>所需的一项或多项 Google Play 服务目前无法使用。请与开发者联系以寻求帮助。"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"启用Google Play服务"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"您必须先启用 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"启用Google Play服务"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"<ns1:g id="APP_NAME">%1$s</ns1:g>发出的请求"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"获取Google Play服务"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"您的手机没有安装 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"您的平板电脑没有安装 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"获取Google Play服务"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"此设备上不存在指定的帐户，请选择其他帐户。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"无效帐户"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"启用Google Play服务后才能运行应用。"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"您必须有数据网络连接才能接入Google Play服务。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"网络错误"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"更新Google Play服务后才能运行应用。"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play服务出错"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"登录该帐户时出错。请选择其他帐户。"</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"登录失败"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play服务出现未知问题。"</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"要运行<ns1:g id="APP_NAME">%1$s</ns1:g>，必须先启用 Google Play 服务，但您的设备目前不支持该服务。请与制造商联系以寻求帮助。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play服务"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"您必须先更新 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"更新Google Play服务"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"Google Play 服务当前正在更新，因此您无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play 服务正在更新"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"在手机上打开"</string>
+    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

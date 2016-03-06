@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/com_visa_checkout_seventy_two_px_watermark"
+    android:background="@color/com_visa_checkout_sandbox_layout_color"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/com_visa_checkout_twenty_six_px_watermark"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/com_visa_checkout_sandbox_watermark"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/com_visa_checkout_watermark_text"
+        android:textStyle="bold|normal" />
+</RelativeLayout><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_sandbox_watermark.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_sandbox_watermark.xml -->

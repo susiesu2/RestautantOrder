@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_visa_checkout_rl_body_container"
+    android:layout_width="match_parent"
+    android:background="@color/com_visa_checkout_layout_background"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/com_visa_checkout_tv_device_locked_title"
+        style="@style/com_visa_checkout_VisaCheckoutTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/com_visa_checkout_tv_device_locked_title" />
+
+    <TextView
+        android:id="@+id/com_visa_checkout_tv_device_locked_advice_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/com_visa_checkout_pl_seventy_px"
+        android:layout_below="@id/com_visa_checkout_tv_device_locked_title"
+        style="@style/com_visa_checkout_VisaCheckoutTextViewInfoLabel"
+        android:text="@string/com_visa_checkout_tv_device_locked_advice_text" />
+
+    <Button
+        android:id="@+id/com_visa_checkout_bt_return_to_merchant"
+        style="@style/com_visa_checkout_VisaCheckoutGoldButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/com_visa_checkout_tv_device_locked_advice_text"
+        android:layout_marginTop="@dimen/com_visa_checkout_pl_seventy_px"
+        android:text="@string/com_visa_checkout_bt_device_locked_return_merchant" />
+
+    <include
+        android:id="@+id/com_visa_checkout_forgotPassword_terms"
+        layout="@layout/com_visa_checkout_layout_terms_privacy_lock_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/com_visa_checkout_bt_return_to_merchant" />
+
+</RelativeLayout>
+<!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_device_locked.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_device_locked.xml -->

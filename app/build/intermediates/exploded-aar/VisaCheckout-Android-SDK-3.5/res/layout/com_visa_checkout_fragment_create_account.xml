@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_visa_checkout_sv_signup_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/com_visa_checkout_sixty_px"
+    android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+    android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+    android:background="@color/com_visa_checkout_layout_background">
+
+    <RelativeLayout
+        android:id="@+id/com_visa_checkout_rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tvCreateAccountTitle"
+            style="@style/com_visa_checkout_VisaCheckoutTextViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/com_visa_checkout_thirty_five_px"
+            android:layout_marginTop="@dimen/com_visa_checkout_forty_px"
+            android:text="@string/com_visa_checkout_cac_tvCreateAccountTitle" />
+
+        <include
+            android:id="@+id/com_visa_checkout_createAccountIncludedServerSideError"
+            layout="@layout/com_visa_checkout_server_side_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_tvCreateAccountTitle" />
+
+        <View
+            android:id="@+id/com_visa_checkout_createAccountUserDivider"
+            style="@style/com_visa_checkout_VisaCheckoutDividerLine"
+            android:layout_below="@id/com_visa_checkout_createAccountIncludedServerSideError"
+            android:layout_marginTop="@dimen/com_visa_checkout_sixty_five_px" />
+
+        <RelativeLayout
+            android:id="@+id/com_visa_checkout_createAccountEmailContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/com_visa_checkout_createAccountUserDivider">
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tvCreateAccountUsernameEmailHint"
+                style="@style/com_visa_checkout_VisaCheckoutHintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:paddingLeft="@dimen/com_visa_checkout_create_account_screen_padding"
+                android:paddingRight="@dimen/com_visa_checkout_create_account_screen_padding"
+                android:text="@string/com_visa_checkout_cac_etCreateAccountUsernameEmail_hint"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/com_visa_checkout_etCreateAccountUsernameEmail"
+                style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_visa_checkout_tvCreateAccountUsernameEmailHint"
+                android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:hint="@string/com_visa_checkout_cac_etCreateAccountUsernameEmail_hint"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLength="@integer/com_visa_checkout_create_account_edittext_maxlength"
+                android:paddingLeft="@dimen/com_visa_checkout_create_account_screen_padding"
+                android:paddingRight="@dimen/com_visa_checkout_create_account_screen_padding"
+                android:textColor="@color/com_visa_checkout_et_hint_color" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tvCreateAccountUsePhoneNumberLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_createAccountEmailContainer"
+            android:layout_marginBottom="@dimen/com_visa_checkout_forty_px"
+            android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_marginTop="@dimen/com_visa_checkout_thirteen_px"
+            android:contentDescription="@string/com_visa_checkout_cac_tvCreateAccountUseMobileNumberLink_content_description"
+            android:paddingLeft="@dimen/com_visa_checkout_create_account_screen_padding"
+            android:paddingRight="@dimen/com_visa_checkout_ten_px"
+            android:text="@string/com_visa_checkout_cac_tvCreateAccountUseMobileNumberLink"
+            android:textColor="@color/com_visa_checkout_global_font_dark_grey"
+            android:textSize="@dimen/com_visa_checkout_global_font_xsmall" />
+
+        <RelativeLayout
+            android:id="@+id/com_visa_checkout_createAccountUsernamePhoneNumberContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/com_visa_checkout_createAccountUserDivider"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/com_visa_checkout_createAccountPhoneNumberDivider"
+                style="@style/com_visa_checkout_VisaCheckoutDividerLine"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tvCreateAccountUsernamePhoneNumberHint"
+                style="@style/com_visa_checkout_VisaCheckoutHintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+                android:layout_marginRight="0dp"
+                android:layout_toLeftOf="@+id/com_visa_checkout_tvCreateAccountCancel"
+                android:paddingLeft="@dimen/com_visa_checkout_et_text_padding"
+                android:paddingRight="@dimen/com_visa_checkout_et_text_padding"
+                android:text="@string/com_visa_checkout_cac_etCreateAccountUsernamePhoneNumber_hint"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/com_visa_checkout_etCreateAccountUsernamePhoneNumber"
+                style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_visa_checkout_tvCreateAccountUsernamePhoneNumberHint"
+                android:layout_marginLeft="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+                android:layout_marginRight="0dp"
+                android:layout_toLeftOf="@+id/com_visa_checkout_tvCreateAccountCancel"
+                android:hint="@string/com_visa_checkout_cac_etCreateAccountUsernamePhoneNumber_hint"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tvCreateAccountCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/com_visa_checkout_forty_px"
+                android:layout_marginRight="@dimen/com_visa_checkout_ninty_px"
+                android:text="@string/com_visa_checkout_bt_cancel"
+                android:textColor="@color/com_visa_checkout_global_font_hyperlink"
+                android:textSize="@dimen/com_visa_checkout_global_font_small" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/com_visa_checkout_rlBottomPartContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_tvCreateAccountUsePhoneNumberLink">
+
+
+            <RelativeLayout
+                android:id="@+id/com_visa_checkout_rlCreateAccountUsernamePreferencesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/com_visa_checkout_etCreateAccountPassword"
+                android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:layout_marginTop="-4dp"
+                android:background="@color/com_visa_checkout_signin_remember_username_banner_bg"
+                android:paddingBottom="@dimen/com_visa_checkout_sixty_five_px"
+                android:paddingTop="@dimen/com_visa_checkout_sixty_five_px"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/com_visa_checkout_cbCreateAccountUsernamePreferences"
+                    style="@style/com_visa_checkout_VisaCheckoutGlobalCheckbox"
+                    android:layout_marginLeft="@dimen/com_visa_checkout_sixty_px"
+                    android:layout_marginTop="@dimen/com_visa_checkout_ten_px"
+                    android:contentDescription="@string/com_visa_checkout_tvSignIn_Preferences"
+                    android:checked="true" />
+
+                <TextView
+                    android:id="@+id/com_visa_checkout_tvCreateAccountUsernamePreferences"
+                    style="@style/com_visa_checkout_VisaCheckoutGlobalCheckboxTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/com_visa_checkout_cbCreateAccountUsernamePreferences"
+                    android:contentDescription="@string/com_visa_checkout_tvSignIn_Preferences_content_description"
+                    android:text="@string/com_visa_checkout_tvSignIn_Preferences" />
+            </RelativeLayout>
+
+            <!-- White space so that com_visa_checkout_rlCreateAccountUsernamePreferencesContainer wouldn't be visible while sliding behind AddPassword view-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/com_visa_checkout_etCreateAccountPassword"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/white" />
+
+            <View
+                android:id="@+id/com_visa_checkout_createAccountPasswordDivider"
+                style="@style/com_visa_checkout_VisaCheckoutDividerLine" />
+
+            <RelativeLayout
+                android:id = "@+id/com_visa_checkout_createAccountCpfContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_below="@+id/com_visa_checkout_createAccountPasswordDivider">
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tvCreateAccountCpfHint"
+                style="@style/com_visa_checkout_VisaCheckoutHintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+                android:layout_marginRight="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+                android:paddingLeft="@dimen/com_visa_checkout_et_text_padding"
+                android:paddingRight="@dimen/com_visa_checkout_et_text_padding"
+                android:text="@string/com_visa_checkout_cac_etCreateAccountCpf_hint" />
+
+            <EditText
+                android:id="@+id/com_visa_checkout_etCreateAccountCpf"
+                style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_visa_checkout_tvCreateAccountCpfHint"
+                android:hint="@string/com_visa_checkout_cac_etCreateAccountCpf_hint"
+                android:maxLength="@integer/com_visa_checkout_brazil_cpf_max_length"
+                android:inputType="number"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tvCreateAccountPasswordHint"
+                style="@style/com_visa_checkout_VisaCheckoutHintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/com_visa_checkout_createAccountCpfContainer"
+                android:layout_marginLeft="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+                android:layout_marginRight="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+                android:paddingLeft="@dimen/com_visa_checkout_et_text_padding"
+                android:paddingRight="@dimen/com_visa_checkout_et_text_padding"
+                android:text="@string/com_visa_checkout_cac_etCreateAccountPassword_hint"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/com_visa_checkout_etCreateAccountPassword"
+                style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_visa_checkout_tvCreateAccountPasswordHint"
+                android:contentDescription="@string/com_visa_checkout_cac_etCreateAccountPassword_hint"
+                android:hint="@string/com_visa_checkout_cac_etCreateAccountPassword_hint"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/com_visa_checkout_btCreateAccount"
+                style="@style/com_visa_checkout_VisaCheckoutGoldButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_visa_checkout_rlCreateAccountUsernamePreferencesContainer"
+                android:layout_marginBottom="@dimen/com_visa_checkout_sixty_px"
+                android:layout_marginTop="@dimen/com_visa_checkout_sixty_px"
+                android:text="@string/com_visa_checkout_cac_btCreateAccount" />
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tvCreateAccountNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_visa_checkout_btCreateAccount"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:gravity="center_horizontal"
+                android:text="@string/com_visa_checkout_cac_tvCreateAccountNext"
+                android:textColor="@color/com_visa_checkout_global_font_medium_grey"
+                android:textSize="@dimen/com_visa_checkout_global_font_small" />
+
+            <View
+                android:id="@+id/com_visa_checkout_v_signup_footer_divider"
+                style="@style/com_visa_checkout_VisaCheckoutDividerLine"
+                android:layout_below="@id/com_visa_checkout_tvCreateAccountNext"
+                android:layout_marginTop="@dimen/com_visa_checkout_hundred_px" />
+
+            <Spinner
+                android:id="@+id/com_visa_checkout_spCreateAccountCountryPicker"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/com_visa_checkout_global_drop_down_height"
+                android:layout_below="@id/com_visa_checkout_v_signup_footer_divider"
+                android:layout_marginLeft="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+                android:layout_marginRight="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+                android:contentDescription="@string/com_visa_checkout_acc_spn_country_picker_content_description"/>
+
+            <ImageView
+                android:id="@+id/com_visa_checkout_iv_signup_terms_privacy_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/com_visa_checkout_spCreateAccountCountryPicker"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/com_visa_checkout_twenty_px"
+                android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:layout_marginRight="@dimen/com_visa_checkout_pl_thirty_px"
+                android:layout_marginTop="@dimen/com_visa_checkout_twenty_px"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/com_visa_checkout_accessibility_secure_lock"
+                android:maxHeight="@dimen/com_visa_checkout_pl_forty_five_px"
+                android:maxWidth="@dimen/com_visa_checkout_pl_thirty_five_px"
+                android:minHeight="@dimen/com_visa_checkout_pl_forty_five_px"
+                android:minWidth="@dimen/com_visa_checkout_pl_thirty_five_px"
+                android:scaleType="fitXY"
+                android:src="@drawable/com_visa_checkout_ic_lock" />
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tv_signup_terms_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_visa_checkout_spCreateAccountCountryPicker"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/com_visa_checkout_twenty_four_px"
+                android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:layout_marginTop="@dimen/com_visa_checkout_twenty_four_px"
+                android:layout_toRightOf="@id/com_visa_checkout_iv_signup_terms_privacy_lock"
+                android:text="@string/com_visa_checkout_cac_tvCreateAccountWarningText"
+                android:textSize="@dimen/com_visa_checkout_tv_info_label_size" />
+
+            <View
+                android:id="@+id/com_visa_checkout_v_signup_footer_divider_bottom"
+                style="@style/com_visa_checkout_VisaCheckoutDividerLine"
+                android:layout_below="@+id/com_visa_checkout_tv_signup_terms_link"
+                android:layout_marginBottom="@dimen/com_visa_checkout_ten_px" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_fragment_create_account.xml -->
