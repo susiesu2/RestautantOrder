@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_textfield_default_holo_light" />
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_textfield_disabled_holo_light" />
+    <item android:state_enabled="true" android:state_focused="true" android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_textfield_activated_holo_light" />
+    <item android:state_enabled="true" android:state_activated="true" android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_textfield_focused_holo_light" />
+    <item android:state_enabled="true" android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_textfield_default_holo_light" />
+    <item android:state_focused="true" android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_textfield_disabled_focused_holo_light" />
+    <item android:state_enabled="false" android:drawable="@android:color/transparent" />
+    <item android:drawable="@drawable/com_visa_checkout_visacheckoutapptheme_textfield_disabled_holo_light" />
+</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_edittext_drawable.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_edittext_drawable.xml -->

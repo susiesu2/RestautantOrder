@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="1dp"
+    android:background="@color/com_visa_checkout_vme_light_background"
+    android:padding="2dp"
+    >
+
+</RelativeLayout>
+<!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_field_divider_line.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_field_divider_line.xml -->

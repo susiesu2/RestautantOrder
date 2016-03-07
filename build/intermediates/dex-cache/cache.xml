@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/libs/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/okio-1.6.0-ccbf3e6127d4cb38b5962c014b1236c73c3be885.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/libs/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-ef56e1b1161c0d175230c84a03a82778f4784f11.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-4baab13e69e0ec98361d6b73927b017dd5cf8087.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-0e505c0257c8fc4a0c3f041d52a58dc413dafcb2.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-a1719410dbdb20f89d9fac1412bb453851f80bd9.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/card.io-5.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="54222c652294ab0367aca73578304dc7b69acd22">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-7d065de21df257a21e52e2d81b4058ac5abbcc7e.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-e0be7c12bc04cab7c9ef39f63a0c81f0fb979fc4.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/libs/Samsung-pass-v1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ea8679e8961b2a9088bbfd9986fa5752f8d802b">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/Samsung-pass-v1.1.4-abc0231ae4fa04b71fa206895a043dcdfba0f97b.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-eb9b50b03b8d1912bdfe38813c83e257dc1203ae.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/libs/Samsung-sdk-v1.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e2ce3786b6e9519934c4a54aaaaf39525bf4486c">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/Samsung-sdk-v1.0.0-67a5c4ee21d6634e99442ebccbbdedd2b349d536.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c8414f03ff9e5b045f185921c9bc42914c906458">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-5b51cf5086abff8d9bed17924933b1be7ff4c2b7.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-7984dd0bcec4846e02d819000533c69855be565d.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/play-services-analytics-8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-7979fea300dc92a6b0258d810873617f8f5a7a50.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-0a973c06047785917855e5ed42324189fa5d4f02.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/libs/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-28a34884c5a540445a96d39ce4932d2e1de6d9c5.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-bce042b0c073055ffa8acd2f665d22af2f17cca9.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="56c7e2655423c34879573f0c254c2625ead1b069">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-d290955e1199727831a7a0224ad210a305b5ca28.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/play-services-basement-8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-ae4d0be1859ee4af9c241d0654fb07a8994ae224.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/play-services-ads-8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-e77ec7b74e80dac4f7d62f199771fa7bd1d5beb6.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-b547a13466b416a244585d381d9265f34d999f85.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/classes-2af6f12131eae3c97c2a827d52703a6fbe5aaf2c.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/libs/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/gson-2.3.1-426f11678a775f726b870cf3e4f74cf225766bdb.jar" />
+    </item>
+    <item
+        jar="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/libs/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-47cf9aff24b9029540d599ab4449cdd4245dfa71.jar" />
+    </item>
+
+</items>

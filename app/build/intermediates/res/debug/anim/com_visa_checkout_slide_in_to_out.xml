@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:fromYDelta="-100%" android:toYDelta="0%" android:duration="500"/>
+    <translate android:fromYDelta="0%" android:toYDelta="-100%" android:duration="500" android:startOffset="2500"/>
+</set><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/anim/com_visa_checkout_slide_in_to_out.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/anim/com_visa_checkout_slide_in_to_out.xml -->

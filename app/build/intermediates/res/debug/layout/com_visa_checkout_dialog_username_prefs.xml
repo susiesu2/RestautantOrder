@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="240dp"
+    android:padding="15dp"
+    android:background="@drawable/com_visa_checkout_white_background_shadow">
+
+    <TextView
+        android:id="@+id/com_visa_checkout_dialog_username_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/com_visa_checkout_dialog_username_title"/>
+
+    <TextView
+        android:id="@+id/com_visa_checkout_dialog_rememberpref_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/com_visa_checkout_dialog_username_remember_text"
+        android:textColor="@color/com_visa_checkout_label_hint_color"
+        android:layout_below="@+id/com_visa_checkout_dialog_username_title"/>
+
+    <TextView
+        android:id="@+id/com_visa_checkout_dialogButtonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/com_visa_checkout_dialog_username_button_text"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/com_visa_checkout_label_hint_color"
+        android:layout_below="@+id/com_visa_checkout_dialog_rememberpref_text" />
+
+</RelativeLayout><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_dialog_username_prefs.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_dialog_username_prefs.xml -->

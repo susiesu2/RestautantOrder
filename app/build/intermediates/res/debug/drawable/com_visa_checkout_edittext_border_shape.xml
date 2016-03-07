@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<solid android:color="#ffffff" />
+<stroke android:width="3dp" android:color="#000000" />
+<padding android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp" />
+</shape><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_edittext_border_shape.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_edittext_border_shape.xml -->

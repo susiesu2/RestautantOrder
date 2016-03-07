@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shuangsu.order.Menu"
+    android:background="#861010"
+    android:clickable="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/menu"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="50dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="@string/back"
+        android:id="@+id/backbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/nextbutton"
+        android:onClick="back"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="@string/next"
+        android:id="@+id/nextbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="next"/>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextbutton"
+        android:layout_below="@+id/textView">
+
+        <HorizontalScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="512dp"
+            android:id="@+id/horizontalScrollView" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:verticalSpacing="0dp"
+                    android:horizontalSpacing="0dp"
+                    android:stretchMode="columnWidth"
+
+                    android:id="@+id/layout1">
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/food1"
+                        android:id="@+id/food1"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:textColor="@color/white"
+                        android:fontFamily="fantasy"
+                        android:textSize="17dp"
+                        android:layout_marginBottom="8dp" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/img1"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_columnSpan="1"
+                        android:layout_rowSpan="3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/food1" />
+
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/des1"
+                        android:id="@+id/des1"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:textSize="15dp"
+                        android:textColor="@color/white"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="15dp" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rating1"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="3.8"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_marginRight="20dp"
+                        android:progressTint="@color/yellow" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/price1"
+                        android:id="@+id/price1"
+                        android:layout_row="0"
+                        android:layout_column="2"
+                        android:textSize="17dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Q1"
+                        android:entries="@array/qty"
+                        android:layout_row="1"
+                        android:layout_column="2" />
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:verticalSpacing="0dp"
+                    android:horizontalSpacing="0dp"
+                    android:stretchMode="columnWidth"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/layout2"
+                    android:layout_below="@+id/layout1"
+                    android:layout_alignParentLeft="true">
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/food2"
+                        android:id="@+id/food2"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:textColor="@color/white"
+                        android:fontFamily="fantasy"
+                        android:textSize="17dp"
+                        android:layout_marginBottom="8dp" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/img2"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_columnSpan="1"
+                        android:layout_rowSpan="3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/food2" />
+
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/des2"
+                        android:id="@+id/des2"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:textSize="15dp"
+                        android:textColor="@color/white"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="15dp" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rating2"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="4.5"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_marginRight="20dp"
+                        android:progressTint="@color/yellow" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/price2"
+                        android:id="@+id/price2"
+                        android:layout_row="0"
+                        android:layout_column="2"
+                        android:textSize="17dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Q2"
+                        android:entries="@array/qty"
+                        android:layout_row="1"
+                        android:layout_column="2" />
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:verticalSpacing="0dp"
+                    android:horizontalSpacing="0dp"
+                    android:stretchMode="columnWidth"
+
+                    android:id="@+id/layout3"
+                    android:layout_below="@+id/layout2"
+                    android:layout_alignParentLeft="true">
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/food3"
+                        android:id="@+id/food3"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:textColor="@color/white"
+                        android:fontFamily="fantasy"
+                        android:textSize="17dp"
+                        android:layout_marginBottom="8dp" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/img3"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_columnSpan="1"
+                        android:layout_rowSpan="3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/food3" />
+
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/des3"
+                        android:id="@+id/des3"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:textSize="15dp"
+                        android:textColor="@color/white"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="15dp" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rating3"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="4"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_marginRight="20dp"
+                        android:progressTint="@color/yellow" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/price3"
+                        android:id="@+id/price3"
+                        android:layout_row="0"
+                        android:layout_column="2"
+                        android:textSize="17dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:singleLine="false" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Q3"
+                        android:entries="@array/qty"
+                        android:layout_row="1"
+                        android:layout_column="2" />
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:verticalSpacing="0dp"
+                    android:horizontalSpacing="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:stretchMode="columnWidth"
+                    android:id="@+id/layout4"
+                    android:layout_below="@+id/layout3"
+                    android:layout_alignRight="@+id/layout3">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/img4"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_columnSpan="1"
+                        android:layout_rowSpan="3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/food4" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rating4"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="4.8"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_marginRight="20dp"
+                        android:progressTint="#ffff00" />
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/food4"
+                        android:id="@+id/food4"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:textColor="@color/white"
+                        android:fontFamily="fantasy"
+                        android:textSize="17dp"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/des4"
+                        android:id="@+id/des4"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:textSize="15dp"
+                        android:textColor="@color/white"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/price4"
+                        android:id="@+id/price4"
+                        android:layout_row="0"
+                        android:layout_column="2"
+                        android:textSize="17dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Q4"
+                        android:entries="@array/qty"
+                        android:layout_row="1"
+                        android:layout_column="2" />
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:verticalSpacing="0dp"
+                    android:horizontalSpacing="0dp"
+                    android:stretchMode="columnWidth"
+
+                    android:id="@+id/layout5"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentRight="true">
+
+                    <TextView
+                        android:layout_width="235dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/food5"
+                        android:id="@+id/food5"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:textColor="@color/white"
+                        android:fontFamily="fantasy"
+                        android:textSize="17dp"
+                        android:layout_marginBottom="8dp" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/img5"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_columnSpan="1"
+                        android:layout_rowSpan="3"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/food5" />
+
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/des5"
+                        android:id="@+id/des5"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:textSize="15dp"
+                        android:textColor="@color/white"
+                        android:textStyle="italic"
+                        android:layout_marginBottom="15dp" />
+
+                    <RatingBar
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rating5"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_marginRight="20dp"
+                        android:progressTint="@color/yellow" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/price5"
+                        android:id="@+id/price5"
+                        android:layout_row="0"
+                        android:layout_column="2"
+                        android:textSize="17dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/qty"
+                        android:id="@+id/Q5"
+                        android:layout_row="1"
+                        android:layout_column="2" />
+
+                </GridLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</RelativeLayout>
+
+<!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestautantOrder-Visa2-2/app/src/main/res/layout/activity_the_menu.xml -->

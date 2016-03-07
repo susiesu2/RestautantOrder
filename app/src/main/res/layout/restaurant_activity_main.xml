@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.haoweiw.restaurant.MainActivity">
+
+    <ImageView
+        android:id="@+id/menuImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/restaurantmenu"
+        android:scaleType="centerCrop"     />
+
+    <TextView
+        android:id="@+id/tableNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table Number"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_alignBottom="@id/menuImage"
+        android:layout_marginRight="20dp"  />
+
+    <TextView
+        android:id="@+id/tableNumberVar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tableNumber"
+        android:layout_alignBottom="@id/menuImage"
+        android:textSize="25sp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/startOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Order"
+        android:textSize="25sp"
+        android:layout_below="@id/menuImage"
+        android:onClick="goToMenu" />
+
+    <Button
+        android:id="@+id/pickUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Up"
+        android:textSize="25sp"
+        android:layout_below="@+id/startOrder" />
+
+
+
+
+</RelativeLayout>
