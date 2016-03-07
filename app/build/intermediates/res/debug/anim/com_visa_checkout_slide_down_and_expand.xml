@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="600"
+    android:fillAfter="true"
+    android:fillEnabled="true"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+    <scale
+        android:fillAfter="false"
+        android:fromXScale="1.0"
+        android:fromYScale="0.7"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+
+    <translate
+        android:fromXDelta="0%p"
+        android:fromYDelta="-50%"
+        android:toXDelta="0%p"
+        android:toYDelta="0%"></translate>
+
+</set><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/anim/com_visa_checkout_slide_down_and_expand.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/anim/com_visa_checkout_slide_down_and_expand.xml -->

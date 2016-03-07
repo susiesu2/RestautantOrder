@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_visa_checkout_sv_payment_form_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/com_visa_checkout_layout_background"
+    android:isScrollContainer="false">
+
+    <RelativeLayout
+        android:id="@+id/com_visa_checkout_rl_body_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tv_addpayment_title"
+            style="@style/com_visa_checkout_VisaCheckoutTextViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/com_visa_checkout_thirty_five_px"
+            android:text="@string/com_visa_checkout_pi_tv_addpayment_title" />
+
+        <include
+            android:id="@+id/com_visa_checkout_payment_tv_visa_server_side_error"
+            layout="@layout/com_visa_checkout_server_side_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_tv_addpayment_title" />
+
+        <RelativeLayout
+            android:id="@+id/com_visa_checkout_rl_card_icon_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_payment_tv_visa_server_side_error"
+            android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_marginTop="@dimen/com_visa_checkout_sixty_five_px">
+
+            <ImageView
+                android:id="@+id/com_visa_checkout_iv_visa_logo"
+                style="@style/com_visa_checkout_PaymentScreenCreditCardLogos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/com_visa_checkout_cc_logo_visa"
+                android:contentDescription="@string/com_visa_checkout_accessibility_logo_visa" />
+
+            <ImageView
+                android:id="@+id/com_visa_checkout_iv_mc_logo"
+                style="@style/com_visa_checkout_PaymentScreenCreditCardLogos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/com_visa_checkout_iv_visa_logo"
+                android:background="@drawable/com_visa_checkout_cc_logo_mastercard"
+                android:contentDescription="@string/com_visa_checkout_accessibility_logo_mc" />
+
+            <ImageView
+                android:id="@+id/com_visa_checkout_iv_disc_logo"
+                style="@style/com_visa_checkout_PaymentScreenCreditCardLogos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/com_visa_checkout_iv_mc_logo"
+                android:background="@drawable/com_visa_checkout_cc_logo_discover"
+                android:contentDescription="@string/com_visa_checkout_accessibility_logo_disc" />
+
+            <ImageView
+                android:id="@+id/com_visa_checkout_iv_amex_logo"
+                style="@style/com_visa_checkout_PaymentScreenCreditCardLogos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/com_visa_checkout_iv_disc_logo"
+                android:background="@drawable/com_visa_checkout_cc_logo_amex"
+                android:contentDescription="@string/com_visa_checkout_accessibility_logo_amex" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/com_visa_checkout_addPMCardNumberDivider"
+            style="@style/com_visa_checkout_VisaCheckoutDividerLine"
+            android:layout_below="@id/com_visa_checkout_rl_card_icon_container"
+            android:layout_marginTop="@dimen/com_visa_checkout_twenty_px" />
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tvAddPICardNumberHint"
+            style="@style/com_visa_checkout_VisaCheckoutHintLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_addPMCardNumberDivider"
+            android:text="@string/com_visa_checkout_pi_et_card_number_hint"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/com_visa_checkout_rl_card_number_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_tvAddPICardNumberHint"
+            android:layout_marginRight="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:id="@+id/com_visa_checkout_cardnumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.visa.checkout.widget.ClearableEditText
+                    android:id="@+id/com_visa_checkout_et_card_number"
+                    style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="0dp"
+                    android:hint="@string/com_visa_checkout_pi_et_card_number_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="@integer/com_visa_checkout_card_number_max_symbol_count"
+                    android:nextFocusDown="@+id/com_visa_checkout_et_card_expiration"
+                    android:nextFocusRight="@+id/com_visa_checkout_et_card_expiration" />
+
+                <ImageView
+                    android:id="@+id/com_visa_checkout_iv_pi_edit_card_type"
+                    style="@style/com_visa_checkout_PaymentScreenCreditCardLogos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/com_visa_checkout_et_card_number"
+                    android:layout_alignRight="@+id/com_visa_checkout_et_card_number"
+                    android:layout_alignTop="@+id/com_visa_checkout_et_card_number"
+                    android:layout_marginRight="0dp"
+                    android:focusableInTouchMode="true"
+                    android:scaleType="center"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/com_visa_checkout_cardscan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/com_visa_checkout_thirteen_px"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/com_visa_checkout_scan_your_card_using_camera"
+                android:maxHeight="@dimen/com_visa_checkout_credit_card_logo_height"
+                android:maxWidth="@dimen/com_visa_checkout_credit_card_logo_width"
+                android:scaleType="fitXY"
+                android:src="@drawable/com_visa_checkout_camera_btn" />
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/com_visa_checkout_anchor_view_for_alignment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@+id/com_visa_checkout_tvAddPIExpDateHint"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tvAddPIExpDateHint"
+            style="@style/com_visa_checkout_VisaCheckoutHintLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_rl_card_number_container"
+            android:layout_marginRight="@dimen/com_visa_checkout_twenty_px"
+            android:layout_toLeftOf="@id/com_visa_checkout_anchor_view_for_alignment"
+            android:text="@string/com_visa_checkout_pi_et_card_expiration_hint"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tvAddPICvvHint"
+            style="@style/com_visa_checkout_VisaCheckoutHintLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_rl_card_number_container"
+            android:layout_marginLeft="@dimen/com_visa_checkout_twenty_px"
+            android:layout_toRightOf="@id/com_visa_checkout_anchor_view_for_alignment"
+            android:text="@string/com_visa_checkout_pi_et_card_cvv_hint"
+            android:visibility="invisible" />
+
+        <com.visa.checkout.widget.ClearableEditText
+            android:id="@+id/com_visa_checkout_et_card_expiration"
+            style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/com_visa_checkout_tvAddPIExpDateHint"
+            android:layout_marginRight="@dimen/com_visa_checkout_twenty_px"
+            android:layout_toLeftOf="@id/com_visa_checkout_anchor_view_for_alignment"
+            android:contentDescription="@string/com_visa_checkout_pi_et_card_expiration_hint_content_description"
+            android:hint="@string/com_visa_checkout_pi_et_card_expiration_hint"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="@integer/com_visa_checkout_card_expiration_date_max_symbol_count"
+            android:minHeight="46dp"
+            android:nextFocusDown="@+id/com_visa_checkout_et_card_cvv" />
+
+        <EditText
+            android:id="@+id/com_visa_checkout_et_card_cvv"
+            style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/com_visa_checkout_tvAddPICvvHint"
+            android:layout_marginLeft="@dimen/com_visa_checkout_twenty_px"
+            android:layout_toRightOf="@id/com_visa_checkout_anchor_view_for_alignment"
+            android:contentDescription="@string/com_visa_checkout_pi_et_card_cvv_hint"
+            android:hint="@string/com_visa_checkout_pi_et_card_cvv_hint"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="@integer/com_visa_checkout_card_cvv_max_symbol_count"
+            android:minHeight="46dp"
+            android:nextFocusDown="@+id/com_visa_checkout_et_card_nickname" />
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tvAddPICardNicknameHint"
+            style="@style/com_visa_checkout_VisaCheckoutHintLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_et_card_cvv"
+            android:text="@string/com_visa_checkout_pi_et_card_nickname_hint"
+            android:visibility="invisible" />
+
+        <com.visa.checkout.widget.ClearableEditText
+            android:id="@+id/com_visa_checkout_et_card_nickname"
+            style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_tvAddPICardNicknameHint"
+            android:layout_marginBottom="@dimen/com_visa_checkout_sixty_px"
+            android:hint="@string/com_visa_checkout_pi_et_card_nickname_hint"
+            android:imeOptions="actionDone"
+            android:inputType="textCapWords"
+            android:maxLength="@integer/com_visa_checkout_card_nickname_max_symbol_count"
+            android:nextFocusDown="@+id/com_visa_checkout_chb_card_preferred" />
+
+        <RelativeLayout
+            android:id="@+id/com_visa_checkout_rl_preferred_pi_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_et_card_nickname">
+
+            <CheckBox
+                android:id="@+id/com_visa_checkout_chb_card_preferred"
+                style="@style/com_visa_checkout_VisaCheckoutGlobalCheckbox"
+                android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:contentDescription="@string/com_visa_checkout_pi_tv_is_card_preferred"
+                android:nextFocusDown="@+id/com_visa_checkout_tv_ba_labelc"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tv_chb_card_preferred"
+                style="@style/com_visa_checkout_VisaCheckoutGlobalCheckboxTextLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/com_visa_checkout_chb_card_preferred"
+                android:layout_alignTop="@+id/com_visa_checkout_chb_card_preferred"
+                android:layout_toRightOf="@id/com_visa_checkout_chb_card_preferred"
+                android:gravity="center_vertical"
+                android:text="@string/com_visa_checkout_pi_tv_is_card_preferred"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tv_card_preferred"
+                style="@style/com_visa_checkout_VisaCheckoutGlobalCheckboxTextLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:text="@string/com_visa_checkout_pi_tv_card_preferred"
+
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tv_ba_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_rl_preferred_pi_container"
+            android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+            android:layout_marginTop="@dimen/com_visa_checkout_seventy_five_px"
+            android:nextFocusDown="@+id/com_visa_checkout_vp_address_carousel_container"
+            android:text="@string/com_visa_checkout_pi_tv_ba_label"
+            android:textColor="@color/com_visa_checkout_global_font_medium_grey"
+            android:textSize="@dimen/com_visa_checkout_global_font_large" />
+
+        <RelativeLayout
+            android:id="@+id/com_visa_checkout_rl_billing_address_carousel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/com_visa_checkout_address_carousel_layout_height"
+            android:layout_below="@id/com_visa_checkout_tv_ba_label"
+            android:layout_marginTop="@dimen/com_visa_checkout_sixty_px">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/com_visa_checkout_vp_address_carousel_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:importantForAccessibility="no"
+                android:nextFocusDown="@+id/com_visa_checkout_bt_payment_done"
+                android:overScrollMode="never" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/com_visa_checkout_bt_payment_done"
+            style="@style/com_visa_checkout_VisaCheckoutGoldButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_rl_billing_address_carousel"
+            android:layout_marginBottom="@dimen/com_visa_checkout_sixty_px"
+            android:layout_marginTop="@dimen/com_visa_checkout_sixty_px"
+            android:text="@string/com_visa_checkout_pi_bt_payment_done" />
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tvAddPINext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/com_visa_checkout_bt_payment_done"
+            android:layout_centerHorizontal="true"
+            android:text="@string/com_visa_checkout_pi_tv_next"
+            android:textColor="@color/com_visa_checkout_global_font_medium_grey"
+            android:textSize="@dimen/com_visa_checkout_global_font_small"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/com_visa_checkout_pi_rl_footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/com_visa_checkout_tvAddPINext"
+            android:layout_marginTop="@dimen/com_visa_checkout_hundred_px">
+
+            <View
+                android:id="@+id/com_visa_checkout_pi_footer_divider"
+                style="@style/com_visa_checkout_VisaCheckoutDividerLine"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/com_visa_checkout_twenty_px" />
+
+            <ImageView
+                android:id="@+id/com_visa_checkout_pi_iv_terms_privacy_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/com_visa_checkout_pi_footer_divider"
+                android:layout_marginLeft="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:layout_marginTop="@dimen/com_visa_checkout_ten_px"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/com_visa_checkout_accessibility_secure_lock"
+                android:maxHeight="@dimen/com_visa_checkout_pl_forty_five_px"
+                android:maxWidth="@dimen/com_visa_checkout_pl_thirty_five_px"
+                android:minHeight="@dimen/com_visa_checkout_pl_forty_five_px"
+                android:minWidth="@dimen/com_visa_checkout_pl_thirty_five_px"
+                android:scaleType="fitXY"
+                android:src="@drawable/com_visa_checkout_ic_lock" />
+
+            <TextView
+                android:id="@+id/com_visa_checkout_pi_tv_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/com_visa_checkout_pi_footer_divider"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/com_visa_checkout_twenty_four_px"
+                android:layout_marginLeft="@dimen/com_visa_checkout_thirty_px"
+                android:layout_marginRight="@dimen/com_visa_checkout_layout_margin_left_right"
+                android:layout_toRightOf="@id/com_visa_checkout_pi_iv_terms_privacy_lock"
+                android:text="@string/com_visa_checkout_pi_tv_footer_terms"
+                android:textColor="@color/com_visa_checkout_global_font_dark_grey"
+                android:textSize="@dimen/com_visa_checkout_global_font_xxsmall" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/com_visa_checkout_rl_change_password_confirm_notification"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/com_visa_checkout_pl_hundred_forty_px"
+            android:layout_weight="1"
+            android:background="@color/com_visa_checkout_layout_background"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/com_visa_checkout_iv_rc_check_confirm"
+                android:layout_width="@dimen/com_visa_checkout_pl_forty_px"
+                android:layout_height="@dimen/com_visa_checkout_pl_forty_px"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/com_visa_checkout_pl_forty_px"
+                android:layout_marginLeft="@dimen/com_visa_checkout_pl_forty_px"
+                android:layout_marginRight="@dimen/com_visa_checkout_pl_thirty_px"
+                android:layout_marginTop="@dimen/com_visa_checkout_pl_forty_px"
+                android:scaleType="fitXY"
+                android:src="@drawable/com_visa_checkout_iv_check_confirm" />
+
+            <TextView
+                android:id="@+id/com_visa_checkout_tv_change_password_confirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/com_visa_checkout_iv_rc_check_confirm"
+                android:hint="@string/com_visa_checkout_tv_sign_up_confirmation"
+                android:textColor="@color/com_visa_checkout_tv_title_color"
+                android:textSize="@dimen/com_visa_checkout_thirty_seven_px_sp" />
+
+            <View
+                android:id="@+id/com_visa_checkout_v_divider_update_t_c"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/com_visa_checkout_ten_px"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/com_visa_checkout_img_shadow" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_fragment_add_payment_method.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_fragment_add_payment_method.xml -->

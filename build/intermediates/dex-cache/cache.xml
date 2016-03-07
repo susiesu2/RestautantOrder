@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/card.io-5.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="54222c652294ab0367aca73578304dc7b69acd22">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-c410d9ee4022fc106b92b64004f0acecead1175b.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-758180b24bcc76ad2bb080e6a2aba39170f169f7.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-47f07bf8ca499ad911d4ff42304b6987522ea06c.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/libs/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-0fd5c009efff48fb27ad1b64c6f2e84b35ab9079.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-819482730cbd9f8e9d659e6e6b608bf8aaa3a922.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-04aa933cdb64c988d61f3132b22330c5bcad57c9.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/libs/Samsung-sdk-v1.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e2ce3786b6e9519934c4a54aaaaf39525bf4486c">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/Samsung-sdk-v1.0.0-428c5c7e2dbfed1589a257e53430ab7df58270f1.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/libs/Samsung-pass-v1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ea8679e8961b2a9088bbfd9986fa5752f8d802b">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/Samsung-pass-v1.1.4-4dd4013632872cc27ffd91c0af392e746f1946d6.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/libs/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-b6c42336e99946873c138fe8a200fceb4568f778.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/libs/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-aaa74abc7b846e330bf40b610c798ac53124482e.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-8f12f1835f64180c1d5f341635eccc76dcbf1358.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c8414f03ff9e5b045f185921c9bc42914c906458">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-b43a7549a8559acd379e2d6f8df3079eef78f417.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-bbd27cb0914c62e739a3ab0a093cdbc919fda5ed.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/play-services-analytics-8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-339db9d9c2ca2fccd6427a59e5016d845482791c.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/play-services-ads-8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-a81de0ae4a4eaa485749b13fefa8139c65e9a11e.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="56c7e2655423c34879573f0c254c2625ead1b069">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-2260124a96564973d58e965774ffb93e9eb6d138.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-8080675e47a635ef7728ccab61761192f7725749.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-765b4f41129bc14e5485f6db4d165afe3a960265.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-5035dc2137c3c6a726fec72fb16426c9b97f8a6e.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-bff8842630c996d0a2c0a5b910c0e5a78727186a.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/libs/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/gson-2.3.1-c8ea66e2abd36572cebd42233f606591982398ed.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/libs/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/okio-1.6.0-fcdc6b773a1f81d3ae0ec30ec194b09f5d756bd3.jar" />
+    </item>
+    <item
+        jar="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/play-services-basement-8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/pre-dexed/debug/classes-e14a0f90073c3035bd69d6bcb58b5f2cdb09e266.jar" />
+    </item>
+
+</items>

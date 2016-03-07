@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/com_visa_checkout_global_font_medium_grey" android:state_enabled="false" />
+    <item android:color="@color/com_visa_checkout_global_font_dark_grey" />
+</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/color/com_visa_checkout_edittext_default_text_color.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/color/com_visa_checkout_edittext_default_text_color.xml -->

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVAR"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVAR"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/values-pt/values.xml -->
+    <eat-comment/>
+    <string name="com_visa_checkout_acc_add_a_card">Adicionar um novo cartão</string>
+    <string name="com_visa_checkout_acc_add_address">Adicionar um novo endereço</string>
+    <string name="com_visa_checkout_acc_card_brand">Marca do cartão %1$s</string>
+    <string name="com_visa_checkout_acc_card_brand_detected">A marca do cartão %1$s foi reconhecida</string>
+    <string name="com_visa_checkout_acc_card_ending_in">Cartão %1$s com final %2$s</string>
+    <string name="com_visa_checkout_acc_cvv_card_type_amex">um código de quatro dígitos impresso na parte frontal do cartão acima do número</string>
+    <string name="com_visa_checkout_acc_cvv_card_type_non_amex">um código de três dígitos impresso no verso do cartão à direita da faixa de assinatura</string>
+    <string name="com_visa_checkout_acc_forgotPassword_title_code_sent">Esqueceu a senha. O código de redefinição foi enviado para seu e-mail</string>
+    <string name="com_visa_checkout_acc_forgotPassword_title_collect_username">Esqueceu sua senha? Insira seu endereço de e-mail para receber as instruções</string>
+    <string name="com_visa_checkout_acc_forgotPassword_title_link_sent">Esqueceu a senha. As instruções foram enviadas por e-mail</string>
+    <string name="com_visa_checkout_acc_spn_country_picker_content_description">Selecione o país</string>
+    <string name="com_visa_checkout_acc_spn_locale_picker_content_description">Selecione a região</string>
+    <string name="com_visa_checkout_acc_visa_checkout_button">Visa Checkout</string>
+    <string name="com_visa_checkout_acc_vp_address_carousel">Portfólio de Endereços, deslize para a esquerda ou para a direita para selecionar outro endereço. Vá até a extrema direita para adicionar um novo endereço</string>
+    <string name="com_visa_checkout_acc_vp_card_carousel">Portfólio de Cartões, deslize para a esquerda ou para a direita para selecionar outro cartão. Vá até a extrema direita para adicionar um novo cartão</string>
+    <string name="com_visa_checkout_accessibility_3ds_logo">Você está em uma página segura 3DS</string>
+    <string name="com_visa_checkout_accessibility_logo_amex">Logotipo da American Express</string>
+    <string name="com_visa_checkout_accessibility_logo_disc">Logotipo da Discover</string>
+    <string name="com_visa_checkout_accessibility_logo_mc">Logotipo da Mastercard</string>
+    <string name="com_visa_checkout_accessibility_logo_visa">Logotipo da Visa</string>
+    <string name="com_visa_checkout_accessibility_secure_lock">Você está em uma página segura</string>
+    <string name="com_visa_checkout_add_address_preferred_content_description">Este é meu endereço de entrega preferencial</string>
+    <string name="com_visa_checkout_address_delete_success">O endereço foi excluído</string>
+    <string name="com_visa_checkout_address_suggestion_accessiibility_title">Endereço sugerido</string>
+    <string name="com_visa_checkout_address_tray_delete_card">Excluir este endereço</string>
+    <string name="com_visa_checkout_address_tray_edit_card">Editar este endereço</string>
+    <string name="com_visa_checkout_alert_exit_add_address_title">Sair de Endereço</string>
+    <string name="com_visa_checkout_alert_exit_add_address_title_text">Deseja mesmo parar de editar esse endereço?</string>
+    <string name="com_visa_checkout_alert_exit_confirm_delete_address_title">Excluir</string>
+    <string name="com_visa_checkout_alert_exit_confirm_delete_address_title_text">Deseja mesmo excluir esse endereço de entrega?</string>
+    <string name="com_visa_checkout_alert_exit_enrollment_title">Sair da inscrição</string>
+    <string name="com_visa_checkout_alert_exit_enrollment_title_text">Deseja mesmo parar de criar sua conta?</string>
+    <string name="com_visa_checkout_alert_locked_title">Conta bloqueada</string>
+    <string name="com_visa_checkout_alert_locked_title_text">Para evitar acesso não autorizado, nós bloqueamos sua conta por uma hora. Tente novamente mais tarde</string>
+    <string name="com_visa_checkout_alert_max_attempts_title">Conta bloqueada</string>
+    <string name="com_visa_checkout_alert_max_attempts_title_text">Pedimos desculpas por qualquer inconveniente. Você excedeu o limite máximo de tentativas permitido. Você pode tentar novamente após uma hora</string>
+    <string name="com_visa_checkout_alert_retry_title">Tentar novamente</string>
+    <string name="com_visa_checkout_alert_retry_title_text">Parece que houve um problema ao excluir esse endereço. Deseja tentar novamente?</string>
+    <string name="com_visa_checkout_alert_signin_failure_description">Sua senha do Visa Checkout está incorreta. Tente novamente</string>
+    <string name="com_visa_checkout_alert_signin_failure_title">Não foi possível acessar a conta</string>
+    <string name="com_visa_checkout_android_touchid_enable_alert_msg">Android Fingerprint authentication will enable you to login faster to Visa Checkout. Would you like to enable it within this app?</string>
+    <string name="com_visa_checkout_android_touchid_enable_alert_title">Fingerprint</string>
+    <string name="com_visa_checkout_argentina">Argentina</string>
+    <string name="com_visa_checkout_australia">Austrália</string>
+    <string name="com_visa_checkout_brazil">Brasil</string>
+    <string name="com_visa_checkout_bt_address_suggestion_use_this">Usar esse endereço</string>
+    <string name="com_visa_checkout_bt_cancel">Cancelar</string>
+    <string name="com_visa_checkout_bt_continue">Continuar</string>
+    <string name="com_visa_checkout_bt_create_password">Criar senha</string>
+    <string name="com_visa_checkout_bt_delete">Excluir</string>
+    <string name="com_visa_checkout_bt_device_locked_return_merchant">Voltar ao estabelecimento comercial</string>
+    <string name="com_visa_checkout_bt_edit_address">Editar esse endereço</string>
+    <string name="com_visa_checkout_bt_forgotPassword_sendInstructions">Enviar código</string>
+    <string name="com_visa_checkout_bt_forgotPassword_submit">Enviar</string>
+    <string name="com_visa_checkout_bt_label_add_address_continue">Continuar</string>
+    <string name="com_visa_checkout_bt_no">Não</string>
+    <string name="com_visa_checkout_bt_okay">OK</string>
+    <string name="com_visa_checkout_bt_otp_get_new_reset_code">Receber um novo código de redefinição</string>
+    <string name="com_visa_checkout_bt_pay">Pagar</string>
+    <string name="com_visa_checkout_bt_retry">Tentar novamente</string>
+    <string name="com_visa_checkout_bt_save_address">Salvar esse endereço</string>
+    <string name="com_visa_checkout_bt_update_tc_agree">Concordo, continuar</string>
+    <string name="com_visa_checkout_bt_yes">Sim</string>
+    <string name="com_visa_checkout_cac_btCreateAccount">Criar conta e continuar</string>
+    <string name="com_visa_checkout_cac_etCreateAccountConfirmationEmail_hint">Endereço de e-mail (confirmação do pedido)</string>
+    <string name="com_visa_checkout_cac_etCreateAccountCpf_hint">Adicionar CPF</string>
+    <string name="com_visa_checkout_cac_etCreateAccountCpf_secondaryHint">XXX.XXX.XXX-XX</string>
+    <string name="com_visa_checkout_cac_etCreateAccountPassword_hint">Adicionar senha</string>
+    <string name="com_visa_checkout_cac_etCreateAccountPassword_secondaryHint">Mínimo de 6 caracteres</string>
+    <string name="com_visa_checkout_cac_etCreateAccountUsernameEmail_hint">Endereço de e-mail (nome de usuário)</string>
+    <string name="com_visa_checkout_cac_etCreateAccountUsernamePhoneNumber_hint">Número de telefone celular (nome de usuário)</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountNext">Conferir e confirmar suas informações de pagamento</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountTitle">Crie sua conta no Visa Checkout</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountUseMobileNumberLabel">como nome de usuário</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountUseMobileNumberLink">Usar o número de telefone celular</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountUseMobileNumberLink_content_description">Usar o número de telefone celular como nome de usuário. Link</string>
+    <string name="com_visa_checkout_cac_tvCreateAccountWarningText">Ao tocar em \"Criar conta e continuar\" você concorda com os Termos de Serviço e a Política de Privacidade e concorda em receber avisos sobre a conta no Visa Checkout por e-mail ou eletronicamente, em vez de por correio</string>
+    <string name="com_visa_checkout_canada">Canadá</string>
+    <string name="com_visa_checkout_cb_show_password">Mostrar senha</string>
+    <string name="com_visa_checkout_challenge_multianswer_list_header_text">Selecione o cartão de crédito usado durante seu registro</string>
+    <string name="com_visa_checkout_challenge_please_confirm_your_identify">Confirme sua identidade</string>
+    <string name="com_visa_checkout_chile">Chile</string>
+    <string name="com_visa_checkout_china">China</string>
+    <string name="com_visa_checkout_colombia">Colômbia</string>
+    <string name="com_visa_checkout_dialog_cancel">Cancelar</string>
+    <string name="com_visa_checkout_dialog_discard_changes_title">Descartar alterações</string>
+    <string name="com_visa_checkout_dialog_discard_changes_title_text">Deseja mesmo descartar suas alterações e voltar?</string>
+    <string name="com_visa_checkout_dialog_exit">Sair</string>
+    <string name="com_visa_checkout_dialog_exit_title">Sair do pagamento</string>
+    <string name="com_visa_checkout_dialog_exit_title_text">Deseja mesmo fechar o Visa Checkout?</string>
+    <string name="com_visa_checkout_dialog_retry">Tentar novamente</string>
+    <string name="com_visa_checkout_dialog_server_problem">Lamentamos pelo inconveniente, mas não podemos processar sua solicitação no momento. Tente novamente mais tarde</string>
+    <string name="com_visa_checkout_dialog_username_button_text">O Visa Checkout mostrará seu design de cartão de crédito ou débito, oferecendo uma experiência de compra personalizada</string>
+    <string name="com_visa_checkout_dialog_username_remember_text">Seu nome de usuário será lembrado neste dispositivo. Insira apenas a senha ao acessar sua conta</string>
+    <string name="com_visa_checkout_dialog_username_title">Personalize sua experiência com o Visa Checkout!</string>
+    <string name="com_visa_checkout_electronicCommunicationsPolicy">Política de Comunicações Eletrônicas</string>
+    <string name="com_visa_checkout_error_add_pi_failed">Suas informações de pagamento estão incorretas. Tente novamente</string>
+    <string name="com_visa_checkout_error_enroll_generic">Desculpe, não pudemos processar sua solicitação no momento. Tente novamente mais tarde ou crie uma nova conta</string>
+    <string name="com_visa_checkout_error_identity_not_confirmed">Identidade não confirmada</string>
+    <string name="com_visa_checkout_error_internal_error_caused_sdk_exit">O pagamento foi abortado devido a um erro interno</string>
+    <string name="com_visa_checkout_error_invalid_password">Escolha outra senha que cumpra com os requisitos mínimos</string>
+    <string name="com_visa_checkout_error_network_problem">Parece que há um problema com sua rede. Tente novamente</string>
+    <string name="com_visa_checkout_error_no_cards_on_file">Opa, parece que você não registrou nenhum cartão. Adicione um cartão de crédito ou débito para continuar a compra</string>
+    <string name="com_visa_checkout_error_ofac_deny">Sua conta no Visa Checkout está indisponível no momento. Por favor entre em contato com o Atendimento ao cliente</string>
+    <string name="com_visa_checkout_error_password_conflict">De acordo com nosso registro, esse endereço de e-mail ou número de telefone celular já foi cadastrado em uma conta no Visa Checkout</string>
+    <string name="com_visa_checkout_error_password_consecutive_identical_chars">A senha não pode conter mais de 3 caracteres idênticos consecutivos</string>
+    <string name="com_visa_checkout_error_password_contains_portion_of_account_name_or_space">A senha não pode conter espaços ou uma parte do seu nome de usuário</string>
+    <string name="com_visa_checkout_error_password_insufficient">A senha deve conter 6 caracteres ou mais</string>
+    <string name="com_visa_checkout_error_password_invalid_chars">Os caracteres especiais suportados incluem: ! @ # $ % &amp; * ?</string>
+    <string name="com_visa_checkout_error_password_must_change">Senha inválida. A nova senha precisa ser diferente da senha anterior</string>
+    <string name="com_visa_checkout_error_password_required">Insira a senha</string>
+    <string name="com_visa_checkout_error_password_too_long">A senha não pode conter mais de 32 caracteres</string>
+    <string name="com_visa_checkout_error_payment_problem">Seu pagamento não pode ser processado. Corrija as informações do seu cartão e tente novamente</string>
+    <string name="com_visa_checkout_error_session_expired_title">Sessão expirada</string>
+    <string name="com_visa_checkout_error_session_timed_out">Por motivos de segurança, sua sessão expirou devido a inatividade</string>
+    <string name="com_visa_checkout_error_sign_in_challenge_lock">Desculpe, a resposta que você inseriu não corresponde à que temos em nossos registros. Para sua proteção e para evitar acesso não autorizado, nós bloqueamos sua conta temporariamente. Tente novamente mais tarde ou crie uma nova conta</string>
+    <string name="com_visa_checkout_error_sign_in_genric">Desculpe, não pudemos processar sua solicitação no momento. Tente novamente mais tarde ou crie uma nova conta</string>
+    <string name="com_visa_checkout_error_sign_in_lock">Desculpe. Para sua proteção, nós bloqueamos sua conta. Clique em "Esqueci minha senha" se você esqueceu a senha ou crie uma nova conta se você esqueceu seu nome de usuário</string>
+    <string name="com_visa_checkout_error_sign_in_login_failed">Desculpe, não conseguimos localizar sua conta. Verifique seu nome de usuário ou sua senha</string>
+    <string name="com_visa_checkout_error_something_went_wrong">Pedimos desculpas por qualquer inconveniente. Estamos passando por problemas técnicos. Por favor tente novamente mais tarde</string>
+    <string name="com_visa_checkout_error_something_went_wrong_title">Ocorreu um erro</string>
+    <string name="com_visa_checkout_error_step_up_generic">Desculpe, não pudemos processar sua solicitação no momento. Tente novamente mais tarde ou crie uma nova conta</string>
+    <string name="com_visa_checkout_error_step_up_session_end">Desculpe. Devido a inatividade, sua sessão atual será finalizada</string>
+    <string name="com_visa_checkout_error_stepup_lockout">Desculpe, você excedeu a quantidade de tentativas permitidas. Para sua proteção e para evitar acesso não autorizado, nós bloqueamos sua conta temporariamente. Tente novamente mais tarde ou crie uma nova conta</string>
+    <string name="com_visa_checkout_error_unable_to_process_request">Lamentamos pelo inconveniente, mas não podemos processar sua solicitação no momento. Tente novamente mais tarde</string>
+    <string name="com_visa_checkout_error_username_already_present">Já existe um nome de usuário associado a este endereço de e-mail. Caso tenha esquecido a senha, use "Esqueci minha senha" para redefini-la</string>
+    <string name="com_visa_checkout_et_add_address_post_code_title">Código postal</string>
+    <string name="com_visa_checkout_et_add_address_postal_code_title">Código postal</string>
+    <string name="com_visa_checkout_et_add_address_state_ca_title">Província</string>
+    <string name="com_visa_checkout_et_add_address_state_title">Estado</string>
+    <string name="com_visa_checkout_et_add_address_zip_code_title">CEP</string>
+    <string name="com_visa_checkout_et_hint_add_Address_zip_postcode">Código postal/CEP</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline">Endereço</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline1">Primeira linha do endereço</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline2">Segunda linha do endereço</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline3">Terceira linha do endereço</string>
+    <string name="com_visa_checkout_et_hint_add_address_addressline3_nz">Bairro</string>
+    <string name="com_visa_checkout_et_hint_add_address_city">Cidade</string>
+    <string name="com_visa_checkout_et_hint_add_address_city_town">Cidade</string>
+    <string name="com_visa_checkout_et_hint_add_address_name">Nome (com sobrenome)</string>
+    <string name="com_visa_checkout_et_hint_add_address_phone_number">Número de telefone</string>
+    <string name="com_visa_checkout_et_hint_add_address_state">Estado</string>
+    <string name="com_visa_checkout_et_hint_add_address_state_province">Estado/Província</string>
+    <string name="com_visa_checkout_et_hint_add_address_zip">CEP</string>
+    <string name="com_visa_checkout_et_hint_country">País</string>
+    <string name="com_visa_checkout_exo_button_go">Ir</string>
+    <string name="com_visa_checkout_exo_button_signin_link">Não é %1$s? Acesse sua conta</string>
+    <string name="com_visa_checkout_exo_forgot_password_link">Esqueceu?</string>
+    <string name="com_visa_checkout_exo_password_hint">Insira a senha</string>
+    <string name="com_visa_checkout_fingerprint_confirm_text">Confirm your fingerprint?</string>
+    <string name="com_visa_checkout_fingerprint_enrollment_text">Add your fingerprint to login without password next time?</string>
+    <string name="com_visa_checkout_fingerprint_hint">Touch your sensor</string>
+    <string name="com_visa_checkout_forgot_password_code_required_error">Insira o código de redefinição</string>
+    <string name="com_visa_checkout_hongkong">Hong Kong</string>
+    <string name="com_visa_checkout_iv_show_address_line_2">Mostrar segunda linha do endereço</string>
+    <string name="com_visa_checkout_malaysia">Malásia</string>
+    <string name="com_visa_checkout_mexico">México</string>
+    <string name="com_visa_checkout_new_customer">novo cliente</string>
+    <string name="com_visa_checkout_new_zealand">Nova Zelândia</string>
+    <string name="com_visa_checkout_password_hint">Senha</string>
+    <string name="com_visa_checkout_payment_tray_delete_card">Excluir este cartão</string>
+    <string name="com_visa_checkout_payment_tray_edit_card">Editar este cartão</string>
+    <string name="com_visa_checkout_peru">Peru</string>
+    <string name="com_visa_checkout_pi_bt_edit_done">Atualizar e continuar</string>
+    <string name="com_visa_checkout_pi_bt_payment_done">Continuar</string>
+    <string name="com_visa_checkout_pi_confirm_delete">Deseja mesmo remover o cartão com final %1$s?</string>
+    <string name="com_visa_checkout_pi_confirm_delete_nocard">Deseja mesmo excluir este cartão?</string>
+    <string name="com_visa_checkout_pi_delete_success">O cartão com final %1$s foi excluído</string>
+    <string name="com_visa_checkout_pi_error_account_locked">Desculpe, para sua proteção e para evitar acesso não autorizado, nós bloqueamos sua conta temporariamente. Tente novamente mais tarde ou crie uma nova conta</string>
+    <string name="com_visa_checkout_pi_error_brazil_cpf_invalid">CPF inválido</string>
+    <string name="com_visa_checkout_pi_error_brazil_cpf_missing">Insira o CPF</string>
+    <string name="com_visa_checkout_pi_error_cannot_accept_different_card">Desculpe, o número do seu cartão não pode ser aceito no momento. Tente inserir outro cartão</string>
+    <string name="com_visa_checkout_pi_error_cannot_add_payment">Para adicionar um endereço, é necessário que todos os detalhes do cartão sejam válidos</string>
+    <string name="com_visa_checkout_pi_error_card_already_added">Desculpe, o número do cartão inserido já existe em sua conta no Visa Checkout. Tente outro cartão</string>
+    <string name="com_visa_checkout_pi_error_card_date_expired">Seu cartão expirou. Selecione outro cartão</string>
+    <string name="com_visa_checkout_pi_error_card_expiration_date_invalid">Data inválida</string>
+    <string name="com_visa_checkout_pi_error_card_expiration_date_missing">Insira a data</string>
+    <string name="com_visa_checkout_pi_error_card_invalid">Número do cartão inválido</string>
+    <string name="com_visa_checkout_pi_error_card_nickname_empty_invalid">Apelido inválido</string>
+    <string name="com_visa_checkout_pi_error_card_number_missing">Insira o número do cartão</string>
+    <string name="com_visa_checkout_pi_error_card_sec_code_invalid">Código de segurança inválido</string>
+    <string name="com_visa_checkout_pi_error_card_sec_code_missing">Insira o código de segurança</string>
+    <string name="com_visa_checkout_pi_error_card_unsupported">Apenas as marcas de cartão acima são aceitas por esse estabelecimento comercial</string>
+    <string name="com_visa_checkout_pi_error_different_address">Desculpe, uma ou mais de suas entradas parecem ser inválidas no momento. Tente inserir outro endereço.</string>
+    <string name="com_visa_checkout_pi_error_different_card">Desculpe, o número do seu cartão parece ser inválido no momento. Tente corrigir ou inserir outro cartão.</string>
+    <string name="com_visa_checkout_pi_error_different_card_and_different_address">Desculpe, uma ou mais de suas entradas parecem ser inválidas no momento. Tente corrigir ou inserir outro cartão e endereço.</string>
+    <string name="com_visa_checkout_pi_error_forbidden">Desculpe, você excedeu o número máximo de tentativas para adicionar ou editar uma forma de pagamento. Tente novamente após 24 horas</string>
+    <string name="com_visa_checkout_pi_error_generic">Desculpe, não podemos processar sua solicitação no momento. Tente usar outro cartão</string>
+    <string name="com_visa_checkout_pi_error_incorrect_details">Desculpe, suas informações de pagamento estão incorretas. Tente novamente</string>
+    <string name="com_visa_checkout_pi_error_one_or_more_different_card">Desculpe, uma ou mais de suas entradas parecem ser inválidas no momento. Tente corrigir ou inserir outro cartão.</string>
+    <string name="com_visa_checkout_pi_error_unable_to_add">Desculpe, não é possível adicionar um novo cartão no momento. Tente usar um cartão já registrado</string>
+    <string name="com_visa_checkout_pi_et_card_cvv_hint">Código de segurança</string>
+    <string name="com_visa_checkout_pi_et_card_cvv_secondary_hint">xxx</string>
+    <string name="com_visa_checkout_pi_et_card_cvv_secondary_hint_amex">xxxx</string>
+    <string name="com_visa_checkout_pi_et_card_expiration_hint">Expira</string>
+    <string name="com_visa_checkout_pi_et_card_expiration_hint_content_description">Insira a data de validade</string>
+    <string name="com_visa_checkout_pi_et_card_expiration_secondary_hint">MM/AA</string>
+    <string name="com_visa_checkout_pi_et_card_nickname_hint">Apelido do cartão (opcional)</string>
+    <string name="com_visa_checkout_pi_et_card_nickname_secondary_hint">Exemplo, cartão de pontos, cartão conjunto</string>
+    <string name="com_visa_checkout_pi_et_card_number_hint">Número do cartão</string>
+    <string name="com_visa_checkout_pi_retry_delete">Parece que houve um problema ao excluir esse cartão. Deseja tentar novamente?</string>
+    <string name="com_visa_checkout_pi_tv_addpayment_title">Adicione seu cartão</string>
+    <string name="com_visa_checkout_pi_tv_ba_label">Endereço de cobrança</string>
+    <string name="com_visa_checkout_pi_tv_card_preferred">Este é seu cartão preferido para pagamento</string>
+    <string name="com_visa_checkout_pi_tv_editpayment_title">Edite seu cartão</string>
+    <string name="com_visa_checkout_pi_tv_footer_terms">O Visa Checkout pode compartilhar informações sobre como você usa este cartão no Visa Checkout com a instituição financeira que o emitiu para fins de análises de uso para o atendimento ao cliente, prevenção a fraudes e marketing relacionado ao Visa Checkout</string>
+    <string name="com_visa_checkout_pi_tv_is_card_preferred">Cartão preferido para pagamento</string>
+    <string name="com_visa_checkout_pi_tv_next">Em seguida: Você criará sua conta no Visa Checkout</string>
+    <string name="com_visa_checkout_pi_tv_next_billing_address">Em seguida: Adicione seu endereço de cobrança</string>
+    <string name="com_visa_checkout_privacyPolicy">Política de Privacidade</string>
+    <string name="com_visa_checkout_rc_accessibility_title">Revise as informações de pagamento e envio para concluir a compra</string>
+    <string name="com_visa_checkout_rc_accessibility_title_digital_flow">Revise as informações de pagamento para concluir a compra</string>
+    <string name="com_visa_checkout_rc_card_logo_acc">Você pressionou sobre o cartão</string>
+    <string name="com_visa_checkout_rc_card_number">(x-%1$s)</string>
+    <string name="com_visa_checkout_rc_card_number_no_nickname">%1$s x-%2$s</string>
+    <string name="com_visa_checkout_rc_expired_card">Expirado:%1$s/%2$s</string>
+    <string name="com_visa_checkout_rc_expires_card">Expira em %1$s/%2$s</string>
+    <string name="com_visa_checkout_rc_merchant_logo_acc">Você pressionou o logotipo do estabelecimento comercial</string>
+    <string name="com_visa_checkout_rc_password_change_success">Sua senha foi redefinida corretamente</string>
+    <string name="com_visa_checkout_rc_tv_billing_address">Endereço de cobrança</string>
+    <string name="com_visa_checkout_rc_tv_card_details">Detalhes do cartão</string>
+    <string name="com_visa_checkout_rc_tv_hint_merchant_name">Continue com %1$s para completar a compra</string>
+    <string name="com_visa_checkout_rc_tv_hint_merchant_name_digital_checkout">Você voltará para %1$s</string>
+    <string name="com_visa_checkout_rc_tv_merchant_not_support_billing_msg">Endereço de cobrança não suportado pelo estabelecimento comercial</string>
+    <string name="com_visa_checkout_rc_tv_merchant_not_support_card_brand_msg">%1$s não aceito pelo estabelecimento comercial</string>
+    <string name="com_visa_checkout_rc_tv_merchant_ship_msg">O estabelecimento comercial não entrega em seu endereço</string>
+    <string name="com_visa_checkout_rc_tv_pay_with">Pagar com</string>
+    <string name="com_visa_checkout_rc_tv_ship_to">Enviar para</string>
+    <string name="com_visa_checkout_rc_tv_total">Total:</string>
+    <string name="com_visa_checkout_rc_unaccepted_by_merchant">Atualmente não aceito pelo estabelecimento comercial</string>
+    <string name="com_visa_checkout_rc_unverified_missing_info">Informações adicionais do cartão necessárias</string>
+    <string name="com_visa_checkout_samsung_touchid_enable_alert_msg">Samsung Pass will enable you to login faster to Visa Checkout. Would you like to enable it within this app?</string>
+    <string name="com_visa_checkout_samsung_touchid_enable_alert_title">Samsung Pass</string>
+    <string name="com_visa_checkout_sandbox_watermark">APENAS PARA FINALIDADES DE TESTE</string>
+    <string name="com_visa_checkout_scan_your_card_using_camera">Use a câmera do seu dispositivo para escanear seu cartão</string>
+    <string name="com_visa_checkout_sign_up_notifications_email_invalid_error">Endereço de e-mail inválido</string>
+    <string name="com_visa_checkout_sign_up_notifications_email_required_error">Insira o endereço de e-mail</string>
+    <string name="com_visa_checkout_signin">conectar</string>
+    <string name="com_visa_checkout_signing_in">conectar-se</string>
+    <string name="com_visa_checkout_sin_btSignIn">Conectar</string>
+    <string name="com_visa_checkout_sin_sup_username_invalid_error">Nome de usuário inválido</string>
+    <string name="com_visa_checkout_sin_tvSignInContinue">Continuar</string>
+    <string name="com_visa_checkout_sin_tvSignInContinue_content_description">Continuar com o login. Link</string>
+    <string name="com_visa_checkout_sin_tvSignInForgotPassword">Esqueceu sua senha?</string>
+    <string name="com_visa_checkout_sin_tvSignInForgotPassword_content_description">Esqueceu sua senha? link</string>
+    <string name="com_visa_checkout_sin_tvSignInNoVisaCheckoutAccount">Não tem uma conta no Visa Checkout?</string>
+    <string name="com_visa_checkout_sin_tvSignInTitleSignIn">Acesse sua conta no Visa Checkout</string>
+    <string name="com_visa_checkout_sin_tvSignInTitleWelcome">Bem-vindo de volta!</string>
+    <string name="com_visa_checkout_singapore">Cingapura</string>
+    <string name="com_visa_checkout_smd_tvSignInModalDesc">Para sua segurança, acesse sua conta do Visa Checkout para continuar.</string>
+    <string name="com_visa_checkout_smd_tvSignInToContinue">Acesse sua conta para continuar.</string>
+    <string name="com_visa_checkout_south_africa">África do Sul</string>
+    <string name="com_visa_checkout_step_up_answer_hint">Resposta</string>
+    <string name="com_visa_checkout_step_up_required_field">Este campo é obrigatório</string>
+    <string name="com_visa_checkout_sup_btSignUpContinue">Continuar como um novo cliente</string>
+    <string name="com_visa_checkout_sup_bt_import">Informações importantes dos contatos</string>
+    <string name="com_visa_checkout_sup_etSignUpConfirmationEmail_hint">Endereço de e-mail (para confirmação do pedido)</string>
+    <string name="com_visa_checkout_sup_etSignUpFirstName_hint">Nome</string>
+    <string name="com_visa_checkout_sup_etSignUpLastName_hint">Sobrenome</string>
+    <string name="com_visa_checkout_sup_tvSignUpAlreadyHaveAccount">Já tem uma conta no Visa Checkout?</string>
+    <string name="com_visa_checkout_sup_tvSignUpInfo">Tudo bem, você ainda pode finalizar sua compra. Ao fazê-lo, você poderá criar uma conta</string>
+    <string name="com_visa_checkout_sup_tvSignUpSignIn">Conectar</string>
+    <string name="com_visa_checkout_sup_tvSignUpSignIn_content_description">Continuar com o logon. Link</string>
+    <string name="com_visa_checkout_sup_tvSignUpTitle">Novo no Visa Checkout?</string>
+    <string name="com_visa_checkout_tc_accessibility_title">Termos e Condições</string>
+    <string name="com_visa_checkout_termsOfService">Termos de Serviço</string>
+    <string name="com_visa_checkout_threeDS_fail_card_message">Não disponível para uso</string>
+    <string name="com_visa_checkout_threeDS_fail_page_message">Desculpe. Sua instituição financeira não pôde autenticar seu cartão. Para sua segurança, use outro cartão</string>
+    <string name="com_visa_checkout_toast_use_roman">Use apenas caracteres romanos</string>
+    <string name="com_visa_checkout_tvSignIn_Preferences">Lembrar nome de usuário e preferências neste dispositivo</string>
+    <string name="com_visa_checkout_tvSignIn_Preferences_content_description">Lembrar nome de usuário e preferências neste dispositivo. Link</string>
+    <string name="com_visa_checkout_tvSignIn_Preferences_linkify_anchor">nome de usuário</string>
+    <string name="com_visa_checkout_tvSignUp_fname_error">Insira seu nome</string>
+    <string name="com_visa_checkout_tvSignUp_fname_error_invalid_chars">Você inseriu um caractere inválido. Insira seu nome novamente</string>
+    <string name="com_visa_checkout_tvSignUp_lname_error">Insira seu sobrenome</string>
+    <string name="com_visa_checkout_tvSignUp_lname_error_invalid_chars">Você inseriu um caractere inválido. Insira seu sobrenome novamente</string>
+    <string name="com_visa_checkout_tv_3ds_secure_message_mc">Esse cartão está registrado no MasterCard® SecureCode™. Para sua proteção, sua instituição financeira solicita que você autentique a transação antes que possa prosseguir</string>
+    <string name="com_visa_checkout_tv_3ds_secure_message_visa">Esse cartão está registrado no Verified by Visa. Para sua proteção, sua instituição financeira solicita sua senha de Autenticação do Cliente antes que possa prosseguir</string>
+    <string name="com_visa_checkout_tv_add_address_billing_title">Adicione seu endereço de cobrança</string>
+    <string name="com_visa_checkout_tv_add_address_city_invalid_error">Cidade inválida</string>
+    <string name="com_visa_checkout_tv_add_address_city_invalid_error_au">Cidade/Bairro inválido</string>
+    <string name="com_visa_checkout_tv_add_address_city_invalid_error_ca">Cidade inválida</string>
+    <string name="com_visa_checkout_tv_add_address_city_required_error">Insira a cidade</string>
+    <string name="com_visa_checkout_tv_add_address_city_required_error_au">Insira a cidade/o bairro</string>
+    <string name="com_visa_checkout_tv_add_address_city_required_error_ca">Insira a cidade</string>
+    <string name="com_visa_checkout_tv_add_address_invalid_address">Insira um endereço válido</string>
+    <string name="com_visa_checkout_tv_add_address_is_preferred">Este é seu endereço de entrega preferencial</string>
+    <string name="com_visa_checkout_tv_add_address_line3_invalid_error_nz">Bairro inválido</string>
+    <string name="com_visa_checkout_tv_add_address_line3_required_error_nz">Insira o bairro</string>
+    <string name="com_visa_checkout_tv_add_address_line_invalid_error">Endereço inválido</string>
+    <string name="com_visa_checkout_tv_add_address_next_billing">Em seguida: Você criará sua conta no Visa Checkout</string>
+    <string name="com_visa_checkout_tv_add_address_next_shipping">Em seguida: Você adicionará seu cartão</string>
+    <string name="com_visa_checkout_tv_add_address_phone_invalid_error">Número de telefone inválido</string>
+    <string name="com_visa_checkout_tv_add_address_phone_invalid_error_au">Número de telefone inválido</string>
+    <string name="com_visa_checkout_tv_add_address_phone_required_error">Insira o número de telefone</string>
+    <string name="com_visa_checkout_tv_add_address_preferred">Endereço de entrega preferencial</string>
+    <string name="com_visa_checkout_tv_add_address_required_error">Insira o endereço</string>
+    <string name="com_visa_checkout_tv_add_address_state_invalid_error">Estado inválido</string>
+    <string name="com_visa_checkout_tv_add_address_state_invalid_error_ca">Província inválida</string>
+    <string name="com_visa_checkout_tv_add_address_state_required_error">Insira o estado</string>
+    <string name="com_visa_checkout_tv_add_address_state_required_error_ca">Insira a província</string>
+    <string name="com_visa_checkout_tv_add_address_zip_invalid_error">CEP inválido</string>
+    <string name="com_visa_checkout_tv_add_address_zip_invalid_error_au">Código postal inválido</string>
+    <string name="com_visa_checkout_tv_add_address_zip_invalid_error_ca">Código postal inválido</string>
+    <string name="com_visa_checkout_tv_add_address_zip_required_error">Insira o CEP</string>
+    <string name="com_visa_checkout_tv_add_address_zip_required_error_au">Insira o código postal</string>
+    <string name="com_visa_checkout_tv_add_address_zip_required_error_ca">Insira o código postal</string>
+    <string name="com_visa_checkout_tv_add_first_name_on_card_invalid_error">Nome inválido</string>
+    <string name="com_visa_checkout_tv_add_first_name_on_card_required_error">Insira o nome</string>
+    <string name="com_visa_checkout_tv_add_last_name_on_card_invalid_error">Sobrenome inválido</string>
+    <string name="com_visa_checkout_tv_add_last_name_on_card_required_error">Insira o sobrenome</string>
+    <string name="com_visa_checkout_tv_another_email_sent">Outro e-mail foi enviado</string>
+    <string name="com_visa_checkout_tv_check_your_spam">Verifique sua pasta de spam</string>
+    <string name="com_visa_checkout_tv_couldnt_verify">Não pudemos confirmar o endereço inserido com o serviço de correio. Gostaria de salvá-lo mesmo assim?</string>
+    <string name="com_visa_checkout_tv_create_password_hint">Nova senha</string>
+    <string name="com_visa_checkout_tv_create_password_title">Criar sua nova senha</string>
+    <string name="com_visa_checkout_tv_device_locked_advice_text">Desculpe, não foi possível confirmar seu código no momento. Para sua proteção, nós bloqueamos sua conta temporariamente</string>
+    <string name="com_visa_checkout_tv_device_locked_title">Não foi possível confirmar o código de redefinição</string>
+    <string name="com_visa_checkout_tv_dont_see_email_adviceText">Se você ainda não recebeu o código, confira seu endereço de e-mail.O endereço inserido pode não ser o mesmo endereço associado a sua conta no Visa Checkout.Tente conectar-se novamente ou continue como um novo cliente</string>
+    <string name="com_visa_checkout_tv_enter_password">Simplesmente crie uma nova senha e continue a conferir sua compra</string>
+    <string name="com_visa_checkout_tv_error_add_address_contacts_launch">Este aplicativo não tem permissão para acessar seu catálogo de endereços</string>
+    <string name="com_visa_checkout_tv_error_add_address_gps_launch">Este aplicativo não tem permissão para acessar o local do seu dispositivo</string>
+    <string name="com_visa_checkout_tv_error_fetch_address_failed">Busca do endereço cancelada pelo catálogo de endereços</string>
+    <string name="com_visa_checkout_tv_error_generic">Desculpe, não podemos processar sua solicitação no momento. Lamentamos pelo inconveniente</string>
+    <string name="com_visa_checkout_tv_forgotPassword_adviceText">Insira o endereço de e-mail associado à sua conta no Visa Checkout e nós lhe enviaremos um código para redefinir sua senha</string>
+    <string name="com_visa_checkout_tv_forgotPassword_adviceText1">Nós enviamos um e-mail para %1$s. Pode demorar alguns minutos até a mensagem chegar. Para redefinir sua senha, simplesmente siga as instruções no e-mail</string>
+    <string name="com_visa_checkout_tv_forgotPassword_adviceText2">Não recebeu o e-mail?  %1$s</string>
+    <string name="com_visa_checkout_tv_forgotPassword_check_spam">Verifique sua pasta de spam</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_advicetext">Uma senha foi enviada para %1$s. Se ainda não o recebeu, espere mais alguns minutos. Siga as instruções do e-mail</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_advicetext2">Outra senha foi enviada para %1$s. Se ainda não o recebeu, espere mais alguns minutos. Siga as instruções do e-mail</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_email_notreceived">Ainda não vê o e-mail?</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_hint">Insira o código</string>
+    <string name="com_visa_checkout_tv_forgotPassword_collect_code_title">Insira o código de redefinição de senha</string>
+    <string name="com_visa_checkout_tv_forgotPassword_create_account">criar uma conta</string>
+    <string name="com_visa_checkout_tv_forgotPassword_email_hint">Endereço de e-mail</string>
+    <string name="com_visa_checkout_tv_forgotPassword_error">Desculpe, para sua proteção, nós bloqueamos sua conta. Entre em contato com o Atendimento ao cliente</string>
+    <string name="com_visa_checkout_tv_forgotPassword_error_not_found">Não conseguimos encontrar esse endereço de e-mail em nosso sistema. Tente inserir outro endereço de e-mail, ou você também pode criar uma nova conta no Visa Checkout</string>
+    <string name="com_visa_checkout_tv_forgotPassword_get_new_code_advice_text">Nós enviaremos outro código de redefinição de senha para %1$s</string>
+    <string name="com_visa_checkout_tv_forgotPassword_get_new_code_title">Receber um novo código de redefinição</string>
+    <string name="com_visa_checkout_tv_forgotPassword_link_sent_title">Você deve receber um e-mail em alguns minutos</string>
+    <string name="com_visa_checkout_tv_forgotPassword_no_email">Não vê o e-mail?</string>
+    <string name="com_visa_checkout_tv_forgotPassword_returnToSignIn">Voltar para o logon</string>
+    <string name="com_visa_checkout_tv_forgotPassword_sendAgain">Enviar instruções novamente</string>
+    <string name="com_visa_checkout_tv_forgotPassword_sendAgain_content_description">Não recebeu o e-mail? Envie novamente. Link</string>
+    <string name="com_visa_checkout_tv_forgotPassword_still_not_receive">Se você ainda não o tiver recebido, pode optar por criar uma conta</string>
+    <string name="com_visa_checkout_tv_forgotPassword_title">Esqueceu sua senha?</string>
+    <string name="com_visa_checkout_tv_forgotPassword_wait_for">Aguarde alguns minutos a mais. Sua conexão de internet ou seu provedor de e-mail podem precisar de mais tempo</string>
+    <string name="com_visa_checkout_tv_forgotPassword_you_can">Você pode:</string>
+    <string name="com_visa_checkout_tv_forgotpassword_dont_see_email_title">Se ainda não vir o e-mail, você pode:</string>
+    <string name="com_visa_checkout_tv_header_back">Voltar</string>
+    <string name="com_visa_checkout_tv_header_logo">Visa Checkout</string>
+    <string name="com_visa_checkout_tv_hint_card_description">Visa...1234</string>
+    <string name="com_visa_checkout_tv_hint_card_expiry_date">Atualmente não aceito pelo estabelecimento comercial</string>
+    <string name="com_visa_checkout_tv_hint_city_state_zip">Cidade, Estado, CEP</string>
+    <string name="com_visa_checkout_tv_hint_edit_address_name">Nome completo</string>
+    <string name="com_visa_checkout_tv_label_add_address_title">Adicionar seu endereço de entrega</string>
+    <string name="com_visa_checkout_tv_label_address_suggestion_recommended">Endereço recomendado:</string>
+    <string name="com_visa_checkout_tv_label_address_suggestion_verify">Confirme seu endereço</string>
+    <string name="com_visa_checkout_tv_label_address_suggestion_you_entered">O endereço inserido:</string>
+    <string name="com_visa_checkout_tv_label_answer_list_item">Resposta</string>
+    <string name="com_visa_checkout_tv_label_country_selection_title">Selecione seu país</string>
+    <string name="com_visa_checkout_tv_label_edit_address_title">Editar endereço</string>
+    <string name="com_visa_checkout_tv_otp_expired_message">Desculpe, você excedeu o limite de tentativas permitidas com seu código de redefinição.Para continuar, solicite um novo código e tente novamente</string>
+    <string name="com_visa_checkout_tv_otp_resetcode_notmatch">Desculpe, o código inserido não condiz com o que enviamos. Tente novamente</string>
+    <string name="com_visa_checkout_tv_otp_signin_with_another_account">Ou você pode conectar usando outra conta do Visa Checkout</string>
+    <string name="com_visa_checkout_tv_privacy">Política de Privacidade</string>
+    <string name="com_visa_checkout_tv_privacy_content_description">Política de Privacidade. Link</string>
+    <string name="com_visa_checkout_tv_resend_code">Enviar código novamente</string>
+    <string name="com_visa_checkout_tv_sign_up_confirmation">Sua conta no Visa Checkout foi criada!</string>
+    <string name="com_visa_checkout_tv_terms">Termos de Serviço</string>
+    <string name="com_visa_checkout_tv_terms_content_description">Termos de Serviço. Link</string>
+    <string name="com_visa_checkout_tv_update_tc_agree_prefix">Nós atualizamos nossos Termos e Condições. </string>
+    <string name="com_visa_checkout_tv_update_tc_agree_suffix">Toque em "Concordo, continuar" para concordar com os Termos de Serviço e a Política de Privacidade do Visa Checkout antes de continuar</string>
+    <string name="com_visa_checkout_tv_wait_few_more_minutes">Aguarde alguns minutos a mais. Sua conexão de internet ou seu provedor de e-mail podem precisar de mais tempo</string>
+    <string name="com_visa_checkout_uae">Emirados Árabes Unidos</string>
+    <string name="com_visa_checkout_united_states">Estados Unidos</string>
+    <string name="com_visa_checkout_username_hint">Nome de usuário (e-mail ou número de telefone celular)</string>
+    <string name="com_visa_checkout_username_required_error">Insira o nome de usuário</string>
+    <string name="com_visa_checkout_wv_complete_action_using">Enviar e-mail usando:</string>
+    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/play-services-basement-8.1.0/res/values-pt/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> exige uma atualização para o app Android Wear."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com uma atualização para o app Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Atualizar o Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> exige um ou mais Google Play Services que não estão disponíveis no momento. Entre em contato com o desenvolvedor para receber assistência."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Ativar o Google Play Services"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com o Google Play Services ativado."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Ative o Google Play Services"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Solicitado por <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Instalar o Google Play Services"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu smartphone."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Instale o Google Play Services"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"A conta especificada não existe no dispositivo. Escolha outra conta."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Conta inválida"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Um app requer a ativação do Google Play Services."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"É necessária uma conexão de dados para conectar ao Google Play Services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Erro na rede"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Um app requer a atualização do Google Play Services."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Erro do Google Play Services"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Erro ao fazer login na conta especificada. Escolha outra conta."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Falha de login"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problema desconhecido com o Google Play Services."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> depende do Google Play Services, o qual não é compatível com seu dispositivo. Entre em contato com o fabricante para receber assistência."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Play Services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com uma versão atualizada do Google Play Services."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Atualize o Google Play Services"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual está sendo atualizado no momento."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play Services em atualização"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Abrir no smartphone"</string>
+    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-pt/values-pt.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

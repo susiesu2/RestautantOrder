@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/com_visa_checkout_exo_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="47dp">
+
+        <View
+            android:id="@+id/com_visa_checkout_exo_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/com_visa_checkout_exo_bluebar" />
+
+        <ImageView
+            android:id="@+id/com_visa_checkout_exo_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/com_visa_checkout_button_logo" />
+
+        <EditText
+            style="@style/com_visa_checkout_VisaEXOEditTextDefault"
+            android:id="@+id/com_visa_checkout_exo_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/com_visa_checkout_exo_password_hint"
+            android:imeOptions="actionGo"
+            android:inputType="textPassword"
+            android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="12dp"
+            android:visibility="invisible"/>
+
+        <RelativeLayout
+            android:id="@+id/com_visa_checkout_exo_card_thumb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/com_visa_checkout_exo_card_art"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/com_visa_checkout_button_backround_left"
+                android:padding="0dip"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/com_visa_checkout_exo_card_go"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/com_visa_checkout_exo_go_bg"
+                android:gravity="center"
+                android:textColor="@color/com_visa_checkout_exo_go_text"
+                android:textSize="@dimen/com_visa_checkout_global_font_large"
+                android:layout_alignLeft="@+id/com_visa_checkout_exo_card_art"
+                android:layout_alignRight="@+id/com_visa_checkout_exo_card_art"
+                android:text="@string/com_visa_checkout_exo_button_go"
+                android:visibility="gone"/>
+
+            <ProgressBar
+                android:id="@+id/com_visa_checkout_exo_progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateOnly="true"
+                android:indeterminateDrawable="@drawable/com_visa_checkout_exo_progress_bar"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/com_visa_checkout_twenty_px"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/com_visa_checkout_VisaEXOTextViewLinkDefault"
+        android:id="@+id/com_visa_checkout_exo_forgot_password_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/com_visa_checkout_exo_button_layout"
+        android:text="@string/com_visa_checkout_exo_forgot_password_link"
+        android:visibility="invisible" />
+
+    <TextView
+        style="@style/com_visa_checkout_VisaEXOTextViewLinkDefault"
+        android:id="@+id/com_visa_checkout_exo_username_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/com_visa_checkout_exo_button_layout"
+        android:drawableRight="@drawable/com_visa_checkout_exo_gear_standard"
+        android:visibility="invisible" />
+
+    <TextView
+        style="@style/com_visa_checkout_VisaEXOTextViewLinkDefault"
+        android:id="@+id/com_visa_checkout_exo_signin_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/com_visa_checkout_exo_button_layout"
+        android:drawableRight="@drawable/com_visa_checkout_exo_arrow_standard"
+        android:text="@string/com_visa_checkout_exo_button_signin_link"
+        android:visibility="invisible" />
+
+</merge>
+<!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_express_checkout_button.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_express_checkout_button.xml -->
