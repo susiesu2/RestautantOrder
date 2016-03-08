@@ -10,7 +10,11 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -53,7 +57,7 @@ public class MainActivity extends FragmentActivity {
 
 
     }
-/*
+
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.login, menu);
@@ -63,8 +67,7 @@ public class MainActivity extends FragmentActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.login:
-                Intent loginIntent = new Intent(this, LoginFragment.class);
-                startActivity(loginIntent);
+                System.exit(0);
                 return true;
             default:
                 return false;
@@ -72,7 +75,7 @@ public class MainActivity extends FragmentActivity {
     }
 
 
-
+/*
 
     public void onClick(View view) {
         Intent i =new Intent(this,TheMenu.class);
@@ -155,7 +158,7 @@ public class MainActivity extends FragmentActivity {
 
     }
 
-    public static String tableNo = "";
+    public static String tableNo = null;
 
 
 
@@ -179,8 +182,19 @@ public class MainActivity extends FragmentActivity {
     public void goToMenu (View view){
         Intent intent = new Intent (this, TheMenu.class);
         startActivity(intent);
+        finish();
     }
 
+    public void goToMenu_Pickup (View view) {
+        Button btn = (Button) findViewById(R.id.pickUp);
+        if (tableNo != null) {
+            btn.setEnabled(false);
+        }else{
+            Intent intent = new Intent(this, TheMenu.class);
+            startActivity(intent);
+            finish();
+        }
+     }
 
 
 }

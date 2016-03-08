@@ -14,4 +14,4 @@
             <corners android:radius="1dp"/>
         </shape>
     </item>
-</layer-list><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_white_background_shadow.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_white_background_shadow.xml -->
+</layer-list><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_white_background_shadow.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_white_background_shadow.xml -->

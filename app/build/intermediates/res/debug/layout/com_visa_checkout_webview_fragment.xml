@@ -18,4 +18,4 @@
         android:layout_margin="@dimen/com_visa_checkout_thirty_px"
         android:layout_below="@id/com_visa_checkout_includedServerSideError"/>
 
-</RelativeLayout><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_webview_fragment.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_webview_fragment.xml -->
+</RelativeLayout><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_webview_fragment.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_webview_fragment.xml -->

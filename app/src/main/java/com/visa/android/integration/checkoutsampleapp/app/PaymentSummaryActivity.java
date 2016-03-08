@@ -38,11 +38,20 @@ public class PaymentSummaryActivity extends Activity {
 
         VisaPaymentSummary paymentSummary = getIntent().getExtras().getParcelable(VisaLibrary.PAYMENT_SUMMARY);
         if (paymentSummary != null) {
-            paymentSummaryMessage +=
+            if (MainActivity.tableNo != null) {
+                paymentSummaryMessage +=
                         "\n\n\nTotal Amount: " + getSampleVisaPaymentInfo().getTotal()
-                        +"\nTable Number: " + MainActivity.tableNo
-                        + "\n\nLast Four Digits : " + paymentSummary.getLastFourDigits()
-                        + "\nCard Brand : " + paymentSummary.getCardBrand();
+                                +"\nTable Number: " + MainActivity.tableNo
+                                + "\n\nLast Four Digits : " + paymentSummary.getLastFourDigits()
+                                + "\nCard Brand : " + paymentSummary.getCardBrand();
+            }else {
+                paymentSummaryMessage +=
+                        "\n\n\nTotal Amount: " + getSampleVisaPaymentInfo().getTotal()
+                                +"\nPick Up Time: " + Summary.time
+                                + "\n\nLast Four Digits : " + paymentSummary.getLastFourDigits()
+                                + "\nCard Brand : " + paymentSummary.getCardBrand();
+            }
+
 
 
 
@@ -76,6 +85,7 @@ public class PaymentSummaryActivity extends Activity {
         }
         intent.putExtra("buttonType", getIntent().getExtras().getInt("buttonType"));
         startActivity(intent);
+        finish();
     }
 }
 

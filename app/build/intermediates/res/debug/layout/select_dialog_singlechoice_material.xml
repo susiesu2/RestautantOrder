@@ -31,4 +31,4 @@
                  android:drawableStart="?android:attr/listChoiceIndicatorSingle"
                  android:drawablePadding="20dp"
                  android:ellipsize="marquee" />
-<!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/select_dialog_singlechoice_material.xml -->
+<!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/select_dialog_singlechoice_material.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml -->
+    <!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>

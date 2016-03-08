@@ -47,7 +47,8 @@
         android:layout_height="wrap_content"
         android:text="Pick Up"
         android:textSize="25sp"
-        android:layout_below="@+id/startOrder" />
+        android:layout_below="@+id/startOrder"
+        android:onClick="goToMenu_Pickup"/>
 
 
 

@@ -7,13 +7,17 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.TimePicker;
 
 public class Summary extends Activity {
     //String tableNo ;
     public static double amount;
+    public static String time;
+    private TimePicker timePicker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +48,9 @@ public class Summary extends Activity {
             tvLeft.setTextColor(Color.WHITE);
             tvLeft.setGravity(Gravity.CENTER);
             tvLeft.setText(food[i]);
+            tvLeft.setWidth(300);
+            tvLeft.setPadding(0, 0, 0, 0);
+
 
             TextView tvCenter = new TextView(this);
             tvCenter.setLayoutParams(lp);
@@ -51,6 +58,9 @@ public class Summary extends Activity {
             tvCenter.setTextColor(Color.WHITE);
             tvCenter.setGravity(Gravity.CENTER);
             tvCenter.setText(price[i]);
+            tvCenter.setWidth(60);
+            tvCenter.setPadding(60, 0, 0, 0);
+
 
             TextView tvRight = new TextView(this);
             tvRight.setLayoutParams(lp);
@@ -58,6 +68,9 @@ public class Summary extends Activity {
             tvRight.setTextColor(Color.WHITE);
             tvRight.setGravity(Gravity.CENTER);
             tvRight.setText(qty[i]);
+            tvRight.setWidth(10);
+            tvRight.setPadding(150, 0, 0, 0);
+
 
             tr.addView(tvLeft);
             tr.addView(tvCenter);
@@ -79,36 +92,55 @@ public class Summary extends Activity {
             table.setText("You are at table " + MainActivity.tableNo);
         } else {
             table.setText(R.string.prompt);
-            /*
-            TimePicker timePicker = new TimePicker(this);
-            TimePicker.LayoutParams tlp= new TimePicker.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-            timePicker.setLayoutParams(tlp);
+            timePicker = new TimePicker(this);
             LinearLayout linearLayout = (LinearLayout) findViewById(R.id.linearLayout);
-            linearLayout.addView(linearLayout);
-            */
+            linearLayout.addView(timePicker);
+            //timePicker.clearFocus();
         }
-
-        //int hour = timePicker.getHour();
-        //int min = timePicker.getMinute();
-
     }
+
+    public void getTime() {
+        String format;
+        int hour = timePicker.getCurrentHour();
+        int minute = timePicker.getCurrentMinute();
+        if (hour == 0) {
+            hour += 12;
+            format = "AM";
+        }else if (hour == 12) {
+            format = "PM";
+        }else if (hour > 12){
+            hour -= 12;
+            format = "PM";
+        }else {
+            format = "AM";
+        }
+        time = new StringBuilder().append(hour).append(":").append(minute).append(" ").append(format).toString();
+    }
+
     public static final int VXO = 2;
     public void onButtonSelection(View view){
+        if (MainActivity.tableNo == null) {
+            getTime();
+        }
         Intent intent = new Intent(this, PaymentStartActivity.class);
         if(view.getId() == R.id.btn_vxo) {
             intent.putExtra("buttonType", VXO);
         }
         startActivity(intent);
+        finish();
 
     }
 
     public void back(View view) {
         Intent i = new Intent(this, TheMenu.class);
         startActivity(i);
+        finish();
     }
-
+    /*
     public void goToPay(View view) {
+
         Intent i =new Intent(this,ConfigurePaymentActivity.class);
         startActivity(i);
-    }
+        finish();
+    }*/
 }

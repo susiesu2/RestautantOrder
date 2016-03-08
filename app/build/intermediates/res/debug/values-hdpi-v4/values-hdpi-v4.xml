@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values-hdpi-v4/values.xml -->
+    <!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values-hdpi-v4/values.xml -->
     <eat-comment/>
     <dimen name="com_facebook_picker_divider_width">1px</dimen>
-    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-hdpi-v4/values-hdpi-v4.xml -->
+    <!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-hdpi-v4/values-hdpi-v4.xml -->
     <eat-comment/>
     <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
           <item name="barLength">18.66dp</item>

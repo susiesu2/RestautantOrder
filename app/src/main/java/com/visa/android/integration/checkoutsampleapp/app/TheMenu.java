@@ -39,12 +39,14 @@ public class TheMenu extends FragmentActivity {
         b.putStringArray("qty", qty);
         i.putExtras(b);
         startActivity(i);
+        finish();
     }
 
 
     public void back(View view) {
         Intent i =new Intent(this,MainActivity.class);
         startActivity(i);
+        finish();
     }
 /*
     public void goToSummary(View view) {

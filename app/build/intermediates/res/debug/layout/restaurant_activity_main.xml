@@ -47,9 +47,10 @@
         android:layout_height="wrap_content"
         android:text="Pick Up"
         android:textSize="25sp"
-        android:layout_below="@+id/startOrder" />
+        android:layout_below="@+id/startOrder"
+        android:onClick="goToMenu_Pickup"/>
 
 
 
 
-</RelativeLayout><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/src/main/res/layout/restaurant_activity_main.xml -->
+</RelativeLayout><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/src/main/res/layout/restaurant_activity_main.xml -->

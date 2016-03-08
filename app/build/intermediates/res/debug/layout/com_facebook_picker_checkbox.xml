@@ -23,4 +23,4 @@
     android:focusable="false"
     android:clickable="false"
     android:button="@drawable/com_facebook_button_check" />
-<!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/layout/com_facebook_picker_checkbox.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/layout/com_facebook_picker_checkbox.xml -->
+<!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/layout/com_facebook_picker_checkbox.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/layout/com_facebook_picker_checkbox.xml -->

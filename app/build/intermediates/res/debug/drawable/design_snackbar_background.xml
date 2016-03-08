@@ -19,4 +19,4 @@
        android:shape="rectangle">
     <corners android:radius="@dimen/design_snackbar_background_corner_radius"/>
     <solid android:color="@color/design_snackbar_background_color"/>
-</shape><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/drawable/design_snackbar_background.xml -->
+</shape><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/drawable/design_snackbar_background.xml -->

@@ -3,4 +3,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item style="@style/com_visa_checkout_VisaCheckoutHintLabelFocused" android:state_focused="true" android:state_pressed="false" />
     <item style="@style/com_visa_checkout_VisaCheckoutHintLabel" />
-</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_textview_floating_hint.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_textview_floating_hint.xml -->
+</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_textview_floating_hint.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_textview_floating_hint.xml -->

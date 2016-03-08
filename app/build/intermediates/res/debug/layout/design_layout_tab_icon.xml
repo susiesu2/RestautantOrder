@@ -18,4 +18,4 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
            android:layout_width="24dp"
            android:layout_height="24dp"
-           android:scaleType="centerInside"/><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_tab_icon.xml -->
+           android:scaleType="centerInside"/><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_tab_icon.xml -->

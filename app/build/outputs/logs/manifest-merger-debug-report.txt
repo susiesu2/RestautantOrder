@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
 ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
 	package
 		ADDED from AndroidManifest.xml:3:5
 	android:versionName
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
-	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
 	android:versionCode
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
@@ -184,10 +184,10 @@ ADDED from AndroidManifest.xml:98:9
 MERGED from :card.io-5.1.1::22:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:102:13
-	android:hardwareAccelerated
-		ADDED from AndroidManifest.xml:101:13
 	android:configChanges
 		ADDED from AndroidManifest.xml:100:13
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:101:13
 	android:name
 		ADDED from AndroidManifest.xml:99:13
 activity#io.card.payment.DataEntryActivity
@@ -199,10 +199,10 @@ MERGED from :card.io-5.1.1::25:9
 		ADDED from AndroidManifest.xml:104:13
 meta-data#com.facebook.sdk.ApplicationId
 ADDED from AndroidManifest.xml:108:9
-	android:value
-		ADDED from AndroidManifest.xml:110:13
 	android:name
 		ADDED from AndroidManifest.xml:109:13
+	android:value
+		ADDED from AndroidManifest.xml:110:13
 activity#com.visa.android.integration.checkoutsampleapp.app.Summary
 ADDED from AndroidManifest.xml:112:9
 	android:label
@@ -236,14 +236,14 @@ MERGED from com.android.support:support-v4:23.2.0:20:5
 MERGED from com.android.support:support-vector-drawable:23.2.0:5:5
 MERGED from com.android.support:support-v4:23.2.0:20:5
 MERGED from com.android.support:support-v4:23.2.0:20:5
-	tools:overrideLibrary
-		ADDED from com.android.support:appcompat-v7:23.2.0:23:9
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:minSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+	tools:overrideLibrary
+		ADDED from com.android.support:appcompat-v7:23.2.0:23:9
 uses-permission#android.permission.READ_CONTACTS
 ADDED from :VisaCheckout-Android-SDK-3.5::11:5
 	android:name
@@ -266,10 +266,10 @@ ADDED from :VisaCheckout-Android-SDK-3.5::19:9
 		ADDED from :VisaCheckout-Android-SDK-3.5::20:13
 meta-data#com.google.android.gms.version
 ADDED from :play-services-basement-8.1.0::21:9
-	android:value
-		ADDED from :play-services-basement-8.1.0::23:13
 	android:name
 		ADDED from :play-services-basement-8.1.0::22:13
+	android:value
+		ADDED from :play-services-basement-8.1.0::23:13
 activity#com.google.android.gms.ads.AdActivity
 ADDED from :play-services-ads-8.1.0::26:9
 	android:configChanges

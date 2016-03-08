@@ -31,6 +31,7 @@ public class ConfigurePaymentActivity extends Activity{
             intent.putExtra("buttonType", CUSTOM);
         }*/
         startActivity(intent);
+        finish();
 
     }
 }

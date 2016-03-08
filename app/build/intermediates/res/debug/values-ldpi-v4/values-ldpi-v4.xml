@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values-ldpi-v4/values.xml -->
+    <!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/values-ldpi-v4/values.xml -->
     <eat-comment/>
     <dimen name="com_facebook_picker_divider_width">1px</dimen>
 </resources>

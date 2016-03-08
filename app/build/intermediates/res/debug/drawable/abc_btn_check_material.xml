@@ -17,4 +17,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_checked="true" android:drawable="@drawable/abc_btn_checkbox_checked_mtrl" />
     <item android:drawable="@drawable/abc_btn_checkbox_unchecked_mtrl" />
-</selector><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_check_material.xml -->
+</selector><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_btn_check_material.xml -->

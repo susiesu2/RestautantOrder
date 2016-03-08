@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-xlarge-v4/values-xlarge-v4.xml -->
+    <!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-xlarge-v4/values-xlarge-v4.xml -->
     <eat-comment/>
     <bool name="abc_action_bar_expanded_action_views_exclusive">false</bool>
     <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>

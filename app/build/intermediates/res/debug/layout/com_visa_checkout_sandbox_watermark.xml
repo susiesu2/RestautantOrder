@@ -17,4 +17,4 @@
         android:textColor="@android:color/black"
         android:textSize="@dimen/com_visa_checkout_watermark_text"
         android:textStyle="bold|normal" />
-</RelativeLayout><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_sandbox_watermark.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_sandbox_watermark.xml -->
+</RelativeLayout><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/layout/com_visa_checkout_sandbox_watermark.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/layout/com_visa_checkout_sandbox_watermark.xml -->

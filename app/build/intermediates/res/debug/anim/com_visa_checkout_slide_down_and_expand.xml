@@ -17,4 +17,4 @@
         android:toXDelta="0%p"
         android:toYDelta="0%"></translate>
 
-</set><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/anim/com_visa_checkout_slide_down_and_expand.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/anim/com_visa_checkout_slide_down_and_expand.xml -->
+</set><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/anim/com_visa_checkout_slide_down_and_expand.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/anim/com_visa_checkout_slide_down_and_expand.xml -->

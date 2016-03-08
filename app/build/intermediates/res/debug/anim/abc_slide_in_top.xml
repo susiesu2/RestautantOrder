@@ -16,4 +16,4 @@
 <translate xmlns:android="http://schemas.android.com/apk/res/android"
            android:interpolator="@android:anim/decelerate_interpolator"
            android:fromYDelta="-50%p" android:toYDelta="0"
-           android:duration="@android:integer/config_mediumAnimTime"/><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_in_top.xml -->
+           android:duration="@android:integer/config_mediumAnimTime"/><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_in_top.xml -->

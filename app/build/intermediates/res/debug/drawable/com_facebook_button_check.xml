@@ -18,4 +18,4 @@
   <item android:state_checked="true" android:drawable="@drawable/com_facebook_button_check_on" />
   <item android:drawable="@drawable/com_facebook_button_check_off" />
 </selector>
-<!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/drawable/com_facebook_button_check.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/drawable/com_facebook_button_check.xml -->
+<!-- From: file:/Users/gokhanc/src/sdkrm/out/android-sdk/facebook/res/drawable/com_facebook_button_check.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/facebook-android-sdk-3.23.1/res/drawable/com_facebook_button_check.xml -->

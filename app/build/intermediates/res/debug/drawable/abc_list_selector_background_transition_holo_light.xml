@@ -18,4 +18,4 @@
     <item android:drawable="@drawable/abc_list_pressed_holo_light"  />
     <item android:drawable="@drawable/abc_list_longpressed_holo"  />
 </transition>
-<!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml -->
+<!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml -->

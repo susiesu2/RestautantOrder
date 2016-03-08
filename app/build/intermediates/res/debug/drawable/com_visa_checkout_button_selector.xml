@@ -5,4 +5,4 @@
     <item android:state_pressed="false" android:state_enabled="true" android:drawable="@drawable/com_visa_checkout_button_round_corners_gold"/>
     <item android:state_pressed="true" android:state_enabled="true" android:drawable="@drawable/com_visa_checkout_button_round_corners_selected"/>
 
-</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_button_selector.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_button_selector.xml -->
+</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_button_selector.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_button_selector.xml -->

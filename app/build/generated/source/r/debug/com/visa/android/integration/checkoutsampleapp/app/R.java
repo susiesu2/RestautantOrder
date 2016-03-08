@@ -3494,6 +3494,7 @@ containing a value of this type.
         public static final int linearLayout=0x7f0e007d;
         public static final int listMode=0x7f0e000b;
         public static final int list_item=0x7f0e004d;
+        public static final int login=0x7f0e021f;
         public static final int media_actions=0x7f0e0210;
         public static final int menuImage=0x7f0e021a;
         public static final int middle=0x7f0e0032;
@@ -3731,6 +3732,9 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f03006c;
         public static final int select_dialog_singlechoice_material=0x7f03006d;
         public static final int support_simple_spinner_dropdown_item=0x7f03006e;
+    }
+    public static final class menu {
+        public static final int login=0x7f0f0000;
     }
     public static final class raw {
         public static final int gtm_analytics=0x7f060000;

@@ -27,4 +27,4 @@
     <alpha 	android:interpolator="@android:anim/decelerate_interpolator"
               android:fromAlpha="0.0" android:toAlpha="1.0"
               android:duration="@integer/abc_config_activityShortDur" />
-</set><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_grow_fade_in_from_bottom.xml -->
+</set><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_grow_fade_in_from_bottom.xml -->

@@ -8,4 +8,4 @@
     android:drawable="@drawable/com_visa_checkout_icon_ckbx_not_selected" />
 <item android:state_checked="true"
     android:drawable="@drawable/com_visa_checkout_icon_ckbx_selected" />
-</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_checkbox_selector.xml --><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_checkbox_selector.xml -->
+</selector><!-- From: file:/Users/svcciuser/workspace/build-androidSDK/mcommerce/sdk_mcom/src/main/res/drawable/com_visa_checkout_checkbox_selector.xml --><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-3.5/res/drawable/com_visa_checkout_checkbox_selector.xml -->

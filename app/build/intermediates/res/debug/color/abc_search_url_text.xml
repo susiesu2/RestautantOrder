@@ -18,4 +18,4 @@
     <item android:state_pressed="true" android:color="@color/abc_search_url_text_pressed"/>
     <item android:state_selected="true" android:color="@color/abc_search_url_text_selected"/>
     <item android:color="@color/abc_search_url_text_normal"/>
-</selector><!-- From: file:/Users/jzhang/Desktop/RestautantOrder-Visa2-3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/color/abc_search_url_text.xml -->
+</selector><!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/color/abc_search_url_text.xml -->
