@@ -36,9 +36,7 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.restaurant_activity_main);
 
-
-
-        mTextView = (TextView) findViewById(R.id.tableNumberVar);
+        mTextView = (TextView) findViewById(R.id.tableNumber);
 
         mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
 
@@ -147,8 +145,8 @@ public class MainActivity extends FragmentActivity {
             String tagContent = getTextFromNdefRecord(ndefRecord);
 
             tableNo = tagContent;
-
-            mTextView.setText(tagContent);
+            String message = getResources().getString(R.string.table);
+            mTextView.setText(message + " " +  tableNo);
 
         }else{
             Toast.makeText(this, "No NDEF records found!", Toast.LENGTH_LONG).show();

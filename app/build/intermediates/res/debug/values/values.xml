@@ -1123,11 +1123,11 @@
     <string name="menu">Menu</string>
     <string name="next">Next</string>
     <string name="price">Price</string>
-    <string name="price1">15.00</string>
-    <string name="price2">14.00</string>
-    <string name="price3">16.00</string>
-    <string name="price4">10.00</string>
-    <string name="price5">9.00</string>
+    <string name="price1">$15.00</string>
+    <string name="price2">$14.00</string>
+    <string name="price3">$16.00</string>
+    <string name="price4">$10.00</string>
+    <string name="price5">$9.00</string>
     <string name="prompt">Choose a pick up time</string>
     <string name="quantity">Qty</string>
     <!-- From: file:/Users/haoweiw/AndroidStudioProjects/RestaurantOrder-Visa2-4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values/values.xml -->
@@ -1141,7 +1141,7 @@
     <eat-comment/>
     <string name="subtotal">Subtotal:</string>
     <string name="summary">Summary</string>
-    <string name="table">You are at table </string>
+    <string name="table">You are at table</string>
     <string name="tax">Tax:</string>
     <string name="title_activity_page2">page2</string>
     <string name="title_activity_summary">Summary</string>

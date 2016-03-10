@@ -17,20 +17,12 @@
         android:id="@+id/tableNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Table Number"
         android:textSize="25sp"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
+        android:fontFamily="fantasy"
         android:layout_alignBottom="@id/menuImage"
         android:layout_marginRight="20dp"  />
 
-    <TextView
-        android:id="@+id/tableNumberVar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/tableNumber"
-        android:layout_alignBottom="@id/menuImage"
-        android:textSize="25sp"
-        android:textColor="@android:color/black" />
 
     <Button
         android:id="@+id/startOrder"

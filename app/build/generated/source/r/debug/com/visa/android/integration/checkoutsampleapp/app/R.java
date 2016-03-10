@@ -3494,7 +3494,7 @@ containing a value of this type.
         public static final int linearLayout=0x7f0e007d;
         public static final int listMode=0x7f0e000b;
         public static final int list_item=0x7f0e004d;
-        public static final int login=0x7f0e021f;
+        public static final int login=0x7f0e021e;
         public static final int media_actions=0x7f0e0210;
         public static final int menuImage=0x7f0e021a;
         public static final int middle=0x7f0e0032;
@@ -3507,7 +3507,7 @@ containing a value of this type.
         public static final int normal=0x7f0e000c;
         public static final int parallax=0x7f0e001b;
         public static final int parentPanel=0x7f0e0052;
-        public static final int pickUp=0x7f0e021e;
+        public static final int pickUp=0x7f0e021d;
         public static final int picker_subtitle=0x7f0e00bc;
         public static final int pin=0x7f0e001c;
         public static final int price1=0x7f0e008f;
@@ -3557,7 +3557,7 @@ containing a value of this type.
         public static final int src_over=0x7f0e002b;
         public static final int standard=0x7f0e0042;
         public static final int start=0x7f0e0025;
-        public static final int startOrder=0x7f0e021d;
+        public static final int startOrder=0x7f0e021c;
         public static final int status_bar_latest_event_content=0x7f0e020f;
         public static final int submit_area=0x7f0e0071;
         public static final int subtotal=0x7f0e0083;
@@ -3565,7 +3565,6 @@ containing a value of this type.
         public static final int table=0x7f0e0086;
         public static final int tableLayout=0x7f0e007e;
         public static final int tableNumber=0x7f0e021b;
-        public static final int tableNumberVar=0x7f0e021c;
         public static final int tax=0x7f0e0084;
         public static final int text=0x7f0e0217;
         public static final int text2=0x7f0e0215;

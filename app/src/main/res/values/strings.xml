@@ -19,7 +19,7 @@
     <string name="subtotal">Subtotal:</string>
     <string name="tax">Tax:</string>
     <string name="total">Total:</string>
-    <string name="table">You are at table </string>
+    <string name="table">You are at table</string>
     <string name="prompt">Choose a pick up time</string>
     <string name="summary">Summary</string>
     <string name="item">Item</string>
@@ -40,11 +40,11 @@
         <item>@string/food5</item>
     </string-array>
 
-    <string name="price1">15.00</string>
-    <string name="price2">14.00</string>
-    <string name="price3">16.00</string>
-    <string name="price4">10.00</string>
-    <string name="price5">9.00</string>
+    <string name="price1">$15.00</string>
+    <string name="price2">$14.00</string>
+    <string name="price3">$16.00</string>
+    <string name="price4">$10.00</string>
+    <string name="price5">$9.00</string>
 
     <string-array name="price">
         <item>@string/price1</item>

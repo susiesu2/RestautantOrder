@@ -14,10 +14,10 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 
 public class Summary extends Activity {
-    //String tableNo ;
     public static double amount;
     public static String time;
     private TimePicker timePicker;
+    private final double taxRate = 0.0875;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,14 +29,12 @@ public class Summary extends Activity {
         String[] price = res.getStringArray(R.array.price);
         Bundle b = this.getIntent().getExtras();
         String[] qty = b.getStringArray("qty");
-        //tableNo = b.getString("tableNo");
-        //tableNo = "3";
-        Double sum = 0.0;
+        Double sum = 0.00;
         int length = res.getInteger(R.integer.length);
         for (int i = 0; i < length; i++) {
             if (Integer.parseInt(qty[i]) == 0) continue;
 
-            sum += Double.parseDouble(price[i]) * Integer.parseInt(qty[i]);
+            sum += Double.parseDouble(price[i].substring(1)) * Integer.parseInt(qty[i]);
 
             TableRow tr = new TableRow(this);
             TableRow.LayoutParams lp = new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT);
@@ -44,7 +42,6 @@ public class Summary extends Activity {
 
             TextView tvLeft = new TextView(this);
             tvLeft.setLayoutParams(lp);
-            //tvLeft.setBackgroundColor(Color.LTGRAY);
             tvLeft.setTextColor(Color.WHITE);
             tvLeft.setGravity(Gravity.CENTER);
             tvLeft.setText(food[i]);
@@ -54,17 +51,15 @@ public class Summary extends Activity {
 
             TextView tvCenter = new TextView(this);
             tvCenter.setLayoutParams(lp);
-            //tvCenter.setBackgroundColor(Color.LTGRAY);
             tvCenter.setTextColor(Color.WHITE);
             tvCenter.setGravity(Gravity.CENTER);
             tvCenter.setText(price[i]);
-            tvCenter.setWidth(60);
+            //tvCenter.setWidth(80);
             tvCenter.setPadding(60, 0, 0, 0);
 
 
             TextView tvRight = new TextView(this);
             tvRight.setLayoutParams(lp);
-            //tvRight.setBackgroundColor(Color.LTGRAY);
             tvRight.setTextColor(Color.WHITE);
             tvRight.setGravity(Gravity.CENTER);
             tvRight.setText(qty[i]);
@@ -81,15 +76,17 @@ public class Summary extends Activity {
         TextView sub = (TextView) findViewById(R.id.subtotal);
         TextView tax = (TextView) findViewById(R.id.tax);
         TextView total = (TextView) findViewById(R.id.total);
+        sum = Math.round(sum * 100.0) / 100.0;
         sub.append(" $" + sum);
-        double taxValue = Math.round(sum * 0.0875 * 100.0) / 100.0;
+        double taxValue = Math.round((sum * taxRate) * 100.0) / 100.0;
         tax.append(" $" + taxValue);
-        amount = sum + taxValue;
+        amount = Math.round((sum + taxValue) * 100.0) / 100.0;
         total.append(" $" + amount);
-        TextView table = (TextView) findViewById(R.id.table);
 
+        TextView table = (TextView) findViewById(R.id.table);
         if ( MainActivity.tableNo != null){
-            table.setText("You are at table " + MainActivity.tableNo);
+            String message = getResources().getString(R.string.table);
+            table.setText(message + " " + MainActivity.tableNo);
         } else {
             table.setText(R.string.prompt);
             timePicker = new TimePicker(this);
